@@ -1501,6 +1501,16 @@
     "spacing-px": {
       "value": "1",
       "type": "spacing"
+    },
+    "brand": {
+      "primary": {
+        "value": "{Indigo.600}",
+        "type": "color"
+      },
+      "primary-hover": {
+        "value": "{Indigo.500}",
+        "type": "color"
+      }
     }
   },
   "$themes": [],
