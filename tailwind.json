@@ -1499,10 +1499,20 @@
       "description": "Default font"
     }
   },
+  "Abro": {
+    "color": {
+      "main": {
+        "value": "#000000",
+        "type": "color",
+        "description": "main color for Abro"
+      }
+    }
+  },
   "$themes": [],
   "$metadata": {
     "tokenSetOrder": [
-      "Tailwind"
+      "Tailwind",
+      "Abro"
     ]
   }
 }
