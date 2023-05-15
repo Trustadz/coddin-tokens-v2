@@ -1497,22 +1497,16 @@
       "value": "Inter",
       "type": "fontFamilies",
       "description": "Default font"
-    }
-  },
-  "Abro": {
-    "color": {
-      "main": {
-        "value": "#000000",
-        "type": "color",
-        "description": "main color for Abro"
-      }
+    },
+    "spacing-px": {
+      "value": "1",
+      "type": "spacing"
     }
   },
   "$themes": [],
   "$metadata": {
     "tokenSetOrder": [
-      "Tailwind",
-      "Abro"
+      "Tailwind"
     ]
   }
 }
