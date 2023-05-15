@@ -1094,15 +1094,15 @@
       "type": "textCase"
     },
     "rounded-none": {
-      "value": "{rem}*0px",
+      "value": "{rem}*0",
       "type": "borderRadius"
     },
     "rounded-sm": {
-      "value": "{rem}*0.125px",
+      "value": "{rem}*0.125",
       "type": "borderRadius"
     },
     "rounded": {
-      "value": "{rem}*0.25px",
+      "value": "{rem}*0.25",
       "type": "borderRadius"
     },
     "rounded-md": {
