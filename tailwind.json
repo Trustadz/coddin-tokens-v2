@@ -1353,7 +1353,36 @@
       "primary-button-light-border": {
         "value": "{Indigo.300}",
         "type": "color"
+      },
+      "text-primary": {
+        "value": "{Gray.900}",
+        "type": "color"
+      },
+      "text-secondary": {
+        "value": "{Gray.400}",
+        "type": "color"
       }
+    },
+    "border-active": {
+      "value": [
+        {
+          "x": "0",
+          "y": "0",
+          "blur": "0",
+          "spread": "2",
+          "color": "{white}",
+          "type": "dropShadow"
+        },
+        {
+          "x": "0",
+          "y": "0",
+          "blur": "0",
+          "spread": "4",
+          "color": "{brand.primary}",
+          "type": "dropShadow"
+        }
+      ],
+      "type": "boxShadow"
     }
   },
   "$themes": [],
