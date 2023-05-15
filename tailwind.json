@@ -1492,6 +1492,11 @@
     "spacing-3-5": {
       "value": "{rem}*0.875",
       "type": "spacing"
+    },
+    "Inter": {
+      "value": "Inter",
+      "type": "fontFamilies",
+      "description": "Default font"
     }
   },
   "$themes": [],
