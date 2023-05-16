@@ -1324,6 +1324,10 @@
       "value": "{rem}*0.875",
       "type": "spacing"
     },
+    "Censored": {
+      "value": "Flow Rounded",
+      "type": "fontFamilies"
+    },
     "Inter": {
       "value": "Inter",
       "type": "fontFamilies",
