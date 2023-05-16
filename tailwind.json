@@ -1335,32 +1335,54 @@
     },
     "brand": {
       "primary": {
-        "value": "{Indigo.600}",
-        "type": "color"
+        "primary": {
+          "value": "{Indigo.600}",
+          "type": "color"
+        },
+        "hover": {
+          "value": "{Indigo.500}",
+          "type": "color"
+        },
+        "button": {
+          "light": {
+            "hover": {
+              "value": "{Indigo.50}",
+              "type": "color"
+            },
+            "border": {
+              "value": "{Indigo.300}",
+              "type": "color"
+            }
+          },
+          "text": {
+            "value": "{white}",
+            "type": "color"
+          }
+        }
       },
-      "primary-hover": {
-        "value": "{Indigo.500}",
-        "type": "color"
-      },
-      "primary-button-light-hover": {
-        "value": "{Indigo.50}",
-        "type": "color"
-      },
-      "primary-button-text": {
-        "value": "{white}",
-        "type": "color"
-      },
-      "primary-button-light-border": {
-        "value": "{Indigo.300}",
-        "type": "color"
-      },
-      "text-primary": {
-        "value": "{Gray.900}",
-        "type": "color"
-      },
-      "text-secondary": {
-        "value": "{Gray.400}",
-        "type": "color"
+      "text": {
+        "primary": {
+          "value": "{Gray.900}",
+          "type": "color"
+        },
+        "secondary": {
+          "value": "{Gray.400}",
+          "type": "color"
+        },
+        "menu": {
+          "default": {
+            "value": "{Gray.600}",
+            "type": "color"
+          },
+          "default-icon": {
+            "value": "{Gray.400}",
+            "type": "color"
+          },
+          "hover": {
+            "value": "{Gray.900}",
+            "type": "color"
+          }
+        }
       },
       "background": {
         "value": "{Slate.100}",
@@ -1382,7 +1404,7 @@
           "y": "0",
           "blur": "0",
           "spread": "4",
-          "color": "{brand.primary}",
+          "color": "{brand.primary.primary}",
           "type": "dropShadow"
         }
       ],
