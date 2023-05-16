@@ -1280,16 +1280,40 @@
       ],
       "type": "boxShadow"
     },
+    "spacing-0": {
+      "value": "0",
+      "type": "spacing"
+    },
+    "spacing-px": {
+      "value": "1",
+      "type": "spacing"
+    },
+    "spacing-0-5": {
+      "value": "{rem}*0.125",
+      "type": "spacing"
+    },
     "spacing-1": {
       "value": "{rem}*0.25",
+      "type": "spacing"
+    },
+    "spacing-1-5": {
+      "value": "{rem}*0.375",
       "type": "spacing"
     },
     "spacing-2": {
       "value": "{rem}*0.5",
       "type": "spacing"
     },
+    "spacing-2-5": {
+      "value": "{rem}*0.625",
+      "type": "spacing"
+    },
     "spacing-3": {
       "value": "{rem}*0.75",
+      "type": "spacing"
+    },
+    "spacing-3-5": {
+      "value": "{rem}*0.875",
       "type": "spacing"
     },
     "spacing-4": {
@@ -1304,38 +1328,14 @@
       "value": "{rem}*3",
       "type": "spacing"
     },
-    "spacing-0": {
-      "value": "0",
-      "type": "spacing"
-    },
-    "spacing-0-5": {
-      "value": "{rem}*0.125",
-      "type": "spacing"
-    },
-    "spacing-1-5": {
-      "value": "{rem}*0.375",
-      "type": "spacing"
-    },
-    "spacing-2-5": {
-      "value": "{rem}*0.625",
-      "type": "spacing"
-    },
-    "spacing-3-5": {
-      "value": "{rem}*0.875",
-      "type": "spacing"
-    },
-    "censored": {
+    "Censored": {
       "value": "Flow Rounded",
       "type": "fontFamilies"
     },
-    "inter": {
+    "Inter": {
       "value": "Inter",
       "type": "fontFamilies",
       "description": "Default font"
-    },
-    "spacing-px": {
-      "value": "1",
-      "type": "spacing"
     },
     "brand": {
       "primary": {
@@ -1420,11 +1420,11 @@
     },
     "font": {
       "body": {
-        "value": "{inter}",
+        "value": "{Inter}",
         "type": "fontFamilies"
       },
       "heading": {
-        "value": "{inter}",
+        "value": "{Inter}",
         "type": "fontFamilies"
       }
     },
