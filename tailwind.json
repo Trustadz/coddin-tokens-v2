@@ -1436,56 +1436,6 @@
         "type": "fontFamilies"
       }
     },
-    "default": {
-      "success": {
-        "main": {
-          "value": "{Green.700}",
-          "type": "color"
-        }
-      },
-      "danger": {
-        "accent": {
-          "value": "{Red.700}",
-          "type": "color"
-        },
-        "accent-hover": {
-          "value": "{Red.600}",
-          "type": "color"
-        },
-        "border": {
-          "value": "{Red.600}1A",
-          "type": "color"
-        },
-        "bg-light": {
-          "value": "{Red.50}",
-          "type": "color"
-        },
-        "bg-light-hover": {
-          "value": "{Red.100}",
-          "type": "color"
-        },
-        "main": {
-          "value": "{Red.500}",
-          "type": "color"
-        }
-      },
-      "warning": {
-        "main": {
-          "value": "{Amber.500}",
-          "type": "color"
-        }
-      },
-      "info": {
-        "main": {
-          "value": "{Blue.600}",
-          "type": "color"
-        }
-      },
-      "dark": {
-        "value": "{Slate.700}",
-        "type": "color"
-      }
-    },
     "spacing-7": {
       "value": "{rem}*1.75",
       "type": "spacing"
