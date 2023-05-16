@@ -130,6 +130,18 @@
       "border": {
         "value": "{Gray.400}1A",
         "type": "color"
+      },
+      "500-20": {
+        "value": "{Gray.500}33",
+        "type": "color"
+      },
+      "600-50": {
+        "value": "{Gray.600}80",
+        "type": "color"
+      },
+      "600-75": {
+        "value": "{Gray.600}BF",
+        "type": "color"
       }
     },
     "Zinc": {
