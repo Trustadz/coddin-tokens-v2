@@ -314,6 +314,18 @@
       "border": {
         "value": "{Red.600}1A",
         "type": "color"
+      },
+      "600-50": {
+        "value": "{Red.600}80",
+        "type": "color"
+      },
+      "600-75": {
+        "value": "{Red.600}bf",
+        "type": "color"
+      },
+      "600-20": {
+        "value": "{Red.600}33",
+        "type": "color"
       }
     },
     "Orange": {
@@ -444,6 +456,18 @@
       "border": {
         "value": "{Yellow.600}1A",
         "type": "color"
+      },
+      "700-50": {
+        "value": "{Yellow.700}80",
+        "type": "color"
+      },
+      "700-75": {
+        "value": "{Yellow.700}BF",
+        "type": "color"
+      },
+      "600-20": {
+        "value": "{Yellow.600}33",
+        "type": "color"
       }
     },
     "Lime": {
@@ -531,6 +555,18 @@
       },
       "border": {
         "value": "{Green.600}1A",
+        "type": "color"
+      },
+      "700-50": {
+        "value": "{Green.700}80",
+        "type": "color"
+      },
+      "700-75": {
+        "value": "{Green.700}BF",
+        "type": "color"
+      },
+      "600-20": {
+        "value": "{Green.600}33",
         "type": "color"
       }
     },
@@ -746,6 +782,18 @@
       "border": {
         "value": "{Blue.700}1A",
         "type": "color"
+      },
+      "700-50": {
+        "value": "{Blue.700}80",
+        "type": "color"
+      },
+      "700-75": {
+        "value": "{Blue.700}BF",
+        "type": "color"
+      },
+      "600-20": {
+        "value": "{Blue.600}33",
+        "type": "color"
       }
     },
     "Indigo": {
@@ -791,6 +839,18 @@
       },
       "border": {
         "value": "{Indigo.700}1A",
+        "type": "color"
+      },
+      "600-50": {
+        "value": "{Indigo.600}80",
+        "type": "color"
+      },
+      "600-75": {
+        "value": "{Indigo.600}bf",
+        "type": "color"
+      },
+      "600-20": {
+        "value": "{Indigo.600}33",
         "type": "color"
       }
     },
@@ -880,6 +940,18 @@
       "border": {
         "value": "{Purple.700}1A",
         "type": "color"
+      },
+      "600-50": {
+        "value": "{Purple.600}80",
+        "type": "color"
+      },
+      "600-75": {
+        "value": "{Purple.600}bf",
+        "type": "color"
+      },
+      "600-20": {
+        "value": "{Purple.600}33",
+        "type": "color"
       }
     },
     "Fuchsia": {
@@ -967,6 +1039,18 @@
       },
       "border": {
         "value": "{Pink.700}1A",
+        "type": "color"
+      },
+      "700-50": {
+        "value": "{Pink.700}80",
+        "type": "color"
+      },
+      "700-75": {
+        "value": "{Pink.700}bf",
+        "type": "color"
+      },
+      "600-20": {
+        "value": "{Pink.600}33",
         "type": "color"
       }
     },
