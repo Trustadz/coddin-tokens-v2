@@ -1,40 +1,42 @@
 {
   "Tailwind": {
-    "font-thin": {
-      "value": "100",
-      "type": "fontWeights"
-    },
-    "font-extralight": {
-      "value": "200",
-      "type": "fontWeights"
-    },
-    "font-light": {
-      "value": "300",
-      "type": "fontWeights"
-    },
-    "font-normal": {
-      "value": "400",
-      "type": "fontWeights"
-    },
-    "font-medium": {
-      "value": "500",
-      "type": "fontWeights"
-    },
-    "font-semibold": {
-      "value": "600",
-      "type": "fontWeights"
-    },
-    "font-bold": {
-      "value": "700",
-      "type": "fontWeights"
-    },
-    "font-extrabold": {
-      "value": "800",
-      "type": "fontWeights"
-    },
-    "font-black": {
-      "value": "900",
-      "type": "fontWeights"
+    "weight": {
+      "font-thin": {
+        "value": "100",
+        "type": "fontWeights"
+      },
+      "font-extralight": {
+        "value": "200",
+        "type": "fontWeights"
+      },
+      "font-light": {
+        "value": "300",
+        "type": "fontWeights"
+      },
+      "font-normal": {
+        "value": "400",
+        "type": "fontWeights"
+      },
+      "font-medium": {
+        "value": "500",
+        "type": "fontWeights"
+      },
+      "font-semibold": {
+        "value": "600",
+        "type": "fontWeights"
+      },
+      "font-bold": {
+        "value": "700",
+        "type": "fontWeights"
+      },
+      "font-extrabold": {
+        "value": "800",
+        "type": "fontWeights"
+      },
+      "font-black": {
+        "value": "900",
+        "type": "fontWeights"
+      }
     },
     "Heading": {
       "value": "#000000",
@@ -1579,6 +1581,44 @@
     "65ch-base": {
       "value": "{text-base}*0.625*65",
       "type": "sizing"
+    },
+    "italic": {
+      "thin-italic": {
+        "value": "Thin Italic",
+        "type": "fontWeights"
+      },
+      "extra-light-italic": {
+        "value": "Extra Light Italic",
+        "type": "fontWeights"
+      },
+      "light-italic": {
+        "value": "Light Italic",
+        "type": "fontWeights"
+      },
+      "italic": {
+        "value": "Italic",
+        "type": "fontWeights"
+      },
+      "medium-italic": {
+        "value": "Medium Italic",
+        "type": "fontWeights"
+      },
+      "semi-bold-italic": {
+        "value": "Semi Bold Italic",
+        "type": "fontWeights"
+      },
+      "bold-italic": {
+        "value": "Bold Italic",
+        "type": "fontWeights"
+      },
+      "extra-bold-italic": {
+        "value": "Extra Bold Italic",
+        "type": "fontWeights"
+      },
+      "black-italic": {
+        "value": "Black Italic",
+        "type": "fontWeights"
+      }
     }
   },
   "Abro": {},
