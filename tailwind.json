@@ -1345,6 +1345,74 @@
       "type": "fontFamilies",
       "description": "Default font"
     },
+    "brand": {
+      "primary": {
+        "primary": {
+          "value": "{Indigo.600}",
+          "type": "color"
+        },
+        "hover": {
+          "value": "{Indigo.500}",
+          "type": "color"
+        },
+        "button": {
+          "light": {
+            "main": {
+              "value": "{Indigo.50}",
+              "type": "color"
+            },
+            "border": {
+              "value": "{Indigo.700}1A",
+              "type": "color"
+            },
+            "main-hover": {
+              "value": "{Indigo.100}",
+              "type": "color"
+            }
+          },
+          "text": {
+            "value": "{white}",
+            "type": "color"
+          }
+        }
+      },
+      "text": {
+        "primary": {
+          "value": "{Gray.900}",
+          "type": "color"
+        },
+        "secondary": {
+          "value": "{Gray.400}",
+          "type": "color"
+        },
+        "data": {
+          "value": "{Gray.500}",
+          "type": "color"
+        },
+        "hyperlink": {
+          "value": "{brand.primary.primary}",
+          "type": "color"
+        },
+        "menu": {
+          "default": {
+            "value": "{Gray.600}",
+            "type": "color"
+          },
+          "default-icon": {
+            "value": "{Gray.400}",
+            "type": "color"
+          },
+          "hover": {
+            "value": "{Gray.900}",
+            "type": "color"
+          }
+        }
+      },
+      "background": {
+        "value": "{Slate.100}",
+        "type": "color"
+      }
+    },
     "border-active": {
       "value": [
         {
