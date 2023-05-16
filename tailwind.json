@@ -1387,6 +1387,16 @@
         }
       ],
       "type": "boxShadow"
+    },
+    "font": {
+      "body": {
+        "value": "{Inter}",
+        "type": "fontFamilies"
+      },
+      "heading": {
+        "value": "{Inter}",
+        "type": "fontFamilies"
+      }
     }
   },
   "Abro": {},
