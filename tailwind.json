@@ -126,6 +126,10 @@
       "900": {
         "value": "#111827",
         "type": "color"
+      },
+      "border": {
+        "value": "{Gray.400}1A",
+        "type": "color"
       }
     },
     "Zinc": {
@@ -423,6 +427,10 @@
       },
       "900": {
         "value": "#713f12",
+        "type": "color"
+      },
+      "border": {
+        "value": "{Yellow.600}1A",
         "type": "color"
       }
     },
@@ -722,6 +730,10 @@
       "900": {
         "value": "#1e3a8a",
         "type": "color"
+      },
+      "border": {
+        "value": "{Blue.700}1A",
+        "type": "color"
       }
     },
     "Indigo": {
@@ -763,6 +775,10 @@
       },
       "900": {
         "value": "#312e81",
+        "type": "color"
+      },
+      "border": {
+        "value": "{Indigo.700}1A",
         "type": "color"
       }
     },
@@ -848,6 +864,10 @@
       "900": {
         "value": "#581c87",
         "type": "color"
+      },
+      "border": {
+        "value": "{Purple.700}1A",
+        "type": "color"
       }
     },
     "Fuchsia": {
@@ -931,6 +951,10 @@
       },
       "900": {
         "value": "#831843",
+        "type": "color"
+      },
+      "border": {
+        "value": "{Pink.700}1A",
         "type": "color"
       }
     },
