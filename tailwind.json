@@ -1324,11 +1324,11 @@
       "value": "{rem}*0.875",
       "type": "spacing"
     },
-    "Censored": {
+    "censored": {
       "value": "Flow Rounded",
       "type": "fontFamilies"
     },
-    "Inter": {
+    "inter": {
       "value": "Inter",
       "type": "fontFamilies",
       "description": "Default font"
@@ -1420,11 +1420,11 @@
     },
     "font": {
       "body": {
-        "value": "{Inter}",
+        "value": "{inter}",
         "type": "fontFamilies"
       },
       "heading": {
-        "value": "{Inter}",
+        "value": "{inter}",
         "type": "fontFamilies"
       }
     },
