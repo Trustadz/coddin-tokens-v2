@@ -1497,8 +1497,12 @@
         }
       },
       "text": {
-        "primary": {
+        "heading": {
           "value": "{Gray.900}",
+          "type": "color"
+        },
+        "body": {
+          "value": "{Gray.600}",
           "type": "color"
         },
         "secondary": {
