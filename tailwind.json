@@ -1465,6 +1465,10 @@
     "spacing-8": {
       "value": "{rem}*2",
       "type": "spacing"
+    },
+    "65ch": {
+      "value": "{rem}*0.625*65",
+      "type": "sizing"
     }
   },
   "Abro": {},
