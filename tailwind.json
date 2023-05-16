@@ -1361,6 +1361,10 @@
       "text-secondary": {
         "value": "{Gray.400}",
         "type": "color"
+      },
+      "background": {
+        "value": "{slate.100}",
+        "type": "color"
       }
     },
     "border-active": {
@@ -1385,14 +1389,7 @@
       "type": "boxShadow"
     }
   },
-  "Abro": {
-    "brand": {
-      "primary": {
-        "value": "red",
-        "type": "color"
-      }
-    }
-  },
+  "Abro": {},
   "$themes": [],
   "$metadata": {
     "tokenSetOrder": [
