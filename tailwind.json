@@ -1349,12 +1349,16 @@
         },
         "button": {
           "light": {
-            "hover": {
+            "main": {
               "value": "{Indigo.50}",
               "type": "color"
             },
             "border": {
               "value": "{Indigo.300}",
+              "type": "color"
+            },
+            "main-hover": {
+              "value": "{Indigo.100}",
               "type": "color"
             }
           },
@@ -1434,24 +1438,48 @@
     },
     "default": {
       "success": {
-        "value": "{Green.600}",
-        "type": "color"
+        "main": {
+          "value": "{Green.700}",
+          "type": "color"
+        }
       },
       "danger": {
-        "value": "{Red.600}",
-        "type": "color"
+        "accent": {
+          "value": "{Red.700}",
+          "type": "color"
+        },
+        "accent-hover": {
+          "value": "{Red.600}",
+          "type": "color"
+        },
+        "border": {
+          "value": "{Red.600}1A",
+          "type": "color"
+        },
+        "bg-light": {
+          "value": "{Red.50}",
+          "type": "color"
+        },
+        "bg-light-hover": {
+          "value": "{Red.100}",
+          "type": "color"
+        },
+        "main": {
+          "value": "{Red.500}",
+          "type": "color"
+        }
       },
       "warning": {
-        "value": "{Amber.500}",
-        "type": "color"
+        "main": {
+          "value": "{Amber.500}",
+          "type": "color"
+        }
       },
       "info": {
-        "value": "{Blue.600}",
-        "type": "color"
-      },
-      "light": {
-        "value": "{white}",
-        "type": "color"
+        "main": {
+          "value": "{Blue.600}",
+          "type": "color"
+        }
       },
       "dark": {
         "value": "{Slate.700}",
