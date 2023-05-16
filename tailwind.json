@@ -1385,10 +1385,19 @@
       "type": "boxShadow"
     }
   },
+  "Abro": {
+    "brand": {
+      "primary": {
+        "value": "red",
+        "type": "color"
+      }
+    }
+  },
   "$themes": [],
   "$metadata": {
     "tokenSetOrder": [
-      "Tailwind"
+      "Tailwind",
+      "Abro"
     ]
   }
 }
