@@ -1477,10 +1477,6 @@
           "value": "{Indigo.500}",
           "type": "color"
         },
-        "background": {
-          "value": "{Slate.100}",
-          "type": "color"
-        },
         "button": {
           "light": {
             "main": {
@@ -1630,11 +1626,46 @@
     }
   },
   "Abro": {},
+  "vanEeghen": {
+    "Text": {
+      "Main": {
+        "value": "#00322b",
+        "type": "color"
+      },
+      "CTA": {
+        "value": "#ee3524",
+        "type": "color"
+      }
+    },
+    "Green": {
+      "0": {
+        "value": "#eaf0ec",
+        "type": "color"
+      },
+      "1": {
+        "value": "#c2ceca",
+        "type": "color"
+      },
+      "2": {
+        "value": "#a9c9c0",
+        "type": "color"
+      },
+      "3": {
+        "value": "#689690",
+        "type": "color"
+      },
+      "4": {
+        "value": "#003c32",
+        "type": "color"
+      }
+    }
+  },
   "$themes": [],
   "$metadata": {
     "tokenSetOrder": [
       "Tailwind",
-      "Abro"
+      "Abro",
+      "vanEeghen"
     ]
   }
 }
