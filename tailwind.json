@@ -1477,6 +1477,10 @@
           "value": "{Indigo.500}",
           "type": "color"
         },
+        "background": {
+          "value": "{Slate.100}",
+          "type": "color"
+        },
         "button": {
           "light": {
             "main": {
