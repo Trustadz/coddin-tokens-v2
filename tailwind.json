@@ -1520,12 +1520,12 @@
           "type": "color"
         },
         "menu": {
-          "default": {
-            "value": "{Gray.600}",
-            "type": "color"
-          },
           "default-icon": {
             "value": "{Gray.400}",
+            "type": "color"
+          },
+          "default": {
+            "value": "{Gray.600}",
             "type": "color"
           },
           "hover": {
@@ -1619,6 +1619,10 @@
         "value": "Black Italic",
         "type": "fontWeights"
       }
+    },
+    "sizing-4": {
+      "value": "{rem}*1",
+      "type": "sizing"
     }
   },
   "Abro": {},
