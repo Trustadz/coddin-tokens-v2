@@ -1175,7 +1175,7 @@
       "value": "{text-base}*1.75",
       "type": "lineHeights"
     },
-    "text-2x-lh": {
+    "text-2xl-lh": {
       "value": "{text-base}*2",
       "type": "lineHeights"
     },
