@@ -1629,8 +1629,9 @@
       "type": "sizing"
     }
   },
-  "Default": {},
-  "Abro": {},
+  "components": {},
+  "default": {},
+  "abro": {},
   "vanEeghen": {
     "Text": {
       "Main": {
@@ -1697,8 +1698,9 @@
   "$metadata": {
     "tokenSetOrder": [
       "Tailwind",
-      "Default",
-      "Abro",
+      "components",
+      "default",
+      "abro",
       "vanEeghen"
     ]
   }
