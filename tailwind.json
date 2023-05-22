@@ -1540,7 +1540,7 @@
             "type": "color"
           },
           "icon": {
-            "value": "{colors.gray.600}88",
+            "value": "{colors.gray.600}80",
             "type": "color"
           },
           "iconHover": {
@@ -1588,7 +1588,7 @@
             "type": "color"
           },
           "icon": {
-            "value": "{colors.green.700}88",
+            "value": "{colors.green.700}80",
             "type": "color"
           },
           "iconHover": {
@@ -1636,7 +1636,7 @@
             "type": "color"
           },
           "icon": {
-            "value": "{colors.red.600}88",
+            "value": "{colors.red.600}80",
             "type": "color"
           },
           "iconHover": {
@@ -1684,7 +1684,7 @@
             "type": "color"
           },
           "icon": {
-            "value": "{colors.yellow.700}88",
+            "value": "{colors.yellow.700}80",
             "type": "color"
           },
           "iconHover": {
@@ -1732,7 +1732,7 @@
             "type": "color"
           },
           "icon": {
-            "value": "{colors.blue.700}88",
+            "value": "{colors.blue.700}80",
             "type": "color"
           },
           "iconHover": {
@@ -1884,7 +1884,7 @@
             "type": "color"
           },
           "icon": {
-            "value": "{colors.purple.600}88",
+            "value": "{colors.purple.600}80",
             "type": "color"
           },
           "iconHover": {
@@ -1932,7 +1932,7 @@
             "type": "color"
           },
           "icon": {
-            "value": "{colors.pink.700}88",
+            "value": "{colors.pink.700}80",
             "type": "color"
           },
           "iconHover": {
@@ -1980,7 +1980,7 @@
             "type": "color"
           },
           "icon": {
-            "value": "{colors.indigo.600}88",
+            "value": "{colors.indigo.600}80",
             "type": "color"
           },
           "iconHover": {
