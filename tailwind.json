@@ -1540,7 +1540,15 @@
             "type": "color"
           },
           "icon": {
-            "value": "{colors.gray.700}88",
+            "value": "{colors.gray.600}88",
+            "type": "color"
+          },
+          "iconHover": {
+            "value": "{colors.gray.600}bf",
+            "type": "color"
+          },
+          "iconBg": {
+            "value": "{colors.gray.500}33",
             "type": "color"
           }
         }
@@ -1582,6 +1590,14 @@
           "icon": {
             "value": "{colors.green.700}88",
             "type": "color"
+          },
+          "iconHover": {
+            "value": "{colors.green.700}bf",
+            "type": "color"
+          },
+          "iconBg": {
+            "value": "{colors.green.600}33",
+            "type": "color"
           }
         }
       },
@@ -1620,7 +1636,15 @@
             "type": "color"
           },
           "icon": {
-            "value": "{colors.red.700}88",
+            "value": "{colors.red.600}88",
+            "type": "color"
+          },
+          "iconHover": {
+            "value": "{colors.red.600}bf",
+            "type": "color"
+          },
+          "iconBg": {
+            "value": "{colors.red.600}33",
             "type": "color"
           }
         }
@@ -1662,6 +1686,14 @@
           "icon": {
             "value": "{colors.yellow.700}88",
             "type": "color"
+          },
+          "iconHover": {
+            "value": "{colors.yellow.700}bf",
+            "type": "color"
+          },
+          "iconBg": {
+            "value": "{colors.yellow.600}33",
+            "type": "color"
           }
         }
       },
@@ -1701,6 +1733,14 @@
           },
           "icon": {
             "value": "{colors.blue.700}88",
+            "type": "color"
+          },
+          "iconHover": {
+            "value": "{colors.blue.700}bf",
+            "type": "color"
+          },
+          "iconBg": {
+            "value": "{colors.blue.600}33",
             "type": "color"
           }
         }
@@ -1844,7 +1884,15 @@
             "type": "color"
           },
           "icon": {
-            "value": "{colors.purple.700}88",
+            "value": "{colors.purple.600}88",
+            "type": "color"
+          },
+          "iconHover": {
+            "value": "{colors.purple.600}bf",
+            "type": "color"
+          },
+          "iconBg": {
+            "value": "{colors.purple.600}33",
             "type": "color"
           }
         }
@@ -1886,6 +1934,14 @@
           "icon": {
             "value": "{colors.pink.700}88",
             "type": "color"
+          },
+          "iconHover": {
+            "value": "{colors.pink.700}bf",
+            "type": "color"
+          },
+          "iconBg": {
+            "value": "{colors.pink.600}33",
+            "type": "color"
           }
         }
       },
@@ -1924,7 +1980,15 @@
             "type": "color"
           },
           "icon": {
-            "value": "{colors.indigo.700}88",
+            "value": "{colors.indigo.600}88",
+            "type": "color"
+          },
+          "iconHover": {
+            "value": "{colors.indigo.600}bf",
+            "type": "color"
+          },
+          "": {
+            "value": "{colors.indigo.600}33",
             "type": "color"
           }
         }
