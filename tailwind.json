@@ -38,7 +38,7 @@
         "type": "fontWeights"
       }
     },
-    "Heading": {
+    "black": {
       "value": "#000000",
       "type": "color"
     },
@@ -1566,8 +1566,8 @@
       "value": "2rem",
       "type": "spacing"
     },
-    "65ch-base": {
-      "value": "{text-base}*0.625*65",
+    "65ch": {
+      "value": "0.625rem*65",
       "type": "sizing"
     },
     "italic": {
@@ -1608,7 +1608,7 @@
         "type": "fontWeights"
       }
     },
-    "sizing-4": {
+    "sizing4": {
       "value": "1rem",
       "type": "sizing"
     }
