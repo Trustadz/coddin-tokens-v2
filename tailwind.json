@@ -2229,7 +2229,7 @@
               "type": "color"
             },
             "text": {
-              "value": "{colors.brand.primary.600}",
+              "value": "{colors.brand.primary.700}",
               "type": "color"
             },
             "border": {
@@ -2238,6 +2238,18 @@
             },
             "hover": {
               "value": "{colors.brand.primary.100}",
+              "type": "color"
+            },
+            "icon": {
+              "value": "{colors.brand.primary.600}80",
+              "type": "color"
+            },
+            "iconHover": {
+              "value": "{colors.brand.primary.600}bf",
+              "type": "color"
+            },
+            "iconBg": {
+              "value": "{colors.brand.primary.600}33",
               "type": "color"
             }
           }
