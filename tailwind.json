@@ -1870,6 +1870,15 @@
           "fontSize": "{fontSize.button.sm}"
         },
         "type": "typography"
+      },
+      "helpertext": {
+        "value": {
+          "fontFamily": "{fontFamily.body}",
+          "fontWeight": "{fontWeight.bold.normal}",
+          "lineHeight": "{lineHeight.sm}",
+          "fontSize": "{fontSize.sm}"
+        },
+        "type": "typography"
       }
     }
   },
@@ -1961,6 +1970,16 @@
           },
           "900": {
             "value": "{colors.indigo.900}",
+            "type": "color"
+          }
+        },
+        "text": {
+          "body": {
+            "value": "{colors.gray.700}",
+            "type": "color"
+          },
+          "heading": {
+            "value": "{colors.gray.900}",
             "type": "color"
           }
         }
