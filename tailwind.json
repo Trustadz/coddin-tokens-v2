@@ -1528,15 +1528,19 @@
             "type": "color"
           },
           "text": {
-            "value": "{colors.green.600}",
+            "value": "{colors.gray.600}",
             "type": "color"
           },
           "border": {
-            "value": "{colors.green.600}1A",
+            "value": "{colors.gray.400}1A",
             "type": "color"
           },
           "hover": {
-            "value": "{colors.green.100}",
+            "value": "{colors.gray.200}",
+            "type": "color"
+          },
+          "icon": {
+            "value": "{colors.gray.700}88",
             "type": "color"
           }
         }
@@ -1574,6 +1578,10 @@
           "hover": {
             "value": "{colors.green.100}",
             "type": "color"
+          },
+          "icon": {
+            "value": "{colors.green.700}88",
+            "type": "color"
           }
         }
       },
@@ -1609,6 +1617,10 @@
           },
           "hover": {
             "value": "{colors.red.100}",
+            "type": "color"
+          },
+          "icon": {
+            "value": "{colors.red.700}88",
             "type": "color"
           }
         }
@@ -1646,10 +1658,14 @@
           "hover": {
             "value": "{colors.yellow.100}",
             "type": "color"
+          },
+          "icon": {
+            "value": "{colors.yellow.700}88",
+            "type": "color"
           }
         }
       },
-      "info": {
+      "infoBlue": {
         "primary": {
           "value": "{colors.blue.600}",
           "type": "color"
@@ -1681,6 +1697,10 @@
           },
           "hover": {
             "value": "{colors.blue.100}",
+            "type": "color"
+          },
+          "icon": {
+            "value": "{colors.blue.700}88",
             "type": "color"
           }
         }
@@ -1788,6 +1808,126 @@
             "type": "color"
           }
         }
+      },
+      "infoPurple": {
+        "primary": {
+          "value": "{colors.purple.600}",
+          "type": "color"
+        },
+        "text": {
+          "value": "{colors.white}",
+          "type": "color"
+        },
+        "border": {
+          "value": "{colors.purple.300}",
+          "type": "color"
+        },
+        "hover": {
+          "value": "{colors.purple.500}",
+          "type": "color"
+        },
+        "soft": {
+          "primary": {
+            "value": "{colors.purple.50}",
+            "type": "color"
+          },
+          "text": {
+            "value": "{colors.purple.600}",
+            "type": "color"
+          },
+          "border": {
+            "value": "{colors.purple.600}1A",
+            "type": "color"
+          },
+          "hover": {
+            "value": "{colors.purple.100}",
+            "type": "color"
+          },
+          "icon": {
+            "value": "{colors.purple.700}88",
+            "type": "color"
+          }
+        }
+      },
+      "infoPink": {
+        "primary": {
+          "value": "{colors.pink.600}",
+          "type": "color"
+        },
+        "text": {
+          "value": "{colors.white}",
+          "type": "color"
+        },
+        "border": {
+          "value": "{colors.pink.300}",
+          "type": "color"
+        },
+        "hover": {
+          "value": "{colors.pink.500}",
+          "type": "color"
+        },
+        "soft": {
+          "primary": {
+            "value": "{colors.pink.50}",
+            "type": "color"
+          },
+          "text": {
+            "value": "{colors.pink.700}",
+            "type": "color"
+          },
+          "border": {
+            "value": "{colors.pink.600}1A",
+            "type": "color"
+          },
+          "hover": {
+            "value": "{colors.pink.100}",
+            "type": "color"
+          },
+          "icon": {
+            "value": "{colors.pink.700}88",
+            "type": "color"
+          }
+        }
+      },
+      "infoIndigo": {
+        "primary": {
+          "value": "{colors.indigo.600}",
+          "type": "color"
+        },
+        "text": {
+          "value": "{colors.white}",
+          "type": "color"
+        },
+        "border": {
+          "value": "{colors.indigo.300}",
+          "type": "color"
+        },
+        "hover": {
+          "value": "{colors.indigo.500}",
+          "type": "color"
+        },
+        "soft": {
+          "primary": {
+            "value": "{colors.indigo.50}",
+            "type": "color"
+          },
+          "text": {
+            "value": "{colors.indigo.600}",
+            "type": "color"
+          },
+          "border": {
+            "value": "{colors.indigo.600}1A",
+            "type": "color"
+          },
+          "hover": {
+            "value": "{colors.indigo.100}",
+            "type": "color"
+          },
+          "icon": {
+            "value": "{colors.indigo.700}88",
+            "type": "color"
+          }
+        }
       }
     },
     "borderRadius": {
@@ -1800,6 +1940,10 @@
         "type": "borderRadius"
       },
       "input": {
+        "value": "{borderRadius.md}",
+        "type": "borderRadius"
+      },
+      "badge": {
         "value": "{borderRadius.md}",
         "type": "borderRadius"
       }
@@ -1875,6 +2019,36 @@
             "value": "{spacing.1-5}",
             "type": "spacing"
           }
+        },
+        "badge": {
+          "small": {
+            "x": {
+              "value": "{spacing.1-5}",
+              "type": "spacing"
+            },
+            "y": {
+              "value": "{spacing.0-5}",
+              "type": "spacing"
+            }
+          },
+          "medium": {
+            "x": {
+              "value": "{spacing.2}",
+              "type": "spacing"
+            },
+            "y": {
+              "value": "{spacing.1}",
+              "type": "spacing"
+            }
+          },
+          "gapDotless": {
+            "value": "{spacing.0-5}",
+            "type": "spacing"
+          },
+          "gapDot": {
+            "value": "{spacing.1-5}",
+            "type": "spacing"
+          }
         }
       }
     },
@@ -1941,6 +2115,15 @@
           "fontWeight": "{fontWeight.bold.normal}",
           "lineHeight": "{lineHeight.sm}",
           "fontSize": "{fontSize.sm}"
+        },
+        "type": "typography"
+      },
+      "badge": {
+        "value": {
+          "fontFamily": "{fontFamily.body}",
+          "fontWeight": "{fontWeight.bold.medium}",
+          "lineHeight": "",
+          "fontSize": "{fontSize.xs}"
         },
         "type": "typography"
       }
