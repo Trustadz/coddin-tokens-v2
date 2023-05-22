@@ -1,39 +1,39 @@
 {
   "Tailwind": {
     "weight": {
-      "font-thin": {
+      "fontThin": {
         "value": "100",
         "type": "fontWeights"
       },
-      "font-extralight": {
+      "fontExtralight": {
         "value": "200",
         "type": "fontWeights"
       },
-      "font-light": {
+      "fontLight": {
         "value": "300",
         "type": "fontWeights"
       },
-      "font-normal": {
+      "fontNormal": {
         "value": "400",
         "type": "fontWeights"
       },
-      "font-medium": {
+      "fontMedium": {
         "value": "500",
         "type": "fontWeights"
       },
-      "font-semibold": {
+      "fontSemibold": {
         "value": "600",
         "type": "fontWeights"
       },
-      "font-bold": {
+      "fontBold": {
         "value": "700",
         "type": "fontWeights"
       },
-      "font-extrabold": {
+      "fontExtrabold": {
         "value": "800",
         "type": "fontWeights"
       },
-      "font-black": {
+      "fontBlack": {
         "value": "900",
         "type": "fontWeights"
       }
@@ -46,7 +46,7 @@
       "value": "#ffffff",
       "type": "color"
     },
-    "Slate": {
+    "slate": {
       "50": {
         "value": "#f8fafc",
         "type": "color"
@@ -88,7 +88,7 @@
         "type": "color"
       }
     },
-    "Gray": {
+    "gray": {
       "50": {
         "value": "#f9fafb",
         "type": "color"
@@ -146,7 +146,7 @@
         "type": "color"
       }
     },
-    "Zinc": {
+    "zinc": {
       "50": {
         "value": "#fafafa",
         "type": "color"
@@ -188,7 +188,7 @@
         "type": "color"
       }
     },
-    "Neutral": {
+    "neutral": {
       "50": {
         "value": "#fafafa",
         "type": "color"
@@ -230,7 +230,7 @@
         "type": "color"
       }
     },
-    "Stone": {
+    "stone": {
       "50": {
         "value": "#fafaf9",
         "type": "color"
@@ -272,7 +272,7 @@
         "type": "color"
       }
     },
-    "Red": {
+    "red": {
       "50": {
         "value": "#fef2f2",
         "type": "color"
@@ -330,7 +330,7 @@
         "type": "color"
       }
     },
-    "Orange": {
+    "orange": {
       "50": {
         "value": "#fff7ed",
         "type": "color"
@@ -372,7 +372,7 @@
         "type": "color"
       }
     },
-    "Amber": {
+    "amber": {
       "50": {
         "value": "#fffbeb",
         "type": "color"
@@ -414,7 +414,7 @@
         "type": "color"
       }
     },
-    "Yellow": {
+    "yellow": {
       "50": {
         "value": "#fefce8",
         "type": "color"
@@ -472,7 +472,7 @@
         "type": "color"
       }
     },
-    "Lime": {
+    "lime": {
       "50": {
         "value": "#f7fee7",
         "type": "color"
@@ -514,7 +514,7 @@
         "type": "color"
       }
     },
-    "Green": {
+    "green": {
       "50": {
         "value": "#f0fdf4",
         "type": "color"
@@ -572,7 +572,7 @@
         "type": "color"
       }
     },
-    "Emerald": {
+    "emerald": {
       "50": {
         "value": "#ecfdf5",
         "type": "color"
@@ -614,7 +614,7 @@
         "type": "color"
       }
     },
-    "Teal": {
+    "teal": {
       "50": {
         "value": "#f0fdfa",
         "type": "color"
@@ -656,7 +656,7 @@
         "type": "color"
       }
     },
-    "Cyan": {
+    "cyan": {
       "50": {
         "value": "#ecfeff",
         "type": "color"
@@ -698,7 +698,7 @@
         "type": "color"
       }
     },
-    "Sky": {
+    "sky": {
       "50": {
         "value": "#f0f9ff",
         "type": "color"
@@ -740,7 +740,7 @@
         "type": "color"
       }
     },
-    "Blue": {
+    "blue": {
       "50": {
         "value": "#eff6ff",
         "type": "color"
@@ -798,7 +798,7 @@
         "type": "color"
       }
     },
-    "Indigo": {
+    "indigo": {
       "50": {
         "value": "#eef2ff",
         "type": "color"
@@ -856,7 +856,7 @@
         "type": "color"
       }
     },
-    "Violet": {
+    "violet": {
       "50": {
         "value": "#f5f3ff",
         "type": "color"
@@ -898,7 +898,7 @@
         "type": "color"
       }
     },
-    "Purple": {
+    "purple": {
       "50": {
         "value": "#faf5ff",
         "type": "color"
@@ -956,7 +956,7 @@
         "type": "color"
       }
     },
-    "Fuchsia": {
+    "fuchsia": {
       "50": {
         "value": "#fdf4ff",
         "type": "color"
@@ -998,7 +998,7 @@
         "type": "color"
       }
     },
-    "Pink": {
+    "pink": {
       "50": {
         "value": "#fdf2f8",
         "type": "color"
@@ -1056,7 +1056,7 @@
         "type": "color"
       }
     },
-    "Rose": {
+    "rose": {
       "50": {
         "value": "#fff1f2",
         "type": "color"
@@ -1099,55 +1099,55 @@
       }
     },
     "text-base": {
-      "value": "{rem}",
+      "value": "1rem",
       "type": "fontSizes"
     },
     "text-xs": {
-      "value": "{text-base}*0.75",
+      "value": "0.75rem",
       "type": "fontSizes"
     },
     "text-sm": {
-      "value": "{text-base}*0.875",
+      "value": "0.875rem",
       "type": "fontSizes"
     },
     "text-lg": {
-      "value": "{text-base}*1.125",
+      "value": "1.125rem",
       "type": "fontSizes"
     },
     "text-xl": {
-      "value": "{text-base}*1.25",
+      "value": "1.25rem",
       "type": "fontSizes"
     },
     "text-2xl": {
-      "value": "{text-base}*1.5",
+      "value": "1.5rem",
       "type": "fontSizes"
     },
     "text-3xl": {
-      "value": "{text-base}*1.875",
+      "value": "1.875rem",
       "type": "fontSizes"
     },
     "text-4xl": {
-      "value": "{text-base}*2.25",
+      "value": "2.25rem",
       "type": "fontSizes"
     },
     "text-5xl": {
-      "value": "{text-base}*3",
+      "value": "3rem",
       "type": "fontSizes"
     },
     "text-6xl": {
-      "value": "{text-base}*3.75",
+      "value": "3.75rem",
       "type": "fontSizes"
     },
     "text-7xl": {
-      "value": "{text-base}*4.5",
+      "value": "4.5rem",
       "type": "fontSizes"
     },
     "text-8xl": {
-      "value": "{text-base}*6",
+      "value": "6rem",
       "type": "fontSizes"
     },
     "text-9xl": {
-      "value": "{text-base}*8",
+      "value": "8rem",
       "type": "fontSizes"
     },
     "rem": {
@@ -1156,35 +1156,35 @@
       "description": "Base font value\n"
     },
     "text-xs-lh": {
-      "value": "{text-base}*1",
+      "value": "1rem",
       "type": "lineHeights"
     },
     "text-sm-lh": {
-      "value": "{text-base}*1.25",
+      "value": "1.25rem",
       "type": "lineHeights"
     },
     "text-base-lh": {
-      "value": "{text-base}*1.5",
+      "value": "1.5rem",
       "type": "lineHeights"
     },
     "text-lg-lh": {
-      "value": "{text-base}*1.75",
+      "value": "1.75rem",
       "type": "lineHeights"
     },
     "text-xl-lh": {
-      "value": "{text-base}*1.75",
+      "value": "1.75rem",
       "type": "lineHeights"
     },
     "text-2xl-lh": {
-      "value": "{text-base}*2",
+      "value": "2rem",
       "type": "lineHeights"
     },
     "text-3xl-lh": {
-      "value": "{text-base}*2.25",
+      "value": "2.25rem",
       "type": "lineHeights"
     },
     "text-4xl-lh": {
-      "value": "{text-base}*2.5",
+      "value": "2.5rem",
       "type": "lineHeights"
     },
     "text-5xl-lh": {
@@ -1224,35 +1224,35 @@
       "type": "textCase"
     },
     "rounded-none": {
-      "value": "{rem}*0",
+      "value": "0",
       "type": "borderRadius"
     },
     "rounded-sm": {
-      "value": "{rem}*0.125",
+      "value": "0.125rem",
       "type": "borderRadius"
     },
     "rounded": {
-      "value": "{rem}*0.25",
+      "value": "0.25rem",
       "type": "borderRadius"
     },
     "rounded-md": {
-      "value": "{rem}*0.375",
+      "value": "0.375rem",
       "type": "borderRadius"
     },
     "rounded-lg": {
-      "value": "{rem}*0.5",
+      "value": "0.5rem",
       "type": "borderRadius"
     },
     "rounded-xl": {
-      "value": "{rem}*0.75",
+      "value": "0.75rem",
       "type": "borderRadius"
     },
     "rounded-2xl": {
-      "value": "{rem}*1",
+      "value": "1rem",
       "type": "borderRadius"
     },
     "rounded-3xl": {
-      "value": "{rem}*1.5",
+      "value": "1.5rem",
       "type": "borderRadius"
     },
     "rounded-full": {
@@ -1419,43 +1419,43 @@
       "type": "spacing"
     },
     "spacing-0-5": {
-      "value": "{rem}*0.125",
+      "value": "0.125rem",
       "type": "spacing"
     },
     "spacing-1": {
-      "value": "{rem}*0.25",
+      "value": "0.25rem",
       "type": "spacing"
     },
     "spacing-1-5": {
-      "value": "{rem}*0.375",
+      "value": "0.375rem",
       "type": "spacing"
     },
     "spacing-2": {
-      "value": "{rem}*0.5",
+      "value": "0.5rem",
       "type": "spacing"
     },
     "spacing-2-5": {
-      "value": "{rem}*0.625",
+      "value": "0.625rem",
       "type": "spacing"
     },
     "spacing-3": {
-      "value": "{rem}*0.75",
+      "value": "0.75rem",
       "type": "spacing"
     },
     "spacing-3-5": {
-      "value": "{rem}*0.875",
+      "value": "0.875rem",
       "type": "spacing"
     },
     "spacing-4": {
-      "value": "{rem}*1",
+      "value": "1rem",
       "type": "spacing"
     },
     "spacing-5": {
-      "value": "{rem}*1.25",
+      "value": "1.25rem",
       "type": "spacing"
     },
     "spacing-6": {
-      "value": "{rem}*1.5",
+      "value": "1.5rem",
       "type": "spacing"
     },
     "Censored": {
@@ -1575,11 +1575,11 @@
       }
     },
     "spacing-7": {
-      "value": "{rem}*1.75",
+      "value": "1.75rem",
       "type": "spacing"
     },
     "spacing-8": {
-      "value": "{rem}*2",
+      "value": "2rem",
       "type": "spacing"
     },
     "65ch-base": {
@@ -1625,7 +1625,7 @@
       }
     },
     "sizing-4": {
-      "value": "{rem}*1",
+      "value": "1rem",
       "type": "sizing"
     }
   },
