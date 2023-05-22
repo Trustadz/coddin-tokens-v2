@@ -1823,6 +1823,10 @@
         "value": "{shadow.md}",
         "type": "boxShadow"
       },
+      "button": {
+        "value": "{shadow.sm}",
+        "type": "boxShadow"
+      },
       "input": {
         "value": "{shadow.sm}",
         "type": "boxShadow"
