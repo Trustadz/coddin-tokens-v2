@@ -1794,6 +1794,10 @@
         }
       },
       "components": {
+        "formItem": {
+          "value": "{spacing.2}",
+          "type": "spacing"
+        },
         "section": {
           "value": "{spacing.8}",
           "type": "spacing"
@@ -1846,6 +1850,26 @@
       "input": {
         "value": "{shadow.sm}",
         "type": "boxShadow"
+      }
+    },
+    "typography": {
+      "label": {
+        "value": {
+          "fontFamily": "{fontFamily.body}",
+          "fontWeight": "{fontWeight.bold.medium}",
+          "lineHeight": "{lineHeight.sm}",
+          "fontSize": "{fontSize.sm}"
+        },
+        "type": "typography"
+      },
+      "input": {
+        "value": {
+          "fontFamily": "{fontFamily.body}",
+          "fontWeight": "{fontWeight.bold.normal}",
+          "lineHeight": "{lineHeight.sm}",
+          "fontSize": "{fontSize.button.sm}"
+        },
+        "type": "typography"
       }
     }
   },
@@ -1962,6 +1986,22 @@
       "input": {
         "value": "{fontSize.base}",
         "type": "fontSizes"
+      }
+    },
+    "typography": {
+      "p": {
+        "value": {
+          "fontFamily": "{fontFamily.body}",
+          "fontWeight": "{fontWeight.bold.normal}",
+          "lineHeight": "{lineHeight.base}",
+          "fontSize": "{fontSize.base}",
+          "letterSpacing": "0",
+          "paragraphSpacing": "0",
+          "paragraphIndent": "0",
+          "textDecoration": "none",
+          "textCase": "none"
+        },
+        "type": "typography"
       }
     }
   },
