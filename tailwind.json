@@ -2217,6 +2217,12 @@
         },
         "type": "typography"
       }
+    },
+    "sizing": {
+      "sectionW": {
+        "value": "50rem",
+        "type": "sizing"
+      }
     }
   },
   "default": {
