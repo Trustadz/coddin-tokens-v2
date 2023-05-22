@@ -65,6 +65,10 @@
         "value": "rem",
         "type": "sizing"
       },
+      "72": {
+        "value": "18rem",
+        "type": "sizing"
+      },
       "65ch": {
         "value": "0.625rem*65",
         "type": "sizing"
