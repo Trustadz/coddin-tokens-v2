@@ -1645,6 +1645,34 @@
         "value": "{fontFamily.Inter}",
         "type": "fontFamilies"
       }
+    },
+    "colors":{
+      "primary": {
+        "primary": {
+          "value": "{Green.3}",
+          "type": "color"
+        },
+        "hover": {
+          "value": "{Green.4}",
+          "type": "color"
+        },
+        "background": {
+          "value": "{Green.0}",
+          "type": "color"
+        },
+        "button": {
+          "light": {
+            "main": {
+              "value": "{Green.0}",
+              "type": "color"
+            },
+            "border": {
+              "value": "{Green.1}",
+              "type": "color"
+            }
+          }
+        }
+      }
     }
   },
   "abro": {},
@@ -1679,34 +1707,6 @@
       "4": {
         "value": "#003c32",
         "type": "color"
-      }
-    },
-    "brand": {
-      "primary": {
-        "primary": {
-          "value": "{Green.3}",
-          "type": "color"
-        },
-        "hover": {
-          "value": "{Green.4}",
-          "type": "color"
-        },
-        "background": {
-          "value": "{Green.0}",
-          "type": "color"
-        },
-        "button": {
-          "light": {
-            "main": {
-              "value": "{Green.0}",
-              "type": "color"
-            },
-            "border": {
-              "value": "{Green.1}",
-              "type": "color"
-            }
-          }
-        }
       }
     }
   },
