@@ -1692,11 +1692,21 @@
             "type": "color"
           }
         }
+      },
+      "components": {
+        "section": {
+          "value": "{colors.white}",
+          "type": "color"
+        }
       }
     },
     "borderRadius": {
       "button": {
         "value": "{borderRadius.base}",
+        "type": "borderRadius"
+      },
+      "section": {
+        "value": "{borderRadius.lg}",
         "type": "borderRadius"
       }
     },
@@ -1752,6 +1762,12 @@
             "type": "spacing"
           }
         }
+      },
+      "components": {
+        "section": {
+          "value": "{spacing.8}",
+          "type": "spacing"
+        }
       }
     },
     "fontSize": {
@@ -1776,6 +1792,12 @@
           "value": "{fontSize.sm}",
           "type": "fontSizes"
         }
+      }
+    },
+    "shadow": {
+      "section": {
+        "value": "{shadow.md}",
+        "type": "boxShadow"
       }
     }
   },
