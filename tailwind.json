@@ -1,5 +1,5 @@
 {
-  "Tailwind": {
+  "tailwind": {
     "sizing": {
       "4": {
         "value": "1rem",
@@ -326,22 +326,6 @@
         },
         "900": {
           "value": "#7f1d1d",
-          "type": "color"
-        },
-        "border": {
-          "value": "{Red.600}1A",
-          "type": "color"
-        },
-        "600-50": {
-          "value": "{Red.600}80",
-          "type": "color"
-        },
-        "600-75": {
-          "value": "{Red.600}bf",
-          "type": "color"
-        },
-        "600-20": {
-          "value": "{Red.600}33",
           "type": "color"
         }
       },
@@ -2062,7 +2046,7 @@
   "$themes": [],
   "$metadata": {
     "tokenSetOrder": [
-      "Tailwind",
+      "tailwind",
       "components",
       "default",
       "abro",
