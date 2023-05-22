@@ -1319,12 +1319,12 @@
       }
     },
     "fontFamily": {
-      "Censored": {
+      "censored": {
         "value": "Flow Rounded",
         "type": "fontFamilies",
         "description": "Censored font without legibility"
       },
-      "Inter": {
+      "inter": {
         "value": "Inter",
         "type": "fontFamilies",
         "description": "Default font"
@@ -1533,27 +1533,6 @@
         "value": "none",
         "type": "textCase"
       }
-    },
-    "border-active": {
-      "value": [
-        {
-          "x": "0",
-          "y": "0",
-          "blur": "0",
-          "spread": "2",
-          "color": "{white}",
-          "type": "dropShadow"
-        },
-        {
-          "x": "0",
-          "y": "0",
-          "blur": "0",
-          "spread": "4",
-          "color": "{brand.primary.primary}",
-          "type": "dropShadow"
-        }
-      ],
-      "type": "boxShadow"
     }
   },
   "components": {},
@@ -1564,7 +1543,7 @@
         "type": "fontFamilies"
       },
       "heading": {
-        "value": "{fontFamily.Inter}",
+        "value": "{fontFamily.inter}",
         "type": "fontFamilies"
       }
     },
