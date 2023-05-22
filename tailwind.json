@@ -1798,6 +1798,10 @@
       "section": {
         "value": "{shadow.md}",
         "type": "boxShadow"
+      },
+      "button": {
+        "value": "{shadow.sm}",
+        "type": "boxShadow"
       }
     }
   },
