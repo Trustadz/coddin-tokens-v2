@@ -2216,6 +2216,28 @@
           "fontSize": "{fontSize.xs}"
         },
         "type": "typography"
+      },
+      "blog": {
+        "summary": {
+          "meta": {
+            "value": {
+              "fontFamily": "{fontFamily.body}",
+              "fontWeight": "{fontWeight.bold.normal}",
+              "lineHeight": "{lineHeight.xs}",
+              "fontSize": "{fontSize.xs}"
+            },
+            "type": "typography"
+          },
+          "title": {
+            "value": {
+              "fontFamily": "{fontFamily.heading}",
+              "fontWeight": "{fontWeight.bold.semibold}",
+              "lineHeight": "{lineHeight.lg}",
+              "fontSize": "{fontSize.lg}"
+            },
+            "type": "typography"
+          }
+        }
       }
     },
     "sizing": {
@@ -2323,6 +2345,10 @@
           },
           "heading": {
             "value": "{colors.gray.900}",
+            "type": "color"
+          },
+          "helper": {
+            "value": "{colors.gray.500}",
             "type": "color"
           }
         }
