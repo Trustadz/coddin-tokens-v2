@@ -69,6 +69,10 @@
         "value": "6rem",
         "type": "sizing"
       },
+      "32": {
+        "value": "8rem",
+        "type": "sizing"
+      },
       "80": {
         "value": "20rem",
         "type": "sizing"
