@@ -2273,10 +2273,6 @@
             "value": "{colors.brand.primary.300}",
             "type": "color"
           },
-          "hover": {
-            "value": "{colors.brand.primary.500}",
-            "type": "color"
-          },
           "soft": {
             "primary": {
               "value": "{colors.brand.primary.50}",
@@ -2294,6 +2290,10 @@
               "value": "{colors.brand.primary.100}",
               "type": "color"
             }
+          },
+          "hover": {
+            "value": "{colors.brand.primary.500}",
+            "type": "color"
           }
         },
         "primary": {
