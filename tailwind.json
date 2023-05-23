@@ -1521,6 +1521,26 @@
         "value": "none",
         "type": "textCase"
       }
+    },
+    "textDecoration": {
+      "none": {
+        "value": "none",
+        "type": "textDecoration"
+      },
+      "underline": {
+        "value": "underline",
+        "type": "textDecoration"
+      }
+    },
+    "border": {
+      "uploadArea": {
+        "value": {
+          "color": "{colors.gray.300}",
+          "width": "{borderWidth.2}",
+          "style": "dashed"
+        },
+        "type": "border"
+      }
     }
   },
   "components": {
