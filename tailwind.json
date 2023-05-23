@@ -62,11 +62,15 @@
         "type": "sizing"
       },
       "20": {
-        "value": "5rem",
+        "value": "20rem",
         "type": "sizing"
       },
       "24": {
         "value": "6rem",
+        "type": "sizing"
+      },
+      "80": {
+        "value": "20rem",
         "type": "sizing"
       },
       "96": {
