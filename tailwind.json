@@ -1116,6 +1116,10 @@
           "value": "#881337",
           "type": "color"
         }
+      },
+      "none": {
+        "value": "none",
+        "type": "color"
       }
     },
     "borderRadius": {
@@ -2447,10 +2451,6 @@
               "type": "color"
             }
           }
-        },
-        "pageBg": {
-          "value": "{colors.white}",
-          "type": "color"
         }
       }
     },
@@ -2631,10 +2631,6 @@
               "type": "color"
             }
           }
-        },
-        "pageBg": {
-          "value": "{colors.brand.primary.primary}",
-          "type": "color"
         }
       }
     },
@@ -2708,10 +2704,6 @@
         "type": "borderRadius"
       },
       "badge": {
-        "value": "0",
-        "type": "borderRadius"
-      },
-      "section": {
         "value": "0",
         "type": "borderRadius"
       }
