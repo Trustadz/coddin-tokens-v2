@@ -2572,6 +2572,10 @@
           "helper": {
             "value": "{colors.brand.primary.tertiairy}",
             "type": "color"
+          },
+          "headingPage": {
+            "value": "{colors.brand.primary.secondary}",
+            "type": "color"
           }
         },
         "primary": {
