@@ -2418,6 +2418,10 @@
           "helper": {
             "value": "{colors.gray.500}",
             "type": "color"
+          },
+          "headingPage": {
+            "value": "{colors.brand.text.heading}",
+            "type": "color"
           }
         },
         "menu": {
