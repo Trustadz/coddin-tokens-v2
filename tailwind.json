@@ -2677,6 +2677,24 @@
         },
         "type": "typography"
       }
+    },
+    "borderRadius": {
+      "button": {
+        "value": "0",
+        "type": "borderRadius"
+      },
+      "cards": {
+        "value": "0",
+        "type": "borderRadius"
+      },
+      "input": {
+        "value": "0",
+        "type": "borderRadius"
+      },
+      "badge": {
+        "value": "0",
+        "type": "borderRadius"
+      }
     }
   },
   "vanEeghen": {
