@@ -2583,6 +2583,38 @@
             "value": "#969696",
             "type": "color"
           }
+        },
+        "menu": {
+          "sidebar": {
+            "bg": {
+              "value": "{colors.brand.button.primary}",
+              "type": "color"
+            },
+            "text": {
+              "value": "{colors.brand.primary.secondary}",
+              "type": "color"
+            },
+            "hoverBg": {
+              "value": "{colors.brand.primary.secondary}",
+              "type": "color"
+            },
+            "hoverText": {
+              "value": "{colors.brand.primary.primary}",
+              "type": "color"
+            },
+            "iconBorder": {
+              "value": "{colors.brand.primary.secondary}",
+              "type": "color"
+            },
+            "iconBg": {
+              "value": "{colors.brand.primary.secondary}",
+              "type": "color"
+            },
+            "iconText": {
+              "value": "{colors.brand.primary.tertiairy}",
+              "type": "color"
+            }
+          }
         }
       }
     },
