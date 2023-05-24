@@ -2455,6 +2455,10 @@
               "type": "color"
             }
           }
+        },
+        "pageBg": {
+          "value": "{colors.white}",
+          "type": "color"
         }
       }
     },
@@ -2635,6 +2639,10 @@
               "type": "color"
             }
           }
+        },
+        "pageBg": {
+          "value": "{colors.brand.primary.primary}",
+          "type": "color"
         }
       }
     },
@@ -2728,7 +2736,7 @@
       "brand": {
         "button": {
           "primary": {
-            "value": "{colors.brand.primary.600}",
+            "value": "{colors.brand.primary.green.3}",
             "type": "color"
           },
           "text": {
@@ -2736,7 +2744,7 @@
             "type": "color"
           },
           "border": {
-            "value": "{colors.brand.primary.300}",
+            "value": "{colors.brand.primary.green.4}",
             "type": "color"
           },
           "soft": {
@@ -2772,19 +2780,19 @@
         },
         "text": {
           "body": {
-            "value": "{colors.gray.700}",
+            "value": "{colors.brand.primary.text.main}",
             "type": "color"
           },
           "heading": {
-            "value": "{colors.gray.900}",
+            "value": "{colors.brand.primary.text.main}",
             "type": "color"
           },
           "helper": {
-            "value": "{colors.gray.500}",
+            "value": "{colors.brand.primary.text.main}",
             "type": "color"
           },
           "headingPage": {
-            "value": "{colors.brand.text.heading}",
+            "value": "{colors.brand.primary.text.main}",
             "type": "color"
           }
         },
