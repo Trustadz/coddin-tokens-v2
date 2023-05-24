@@ -2507,12 +2507,20 @@
               "type": "color"
             },
             "hover": {
-              "value": "{colors.brand.primary.100}",
+              "value": "{colors.brand.primary.primary}",
+              "type": "color"
+            },
+            "hoverText": {
+              "value": "{colors.brand.primary.secondary}",
               "type": "color"
             }
           },
           "hover": {
-            "value": "{colors.brand.primary.500}",
+            "value": "{colors.brand.primary.secondary}",
+            "type": "color"
+          },
+          "hoverText": {
+            "value": "{colors.brand.primary.primary}",
             "type": "color"
           }
         },
