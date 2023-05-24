@@ -2407,6 +2407,38 @@
             "value": "{colors.gray.500}",
             "type": "color"
           }
+        },
+        "menu": {
+          "sidebar": {
+            "bg": {
+              "value": "{colors.brand.primary.600}",
+              "type": "color"
+            },
+            "text": {
+              "value": "{colors.brand.primary.200}",
+              "type": "color"
+            },
+            "hoverBg": {
+              "value": "{colors.brand.primary.700}",
+              "type": "color"
+            },
+            "hoverText": {
+              "value": "{colors.white}",
+              "type": "color"
+            },
+            "iconBg": {
+              "value": "{colors.brand.primary.500}",
+              "type": "color"
+            },
+            "iconBorder": {
+              "value": "{colors.brand.primary.400}",
+              "type": "color"
+            },
+            "iconText": {
+              "value": "{colors.white}",
+              "type": "color"
+            }
+          }
         }
       }
     },
