@@ -155,6 +155,10 @@
         "value": "4rem",
         "type": "spacing"
       },
+      "60": {
+        "value": "15rem",
+        "type": "spacing"
+      },
       "80": {
         "value": "20rem",
         "type": "spacing"
