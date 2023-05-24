@@ -2337,6 +2337,10 @@
             "hover": {
               "value": "{colors.brand.primary.100}",
               "type": "color"
+            },
+            "hoverText": {
+              "value": "{colors.brand.button.soft.text}",
+              "type": "color"
             }
           },
           "hover": {
