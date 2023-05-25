@@ -73,6 +73,10 @@
         "value": "8rem",
         "type": "sizing"
       },
+      "60": {
+        "value": "15rem",
+        "type": "sizing"
+      },
       "80": {
         "value": "20rem",
         "type": "sizing"
