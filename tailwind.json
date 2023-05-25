@@ -1907,6 +1907,24 @@
             "value": "{colors.brand.button.primary}",
             "type": "color"
           }
+        },
+        "table": {
+          "bgEven": {
+            "value": "{colors.gray.100}",
+            "type": "color"
+          },
+          "bgOdd": {
+            "value": "{colors.white}",
+            "type": "color"
+          },
+          "borderOuter": {
+            "value": "{colors.gray.300}",
+            "type": "color"
+          },
+          "borderInner": {
+            "value": "{colors.gray.200}",
+            "type": "color"
+          }
         }
       },
       "infoPurple": {
@@ -2200,6 +2218,18 @@
           "value": "{spacing.6}",
           "type": "spacing"
         }
+      },
+      "table": {
+        "cell": {
+          "x": {
+            "value": "{spacing.6}",
+            "type": "spacing"
+          },
+          "y": {
+            "value": "{spacing.0}",
+            "type": "spacing"
+          }
+        }
       }
     },
     "fontSize": {
@@ -2303,6 +2333,10 @@
     "sizing": {
       "sectionW": {
         "value": "64rem",
+        "type": "sizing"
+      },
+      "tableHeight": {
+        "value": "{sizing.10}",
         "type": "sizing"
       }
     }
