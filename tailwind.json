@@ -2460,6 +2460,10 @@
           "headingPage": {
             "value": "{colors.brand.text.heading}",
             "type": "color"
+          },
+          "hyperlink": {
+            "value": "{colors.brand.button.primary}",
+            "type": "color"
           }
         },
         "menu": {
@@ -2552,6 +2556,15 @@
           "lineHeight": "{lineHeight.xl}",
           "fontWeight": "{fontWeight.bold.bold}",
           "fontFamily": "{fontFamily.heading}"
+        },
+        "type": "typography"
+      },
+      "opening": {
+        "value": {
+          "fontFamily": "{fontFamily.body}",
+          "fontWeight": "{fontWeight.bold.normal}",
+          "lineHeight": "{lineHeight.lg}",
+          "fontSize": "{fontSize.lg}"
         },
         "type": "typography"
       }
