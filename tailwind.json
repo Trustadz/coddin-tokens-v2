@@ -2465,11 +2465,11 @@
     "spacing": {
       "button": {
         "x": {
-          "value": "{spacing.button.xl.x}",
+          "value": "{spacing.button.md.x}",
           "type": "spacing"
         },
         "y": {
-          "value": "{spacing.button.xl.y}",
+          "value": "{spacing.button.md.y}",
           "type": "spacing"
         }
       }
