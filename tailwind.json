@@ -2777,6 +2777,10 @@
       "badge": {
         "value": "0",
         "type": "borderRadius"
+      },
+      "section": {
+        "value": "0",
+        "type": "borderRadius"
       }
     }
   },
