@@ -2507,7 +2507,7 @@
           }
         },
         "pageBg": {
-          "value": "{colors.white}",
+          "value": "{colors.brand.primary.50}",
           "type": "color"
         }
       }
