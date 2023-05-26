@@ -73,6 +73,10 @@
         "value": "8rem",
         "type": "sizing"
       },
+      "56": {
+        "value": "14rem",
+        "type": "sizing"
+      },
       "60": {
         "value": "15rem",
         "type": "sizing"
@@ -2271,6 +2275,10 @@
       },
       "input": {
         "value": "{shadow.sm}",
+        "type": "boxShadow"
+      },
+      "subMenu": {
+        "value": "{shadow.lg}",
         "type": "boxShadow"
       }
     },
