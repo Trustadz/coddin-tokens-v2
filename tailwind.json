@@ -2862,15 +2862,15 @@
         "menu": {
           "sidebar": {
             "bg": {
-              "value": "{colors.brand.primary.600}",
+              "value": "{colors.brand.primary.green.3}",
               "type": "color"
             },
             "text": {
-              "value": "{colors.brand.primary.200}",
+              "value": "{colors.brand.primary.green.0}",
               "type": "color"
             },
             "hoverBg": {
-              "value": "{colors.brand.primary.700}",
+              "value": "{colors.brand.primary.green.4}",
               "type": "color"
             },
             "hoverText": {
@@ -2878,11 +2878,11 @@
               "type": "color"
             },
             "iconBg": {
-              "value": "{colors.brand.primary.500}",
+              "value": "{colors.brand.primary.green.1}",
               "type": "color"
             },
             "iconBorder": {
-              "value": "{colors.brand.primary.400}",
+              "value": "{colors.brand.primary.green.2}",
               "type": "color"
             },
             "iconText": {
