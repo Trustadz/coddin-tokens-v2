@@ -2820,7 +2820,7 @@
               "type": "color"
             },
             "border": {
-              "value": "{colors.brand.primary.600}1a",
+              "value": "{colors.brand.primary.green.2}1a",
               "type": "color"
             },
             "hover": {
