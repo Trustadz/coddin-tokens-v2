@@ -2521,6 +2521,16 @@
         "y": {
           "value": "{spacing.button.md.y}",
           "type": "spacing"
+        },
+        "mobile": {
+          "x": {
+            "value": "{spacing.button.xs.x}",
+            "type": "spacing"
+          },
+          "y": {
+            "value": "{spacing.button.xs.y}",
+            "type": "spacing"
+          }
         }
       }
     },
