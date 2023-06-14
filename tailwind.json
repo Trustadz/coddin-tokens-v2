@@ -2203,6 +2203,12 @@
             "value": "{spacing.1-5}",
             "type": "spacing"
           }
+        },
+        "mobile": {
+          "section": {
+            "value": "{spacing.4}",
+            "type": "spacing"
+          }
         }
       },
       "contentWrapper": {
