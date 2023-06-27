@@ -2735,7 +2735,7 @@
             "type": "color"
           }
         },
-        "secundary": {
+        "secondary": {
           "50": {
             "value": "{ref.tw.colors.lime.50}",
             "type": "color"
@@ -2779,6 +2779,28 @@
           "950": {
             "value": "{ref.tw.colors.lime.950}",
             "type": "color"
+          }
+        }
+      }
+    },
+    "comp": {
+      "def": {
+        "button": {
+          "primary": {
+            "default": {
+              "bg": {
+                "value": "{sys.def.primary.600}",
+                "type": "color"
+              },
+              "text": {
+                "value": "{ref.tw.colors.white}",
+                "type": "color"
+              },
+              "border": {
+                "value": "{sys.def.primary.300}",
+                "type": "color"
+              }
+            }
           }
         }
       }
