@@ -1571,7 +1571,7 @@
       }
     }
   },
-  "components": {
+  "components-old": {
     "colors": {
       "disabled": {
         "primary": {
@@ -3042,7 +3042,7 @@
   "$metadata": {
     "tokenSetOrder": [
       "tailwind",
-      "components",
+      "components-old",
       "default",
       "abro",
       "vanEeghen",
