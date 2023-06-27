@@ -2777,6 +2777,60 @@
           "value": "{ref.colors.lime.950}",
           "type": "color"
         }
+      },
+      "borderRadius": {
+        "action": {
+          "md": {
+            "value": "{ref.borderRadius.base}",
+            "type": "borderRadius"
+          }
+        }
+      },
+      "spacing": {
+        "action": {
+          "desktop": {
+            "md": {
+              "x": {
+                "value": "{ref.spacing.3-5}",
+                "type": "spacing"
+              },
+              "y": {
+                "value": "{ref.spacing.2-5}",
+                "type": "spacing"
+              }
+            }
+          }
+        }
+      },
+      "borderWidth": {
+        "action": {
+          "desktop": {
+            "md": {
+              "value": "{ref.borderWidth.1}",
+              "type": "borderWidth"
+            }
+          }
+        }
+      },
+      "fontSize": {
+        "action": {
+          "desktop": {
+            "md": {
+              "value": "{ref.fontSize.sm}",
+              "type": "fontSizes"
+            }
+          }
+        }
+      },
+      "boxShadow": {
+        "action": {
+          "desktop": {
+            "md": {
+              "value": "{ref.shadow.sm}",
+              "type": "boxShadow"
+            }
+          }
+        }
       }
     },
     "comp": {
@@ -2794,6 +2848,52 @@
             "border": {
               "value": "{sys.primary.300}",
               "type": "color"
+            }
+          }
+        }
+      },
+      "spacing": {
+        "button": {
+          "desktop": {
+            "md": {
+              "x": {
+                "value": "{sys.spacing.action.desktop.md.x}",
+                "type": "spacing"
+              },
+              "y": {
+                "value": "{sys.spacing.action.desktop.md.y}",
+                "type": "spacing"
+              }
+            }
+          }
+        }
+      },
+      "borderWidth": {
+        "button": {
+          "desktop": {
+            "md": {
+              "value": "{sys.borderWidth.action.desktop.md}",
+              "type": "borderWidth"
+            }
+          }
+        }
+      },
+      "fontSize": {
+        "button": {
+          "desktop": {
+            "md": {
+              "value": "{sys.fontSize.action.desktop.md}",
+              "type": "fontSizes"
+            }
+          }
+        }
+      },
+      "boxShadow": {
+        "button": {
+          "desktop": {
+            "md": {
+              "value": "{sys.boxShadow.action.desktop.md}",
+              "type": "boxShadow"
             }
           }
         }
