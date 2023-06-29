@@ -1927,7 +1927,7 @@
         "branded": {
           "button": {
             "bg": {
-              "value": "{sys.primary.600}",
+              "value": "{sys.primary.main.default}",
               "type": "color"
             },
             "text": {
@@ -1936,7 +1936,7 @@
             },
             "hover": {
               "bg": {
-                "value": "{sys.primary.700}",
+                "value": "{sys.primary.main.+100}",
                 "type": "color"
               },
               "text": {
@@ -1946,19 +1946,23 @@
             }
           },
           "bg": {
-            "value": "{sys.primary.600}",
+            "value": "{sys.primary.main.default}",
             "type": "color"
           },
           "badge": {
             "bg": {
-              "value": "{sys.primary.600}",
+              "value": "{sys.primary.main.default}",
               "type": "color"
             },
             "border": {
-              "value": "{sys.primary.500}",
+              "value": "{sys.primary.main.-100}",
               "type": "color"
             }
           }
+        },
+        "avatar": {
+          "value": "{sys.sizing.avatar.sm}",
+          "type": "sizing"
         }
       }
     }
@@ -2136,6 +2140,16 @@
           "button": {
             "value": "{ref.spacing.2}",
             "type": "spacing"
+          },
+          "sidebar": {
+            "x": {
+              "value": "{ref.spacing.6}",
+              "type": "spacing"
+            },
+            "top": {
+              "value": "{ref.spacing.4}",
+              "type": "spacing"
+            }
           }
         },
         "highlight": {
@@ -2219,6 +2233,14 @@
         "onPrimaryLowContrast": {
           "value": "{sys.primary.200}",
           "type": "color"
+        }
+      },
+      "sizing": {
+        "avatar": {
+          "sm": {
+            "value": "{ref.sizing.7}",
+            "type": "sizing"
+          }
         }
       }
     }
