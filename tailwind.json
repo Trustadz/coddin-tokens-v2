@@ -2684,7 +2684,7 @@
       }
     }
   },
-  "defaultTheme": {
+  "theming": {
     "sys": {
       "primary": {
         "50": {
@@ -2780,8 +2780,16 @@
       },
       "borderRadius": {
         "action": {
-          "md": {
-            "value": "{ref.borderRadius.base}",
+          "desktop": {
+            "md": {
+              "value": "{ref.borderRadius.md}",
+              "type": "borderRadius"
+            }
+          }
+        },
+        "container": {
+          "desktop": {
+            "value": "{ref.borderRadius.lg}",
             "type": "borderRadius"
           }
         }
@@ -2798,6 +2806,18 @@
                 "value": "{ref.spacing.2-5}",
                 "type": "spacing"
               }
+            }
+          }
+        },
+        "container": {
+          "desktop": {
+            "x": {
+              "value": "{ref.spacing.4}",
+              "type": "spacing"
+            },
+            "y": {
+              "value": "{ref.spacing.5}",
+              "type": "spacing"
             }
           }
         }
@@ -2830,7 +2850,35 @@
               "type": "boxShadow"
             }
           }
+        },
+        "container": {
+          "desktop": {
+            "value": "{ref.shadow.normal}",
+            "type": "boxShadow"
+          }
         }
+      },
+      "fontFamily": {
+        "default": {
+          "value": "{ref.fontFamily.inter}",
+          "type": "fontFamilies"
+        }
+      },
+      "fontWeight": {
+        "action": {
+          "desktop": {
+            "value": "{ref.fontWeight.bold.semibold}",
+            "type": "fontWeights"
+          }
+        }
+      },
+      "white": {
+        "value": "{ref.colors.white}",
+        "type": "color"
+      },
+      "black": {
+        "value": "{ref.colors.black}",
+        "type": "color"
       }
     },
     "comp": {
@@ -2842,12 +2890,112 @@
               "type": "color"
             },
             "text": {
-              "value": "{ref.colors.white}",
+              "value": "{sys.white}",
               "type": "color"
             },
             "border": {
               "value": "{sys.primary.300}",
               "type": "color"
+            },
+            "hover": {
+              "bg": {
+                "value": "{sys.primary.500}",
+                "type": "color"
+              },
+              "text": {
+                "value": "{comp.button.primary.default.text}",
+                "type": "color"
+              },
+              "border": {
+                "value": "{sys.primary.200}",
+                "type": "color"
+              }
+            }
+          },
+          "soft": {
+            "bg": {
+              "value": "{sys.primary.50}",
+              "type": "color"
+            },
+            "text": {
+              "value": "{sys.primary.600}",
+              "type": "color"
+            },
+            "border": {
+              "value": "{sys.primary.50}",
+              "type": "color"
+            },
+            "hover": {
+              "bg": {
+                "value": "{sys.primary.100}",
+                "type": "color"
+              },
+              "text": {
+                "value": "{sys.primary.700}",
+                "type": "color"
+              },
+              "border": {
+                "value": "{sys.primary.100}",
+                "type": "color"
+              }
+            }
+          }
+        },
+        "secondary": {
+          "default": {
+            "bg": {
+              "value": "{sys.secondary.600}",
+              "type": "color"
+            },
+            "text": {
+              "value": "{sys.white}",
+              "type": "color"
+            },
+            "border": {
+              "value": "{sys.secondary.300}",
+              "type": "color"
+            },
+            "hover": {
+              "bg": {
+                "value": "{sys.secondary.500}",
+                "type": "color"
+              },
+              "text": {
+                "value": "{comp.button.secondary.default.text}",
+                "type": "color"
+              },
+              "border": {
+                "value": "{sys.secondary.200}",
+                "type": "color"
+              }
+            }
+          },
+          "soft": {
+            "bg": {
+              "value": "{sys.secondary.50}",
+              "type": "color"
+            },
+            "text": {
+              "value": "{sys.secondary.600}",
+              "type": "color"
+            },
+            "border": {
+              "value": "{sys.secondary.50}",
+              "type": "color"
+            },
+            "hover": {
+              "bg": {
+                "value": "{sys.secondary.100}",
+                "type": "color"
+              },
+              "text": {
+                "value": "{sys.secondary.700}",
+                "type": "color"
+              },
+              "border": {
+                "value": "{sys.secondary.100}",
+                "type": "color"
+              }
             }
           }
         }
@@ -2864,6 +3012,18 @@
                 "value": "{sys.spacing.action.desktop.md.y}",
                 "type": "spacing"
               }
+            }
+          }
+        },
+        "section": {
+          "desktop": {
+            "x": {
+              "value": "{sys.spacing.container.desktop.x}",
+              "type": "spacing"
+            },
+            "y": {
+              "value": "{sys.spacing.container.desktop.y}",
+              "type": "spacing"
             }
           }
         }
@@ -2896,6 +3056,48 @@
               "type": "boxShadow"
             }
           }
+        },
+        "section": {
+          "desktop": {
+            "value": "{sys.boxShadow.container.desktop}",
+            "type": "boxShadow"
+          }
+        }
+      },
+      "borderRadius": {
+        "button": {
+          "desktop": {
+            "md": {
+              "value": "{sys.borderRadius.action.desktop.md}",
+              "type": "borderRadius"
+            }
+          }
+        },
+        "section": {
+          "desktop": {
+            "value": "{sys.borderRadius.container.desktop}",
+            "type": "borderRadius"
+          }
+        }
+      },
+      "fontFamily": {
+        "button": {
+          "value": "{sys.fontFamily.default}",
+          "type": "fontFamilies"
+        }
+      },
+      "fontWeight": {
+        "button": {
+          "desktop": {
+            "value": "{sys.fontWeight.action.desktop}",
+            "type": "fontWeights"
+          }
+        }
+      },
+      "section": {
+        "bg": {
+          "value": "{sys.white}",
+          "type": "color"
         }
       }
     }
@@ -3350,7 +3552,7 @@
       "tailwind",
       "components-old",
       "default-old",
-      "defaultTheme",
+      "theming",
       "abro",
       "vanEeghen",
       "vanEeghen-OLD"
