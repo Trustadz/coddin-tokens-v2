@@ -1874,10 +1874,6 @@
               "value": "{sys.borderRadius.action.desktop.md}",
               "type": "borderRadius"
             },
-            "": {
-              "value": "{sys.borderRadius.action.desktop.sm}",
-              "type": "borderRadius"
-            },
             "sm": {
               "value": "{sys.borderRadius.action.desktop.sm}",
               "type": "borderRadius"
