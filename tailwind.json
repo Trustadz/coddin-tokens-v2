@@ -1857,7 +1857,9 @@
         "value": "{ref.colors.black}",
         "type": "color"
       }
-    },
+    }
+  },
+  "components": {
     "comp": {
       "button": {
         "primary": {
@@ -2079,7 +2081,6 @@
       }
     }
   },
-  "components": {},
   "$themes": [],
   "$metadata": {
     "tokenSetOrder": [
