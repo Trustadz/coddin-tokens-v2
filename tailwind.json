@@ -1671,7 +1671,7 @@
               "type": "color"
             },
             "text": {
-              "value": "{sys.white}",
+              "value": "{sys.text.onPrimaryHighContrast}",
               "type": "color"
             },
             "border": {
@@ -1807,6 +1807,22 @@
               "type": "spacing"
             }
           }
+        },
+        "navigation": {
+          "button": {
+            "value": "{sys.spacing.navigation.button}",
+            "type": "spacing"
+          }
+        },
+        "badge": {
+          "x": {
+            "value": "{sys.spacing.highlight.x}",
+            "type": "spacing"
+          },
+          "y": {
+            "value": "{sys.spacing.highlight.y}",
+            "type": "spacing"
+          }
         }
       },
       "borderWidth": {
@@ -1826,6 +1842,12 @@
               "value": "{sys.fontSize.action.desktop.md}",
               "type": "fontSizes"
             }
+          }
+        },
+        "navigation": {
+          "button": {
+            "value": "{sys.fontSize.action.desktop.md}",
+            "type": "fontSizes"
           }
         }
       },
@@ -1851,12 +1873,26 @@
             "md": {
               "value": "{sys.borderRadius.action.desktop.md}",
               "type": "borderRadius"
+            },
+            "": {
+              "value": "{sys.borderRadius.action.desktop.sm}",
+              "type": "borderRadius"
+            },
+            "sm": {
+              "value": "{sys.borderRadius.action.desktop.sm}",
+              "type": "borderRadius"
             }
           }
         },
         "section": {
           "desktop": {
             "value": "{sys.borderRadius.container.desktop}",
+            "type": "borderRadius"
+          }
+        },
+        "navigation": {
+          "button": {
+            "value": "{sys.borderRadius.action.desktop.md}",
             "type": "borderRadius"
           }
         }
@@ -1873,12 +1909,54 @@
             "value": "{sys.fontWeight.action.desktop}",
             "type": "fontWeights"
           }
+        },
+        "navigation": {
+          "button": {
+            "value": "{sys.fontWeight.action.desktop}",
+            "type": "fontWeights"
+          }
         }
       },
       "section": {
         "bg": {
           "value": "{sys.white}",
           "type": "color"
+        }
+      },
+      "navigation": {
+        "button": {
+          "bg": {
+            "value": "{sys.primary.600}",
+            "type": "color"
+          },
+          "text": {
+            "value": "{sys.text.onPrimaryLowContrast}",
+            "type": "color"
+          },
+          "hover": {
+            "bg": {
+              "value": "{sys.primary.700}",
+              "type": "color"
+            },
+            "text": {
+              "value": "{sys.text.onPrimaryHighContrast}",
+              "type": "color"
+            }
+          }
+        },
+        "bg": {
+          "value": "{sys.primary.600}",
+          "type": "color"
+        },
+        "badge": {
+          "bg": {
+            "value": "{sys.primary.600}",
+            "type": "color"
+          },
+          "border": {
+            "value": "{sys.primary.500}",
+            "type": "color"
+          }
         }
       }
     }
@@ -1983,6 +2061,10 @@
             "md": {
               "value": "{ref.borderRadius.md}",
               "type": "borderRadius"
+            },
+            "sm": {
+              "value": "{ref.borderRadius.sm}",
+              "type": "borderRadius"
             }
           }
         },
@@ -2018,6 +2100,22 @@
               "value": "{ref.spacing.5}",
               "type": "spacing"
             }
+          }
+        },
+        "navigation": {
+          "button": {
+            "value": "{ref.spacing.2}",
+            "type": "spacing"
+          }
+        },
+        "highlight": {
+          "x": {
+            "value": "{ref.spacing.2}",
+            "type": "spacing"
+          },
+          "y": {
+            "value": "{ref.spacing.1}",
+            "type": "spacing"
           }
         }
       },
@@ -2078,6 +2176,16 @@
       "black": {
         "value": "{ref.colors.black}",
         "type": "color"
+      },
+      "text": {
+        "onPrimaryHighContrast": {
+          "value": "{sys.white}",
+          "type": "color"
+        },
+        "onPrimaryLowContrast": {
+          "value": "{sys.primary.200}",
+          "type": "color"
+        }
       }
     }
   },
