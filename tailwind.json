@@ -1920,38 +1920,40 @@
         }
       },
       "navigation": {
-        "button": {
-          "bg": {
-            "value": "{sys.primary.600}",
-            "type": "color"
-          },
-          "text": {
-            "value": "{sys.text.onPrimaryLowContrast}",
-            "type": "color"
-          },
-          "hover": {
+        "branded": {
+          "button": {
             "bg": {
-              "value": "{sys.primary.700}",
+              "value": "{sys.primary.600}",
               "type": "color"
             },
             "text": {
-              "value": "{sys.text.onPrimaryHighContrast}",
+              "value": "{sys.text.onPrimaryLowContrast}",
               "type": "color"
+            },
+            "hover": {
+              "bg": {
+                "value": "{sys.primary.700}",
+                "type": "color"
+              },
+              "text": {
+                "value": "{sys.text.onPrimaryHighContrast}",
+                "type": "color"
+              }
             }
-          }
-        },
-        "bg": {
-          "value": "{sys.primary.600}",
-          "type": "color"
-        },
-        "badge": {
+          },
           "bg": {
             "value": "{sys.primary.600}",
             "type": "color"
           },
-          "border": {
-            "value": "{sys.primary.500}",
-            "type": "color"
+          "badge": {
+            "bg": {
+              "value": "{sys.primary.600}",
+              "type": "color"
+            },
+            "border": {
+              "value": "{sys.primary.500}",
+              "type": "color"
+            }
           }
         }
       }
