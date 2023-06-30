@@ -1831,6 +1831,16 @@
             "value": "{sys.spacing.highlight.y}",
             "type": "spacing"
           }
+        },
+        "pageWrapper": {
+          "x": {
+            "value": "{ref.spacing.8}",
+            "type": "spacing"
+          },
+          "y": {
+            "value": "{ref.spacing.10}",
+            "type": "spacing"
+          }
         }
       },
       "borderWidth": {
@@ -1971,6 +1981,10 @@
         "avatar": {
           "value": "{sys.sizing.avatar.sm}",
           "type": "sizing"
+        },
+        "breadcrumbs": {
+          "value": "{sys.text.info}",
+          "type": "color"
         }
       },
       "page": {
@@ -2230,6 +2244,18 @@
         },
         "onPrimaryLowContrast": {
           "value": "{sys.primary.200}",
+          "type": "color"
+        },
+        "paragraph": {
+          "value": "{ref.colors.gray.700}",
+          "type": "color"
+        },
+        "heading": {
+          "value": "{ref.colors.gray.900}",
+          "type": "color"
+        },
+        "info": {
+          "value": "{ref.colors.gray.400}",
           "type": "color"
         }
       },
