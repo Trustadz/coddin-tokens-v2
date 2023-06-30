@@ -1810,7 +1810,15 @@
         },
         "navigation": {
           "button": {
-            "value": "{sys.spacing.navigation.button}",
+            "value": "{ref.spacing.2}",
+            "type": "spacing"
+          },
+          "spacing": {
+            "value": "{ref.spacing.1}",
+            "type": "spacing"
+          },
+          "padding": {
+            "value": "{ref.spacing.6}",
             "type": "spacing"
           }
         },
@@ -1963,6 +1971,12 @@
         "avatar": {
           "value": "{sys.sizing.avatar.sm}",
           "type": "sizing"
+        }
+      },
+      "page": {
+        "bg": {
+          "value": "{sys.primary.50}",
+          "type": "color"
         }
       }
     }
@@ -2132,22 +2146,6 @@
             },
             "y": {
               "value": "{ref.spacing.5}",
-              "type": "spacing"
-            }
-          }
-        },
-        "navigation": {
-          "button": {
-            "value": "{ref.spacing.2}",
-            "type": "spacing"
-          },
-          "sidebar": {
-            "x": {
-              "value": "{ref.spacing.6}",
-              "type": "spacing"
-            },
-            "top": {
-              "value": "{ref.spacing.4}",
               "type": "spacing"
             }
           }
