@@ -160,8 +160,16 @@
           "value": "2.5rem",
           "type": "spacing"
         },
+        "12": {
+          "value": "3rem",
+          "type": "spacing"
+        },
         "16": {
           "value": "4rem",
+          "type": "spacing"
+        },
+        "24": {
+          "value": "6rem",
           "type": "spacing"
         },
         "60": {
@@ -1912,6 +1920,16 @@
                 "type": "color"
               }
             }
+          },
+          "label": {
+            "label": {
+              "value": "{sys.colors.text.heading}",
+              "type": "color"
+            },
+            "comment": {
+              "value": "{sys.colors.text.info}",
+              "type": "color"
+            }
           }
         },
         "login": {
@@ -1921,6 +1939,10 @@
           },
           "text": {
             "value": "{sys.colors.text.onPrimaryHighContrast}",
+            "type": "color"
+          },
+          "helperText": {
+            "value": "{sys.colors.text.onPrimaryLowContrast}",
             "type": "color"
           }
         }
@@ -2013,27 +2035,41 @@
         "login": {
           "sidebar": {
             "padding": {
-              "value": "{ref.spacing.8}",
+              "value": "{ref.spacing.24}",
               "type": "spacing"
             },
             "gap": {
-              "value": "{ref.spacing.4}",
+              "value": "{ref.spacing.6}",
               "type": "spacing"
             }
           }
         },
         "input": {
-          "x": {
-            "value": "{sys.spacing.input.x}",
-            "type": "spacing"
+          "text": {
+            "x": {
+              "value": "{sys.spacing.input.x}",
+              "type": "spacing"
+            },
+            "y": {
+              "value": "{sys.spacing.input.y}",
+              "type": "spacing"
+            },
+            "gap": {
+              "value": "{ref.spacing.3}",
+              "type": "spacing"
+            }
           },
-          "y": {
-            "value": "{sys.spacing.input.y}",
-            "type": "spacing"
+          "field": {
+            "gap": {
+              "value": "{ref.spacing.2}",
+              "type": "spacing"
+            }
           },
-          "gap": {
-            "value": "{ref.spacing.3}",
-            "type": "spacing"
+          "checkbox": {
+            "gap": {
+              "value": "{ref.spacing.3}",
+              "type": "spacing"
+            }
           }
         }
       },
@@ -2083,6 +2119,12 @@
           },
           "helper": {
             "value": "{sys.fontSize.action.desktop.sm}",
+            "type": "fontSizes"
+          }
+        },
+        "login": {
+          "sidebarHeader": {
+            "value": "{sys.fontSize.content.h4}",
             "type": "fontSizes"
           }
         }
@@ -2177,6 +2219,16 @@
         "content": {
           "pageHeading": {
             "value": "{sys.fontWeight.content.h1}",
+            "type": "fontWeights"
+          }
+        },
+        "input": {
+          "label": {
+            "value": "{sys.fontWeight.input.label}",
+            "type": "fontWeights"
+          },
+          "comment": {
+            "value": "{sys.fontWeight.content.p}",
             "type": "fontWeights"
           }
         }
@@ -2533,6 +2585,12 @@
           },
           "h1": {
             "value": "{ref.fontWeight.bold.bold}",
+            "type": "fontWeights"
+          }
+        },
+        "input": {
+          "label": {
+            "value": "{ref.fontWeight.bold.medium}",
             "type": "fontWeights"
           }
         }
