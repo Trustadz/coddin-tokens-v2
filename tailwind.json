@@ -1880,6 +1880,10 @@
           "icon": {
             "value": "{ref.colors.gray.500}",
             "type": "color"
+          },
+          "errorText": {
+            "value": "{ref.colors.red.600}",
+            "type": "color"
           }
         },
         "login": {
@@ -2041,6 +2045,16 @@
         "title": {
           "pageTitle": {
             "value": "{sys.fontSize.content.h1}",
+            "type": "fontSizes"
+          }
+        },
+        "input": {
+          "text": {
+            "value": "{sys.fontSize.action.desktop.md}",
+            "type": "fontSizes"
+          },
+          "helper": {
+            "value": "{sys.fontSize.action.desktop.sm}",
             "type": "fontSizes"
           }
         }
