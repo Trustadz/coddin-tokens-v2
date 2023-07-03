@@ -1835,6 +1835,62 @@
             "value": "{sys.colors.primary.50}",
             "type": "color"
           }
+        },
+        "input": {
+          "inactive": {
+            "text": {
+              "value": "{sys.colors.text.info}",
+              "type": "color"
+            },
+            "border": {
+              "value": "{sys.colors.text.info}",
+              "type": "color"
+            }
+          },
+          "active": {
+            "text": {
+              "value": "{sys.colors.text.paragraph}",
+              "type": "color"
+            },
+            "border": {
+              "value": "{sys.colors.primary.main.default}",
+              "type": "color"
+            }
+          },
+          "filled": {
+            "text": {
+              "value": "{sys.colors.text.paragraph}",
+              "type": "color"
+            },
+            "border": {
+              "value": "{sys.colors.text.paragraph}",
+              "type": "color"
+            }
+          },
+          "error": {
+            "text": {
+              "value": "{sys.colors.text.paragraph}",
+              "type": "color"
+            },
+            "border": {
+              "value": "{ref.colors.red.600}",
+              "type": "color"
+            }
+          },
+          "icon": {
+            "value": "{ref.colors.gray.500}",
+            "type": "color"
+          }
+        },
+        "login": {
+          "bg": {
+            "value": "{sys.colors.primary.main.default}",
+            "type": "color"
+          },
+          "text": {
+            "value": "{sys.colors.text.onPrimaryHighContrast}",
+            "type": "color"
+          }
         }
       },
       "spacing": {
@@ -1921,6 +1977,32 @@
               "type": "spacing"
             }
           }
+        },
+        "login": {
+          "sidebar": {
+            "padding": {
+              "value": "{ref.spacing.8}",
+              "type": "spacing"
+            },
+            "gap": {
+              "value": "{ref.spacing.4}",
+              "type": "spacing"
+            }
+          }
+        },
+        "input": {
+          "x": {
+            "value": "{sys.spacing.input.x}",
+            "type": "spacing"
+          },
+          "y": {
+            "value": "{sys.spacing.input.y}",
+            "type": "spacing"
+          },
+          "gap": {
+            "value": "{ref.spacing.3}",
+            "type": "spacing"
+          }
         }
       },
       "borderWidth": {
@@ -1931,6 +2013,10 @@
               "type": "borderWidth"
             }
           }
+        },
+        "input": {
+          "value": "{ref.borderWidth.1}",
+          "type": "borderWidth"
         }
       },
       "fontSize": {
@@ -1973,6 +2059,10 @@
             "value": "{sys.boxShadow.container.desktop}",
             "type": "boxShadow"
           }
+        },
+        "input": {
+          "value": "{sys.boxShadow.action.desktop.md}",
+          "type": "boxShadow"
         }
       },
       "borderRadius": {
@@ -1999,6 +2089,10 @@
             "value": "{sys.borderRadius.action.desktop.md}",
             "type": "borderRadius"
           }
+        },
+        "input": {
+          "value": "{sys.borderRadius.action.desktop.md}",
+          "type": "borderRadius"
         }
       },
       "fontFamily": {
@@ -2257,6 +2351,16 @@
           },
           "y": {
             "value": "{ref.spacing.1}",
+            "type": "spacing"
+          }
+        },
+        "input": {
+          "x": {
+            "value": "{ref.spacing.3}",
+            "type": "spacing"
+          },
+          "y": {
+            "value": "{ref.spacing.1-5}",
             "type": "spacing"
           }
         }
