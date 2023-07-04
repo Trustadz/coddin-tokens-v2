@@ -1977,7 +1977,7 @@
         "table": {
           "heading": {
             "bg": {
-              "value": "{sys.colors.primary.50}",
+              "value": "{sys.colors.primary.100}",
               "type": "color"
             },
             "text": {
@@ -1986,6 +1986,30 @@
             },
             "sorter": {
               "value": "{sys.colors.text.info}",
+              "type": "color"
+            }
+          },
+          "cell": {
+            "text": {
+              "value": "{sys.colors.text.paragraph}",
+              "type": "color"
+            },
+            "bgOdd": {
+              "value": "{sys.colors.white}",
+              "type": "color"
+            },
+            "bgEven": {
+              "value": "{sys.colors.primary.50}",
+              "type": "color"
+            }
+          },
+          "border": {
+            "inner": {
+              "value": "{ref.colors.gray.200}",
+              "type": "color"
+            },
+            "outer": {
+              "value": "{ref.colors.gray.300}",
               "type": "color"
             }
           }
@@ -2192,6 +2216,10 @@
           "heading": {
             "value": "{sys.fontSize.content.h5}",
             "type": "fontSizes"
+          },
+          "text": {
+            "value": "{sys.fontSize.content.p}",
+            "type": "fontSizes"
           }
         }
       },
@@ -2211,6 +2239,10 @@
           }
         },
         "input": {
+          "value": "{sys.boxShadow.action.desktop.md}",
+          "type": "boxShadow"
+        },
+        "table": {
           "value": "{sys.boxShadow.action.desktop.md}",
           "type": "boxShadow"
         }
@@ -2249,6 +2281,10 @@
             "value": "{sys.borderRadius.action.desktop.sm}",
             "type": "borderRadius"
           }
+        },
+        "table": {
+          "value": "{sys.borderRadius.container.desktop}",
+          "type": "borderRadius"
         }
       },
       "fontFamily": {
