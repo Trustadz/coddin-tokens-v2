@@ -1788,6 +1788,34 @@
                 }
               }
             }
+          },
+          "error": {
+            "bg": {
+              "value": "{ref.colors.red.600}",
+              "type": "color"
+            },
+            "text": {
+              "value": "{ref.colors.white}",
+              "type": "color"
+            },
+            "border": {
+              "value": "{ref.colors.red.300}",
+              "type": "color"
+            },
+            "hover": {
+              "bg": {
+                "value": "{ref.colors.red.500}",
+                "type": "color"
+              },
+              "text": {
+                "value": "{ref.colors.white}",
+                "type": "color"
+              },
+              "border": {
+                "value": "{ref.colors.red.500}",
+                "type": "color"
+              }
+            }
           }
         },
         "section": {
@@ -1945,6 +1973,22 @@
             "value": "{sys.colors.text.onPrimaryLowContrast}",
             "type": "color"
           }
+        },
+        "table": {
+          "heading": {
+            "bg": {
+              "value": "{sys.colors.primary.50}",
+              "type": "color"
+            },
+            "text": {
+              "value": "{sys.colors.text.heading}",
+              "type": "color"
+            },
+            "sorter": {
+              "value": "{sys.colors.text.info}",
+              "type": "color"
+            }
+          }
         }
       },
       "spacing": {
@@ -1957,6 +2001,10 @@
               },
               "y": {
                 "value": "{sys.spacing.action.desktop.md.y}",
+                "type": "spacing"
+              },
+              "gap": {
+                "value": "{sys.spacing.action.desktop.md.gap}",
                 "type": "spacing"
               }
             }
@@ -2071,6 +2119,18 @@
               "type": "spacing"
             }
           }
+        },
+        "table": {
+          "heading": {
+            "x": {
+              "value": "{comp.fontSize.table.heading}*2",
+              "type": "spacing"
+            },
+            "gap": {
+              "value": "{comp.fontSize.table.heading}*0.75",
+              "type": "spacing"
+            }
+          }
         }
       },
       "borderWidth": {
@@ -2125,6 +2185,12 @@
         "login": {
           "sidebarHeader": {
             "value": "{sys.fontSize.content.h4}",
+            "type": "fontSizes"
+          }
+        },
+        "table": {
+          "heading": {
+            "value": "{sys.fontSize.content.h5}",
             "type": "fontSizes"
           }
         }
@@ -2197,6 +2263,12 @@
         "headings": {
           "value": "{sys.fontFamily.heading}",
           "type": "fontFamilies"
+        },
+        "table": {
+          "heading": {
+            "value": "{sys.fontFamily.default}",
+            "type": "fontFamilies"
+          }
         }
       },
       "fontWeight": {
@@ -2231,6 +2303,12 @@
             "value": "{sys.fontWeight.content.p}",
             "type": "fontWeights"
           }
+        },
+        "table": {
+          "heading": {
+            "value": "{sys.fontWeight.action.desktop}",
+            "type": "fontWeights"
+          }
         }
       },
       "sizing": {
@@ -2243,6 +2321,12 @@
         "input": {
           "checkbox": {
             "value": "{ref.sizing.4}",
+            "type": "sizing"
+          }
+        },
+        "table": {
+          "heading": {
+            "value": "{comp.fontSize.table.heading}*2.5",
             "type": "sizing"
           }
         }
@@ -2433,6 +2517,10 @@
               },
               "y": {
                 "value": "{ref.spacing.2-5}",
+                "type": "spacing"
+              },
+              "gap": {
+                "value": "{ref.spacing.2}",
                 "type": "spacing"
               }
             }
