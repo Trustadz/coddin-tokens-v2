@@ -1864,6 +1864,20 @@
           "breadcrumbs": {
             "value": "{sys.colors.text.info}",
             "type": "color"
+          },
+          "tabs": {
+            "default": {
+              "value": "{sys.colors.text.paragraph}",
+              "type": "color"
+            },
+            "hover": {
+              "value": "{sys.colors.text.heading}",
+              "type": "color"
+            },
+            "active": {
+              "value": "{sys.colors.primary.main.default}",
+              "type": "color"
+            }
           }
         },
         "page": {
@@ -2013,6 +2027,16 @@
               "type": "color"
             }
           }
+        },
+        "profile": {
+          "name": {
+            "value": "{sys.colors.text.heading}",
+            "type": "color"
+          },
+          "title": {
+            "value": "{sys.colors.text.info}",
+            "type": "color"
+          }
         }
       },
       "spacing": {
@@ -2034,15 +2058,61 @@
             }
           }
         },
-        "section": {
-          "desktop": {
-            "x": {
-              "value": "{sys.spacing.container.desktop.x}",
-              "type": "spacing"
+        "page": {
+          "section": {
+            "desktop": {
+              "x": {
+                "value": "{sys.spacing.container.desktop.x}",
+                "type": "spacing"
+              },
+              "y": {
+                "value": "{sys.spacing.container.desktop.y}",
+                "type": "spacing"
+              },
+              "gap": {
+                "value": "{ref.spacing.10}",
+                "type": "spacing"
+              }
+            }
+          },
+          "wrapper": {
+            "content": {
+              "x": {
+                "value": "{ref.spacing.8}",
+                "type": "spacing"
+              },
+              "y": {
+                "value": "{ref.spacing.10}",
+                "type": "spacing"
+              },
+              "gap": {
+                "value": "{ref.spacing.10}",
+                "type": "spacing"
+              }
             },
-            "y": {
-              "value": "{sys.spacing.container.desktop.y}",
-              "type": "spacing"
+            "titel": {
+              "x": {
+                "value": "{comp.spacing.page.wrapper.content.x}",
+                "type": "spacing"
+              },
+              "y": {
+                "value": "{ref.spacing.3}",
+                "type": "spacing"
+              }
+            },
+            "page": {
+              "x": {
+                "value": "{ref.spacing.8}",
+                "type": "spacing"
+              },
+              "y": {
+                "value": "{ref.spacing.6}",
+                "type": "spacing"
+              },
+              "gap": {
+                "value": "{ref.spacing.10}",
+                "type": "spacing"
+              }
             }
           }
         },
@@ -2070,6 +2140,20 @@
               "value": "{ref.spacing.4}",
               "type": "spacing"
             }
+          },
+          "tabs": {
+            "x": {
+              "value": "{ref.spacing.1}",
+              "type": "spacing"
+            },
+            "y": {
+              "value": "{ref.spacing.4}",
+              "type": "spacing"
+            },
+            "gap": {
+              "value": "{ref.spacing.2}",
+              "type": "spacing"
+            }
           }
         },
         "badge": {
@@ -2080,28 +2164,6 @@
           "y": {
             "value": "{sys.spacing.highlight.y}",
             "type": "spacing"
-          }
-        },
-        "pageWrapper": {
-          "contentWrapper": {
-            "x": {
-              "value": "{ref.spacing.8}",
-              "type": "spacing"
-            },
-            "y": {
-              "value": "{ref.spacing.10}",
-              "type": "spacing"
-            }
-          },
-          "titelWrapper": {
-            "x": {
-              "value": "{comp.spacing.pageWrapper.contentWrapper.x}",
-              "type": "spacing"
-            },
-            "y": {
-              "value": "{ref.spacing.3}",
-              "type": "spacing"
-            }
           }
         },
         "login": {
@@ -2188,6 +2250,10 @@
           "breadcrumbs": {
             "value": "{sys.fontSize.action.desktop.sm}",
             "type": "fontSizes"
+          },
+          "tabs": {
+            "value": "{sys.fontSize.content.p}",
+            "type": "fontSizes"
           }
         },
         "title": {
@@ -2219,6 +2285,16 @@
           },
           "text": {
             "value": "{sys.fontSize.content.p}",
+            "type": "fontSizes"
+          }
+        },
+        "profile": {
+          "name": {
+            "value": "{sys.fontSize.content.h4}",
+            "type": "fontSizes"
+          },
+          "title": {
+            "value": "{sys.fontSize.content.h6}",
             "type": "fontSizes"
           }
         }
@@ -2322,6 +2398,10 @@
           "breadcrumbs": {
             "value": "{sys.fontWeight.action.desktop}",
             "type": "fontWeights"
+          },
+          "tabs": {
+            "value": "{ref.fontWeight.bold.medium}",
+            "type": "fontWeights"
           }
         },
         "content": {
@@ -2345,6 +2425,16 @@
             "value": "{sys.fontWeight.action.desktop}",
             "type": "fontWeights"
           }
+        },
+        "profile": {
+          "name": {
+            "value": "{sys.fontWeight.content.h4}",
+            "type": "fontWeights"
+          },
+          "title": {
+            "value": "{sys.fontWeight.content.h6}",
+            "type": "fontWeights"
+          }
         }
       },
       "sizing": {
@@ -2364,6 +2454,24 @@
           "heading": {
             "value": "{comp.fontSize.table.heading}*2.5",
             "type": "sizing"
+          }
+        }
+      },
+      "navigation": {
+        "tabs": {
+          "value": "{sys.fontFamily.default}",
+          "type": "fontFamilies"
+        }
+      },
+      "profile": {
+        "header": {
+          "name": {
+            "value": "{sys.fontFamily.heading}",
+            "type": "fontFamilies"
+          },
+          "title": {
+            "value": "{sys.fontFamily.default}",
+            "type": "fontFamilies"
           }
         }
       }
