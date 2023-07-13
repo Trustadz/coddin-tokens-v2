@@ -2264,6 +2264,10 @@
           "tabs": {
             "value": "{sys.fontSize.content.p}",
             "type": "fontSizes"
+          },
+          "systemButton": {
+            "value": "{sys.fontSize.action.desktop.sm}",
+            "type": "fontSizes"
           }
         },
         "title": {
@@ -2415,6 +2419,10 @@
           },
           "tabs": {
             "value": "{ref.fontWeight.bold.medium}",
+            "type": "fontWeights"
+          },
+          "explainer": {
+            "value": "{sys.fontWeight.content.p}",
             "type": "fontWeights"
           }
         },
