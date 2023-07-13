@@ -2197,6 +2197,12 @@
             "gap": {
               "value": "{ref.spacing.2}",
               "type": "spacing"
+            },
+            "labelLeft": {
+              "y": {
+                "value": "{ref.spacing.6}",
+                "type": "spacing"
+              }
             }
           },
           "checkbox": {
