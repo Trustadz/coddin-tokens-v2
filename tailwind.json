@@ -1965,7 +1965,7 @@
           },
           "label": {
             "label": {
-              "value": "{sys.colors.text.heading}",
+              "value": "{sys.colors.text.paragraph}",
               "type": "color"
             },
             "comment": {
