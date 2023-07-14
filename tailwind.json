@@ -2227,6 +2227,18 @@
               "type": "spacing"
             }
           }
+        },
+        "form": {
+          "labelTop": {
+            "gap": {
+              "value": "{ref.spacing.6}",
+              "type": "spacing"
+            },
+            "y": {
+              "value": "{ref.spacing.10}",
+              "type": "spacing"
+            }
+          }
         }
       },
       "borderWidth": {
@@ -2869,6 +2881,16 @@
         "hyperlink": {
           "value": "{ref.textDecoration.underline}",
           "type": "textDecoration"
+        }
+      },
+      "typography": {
+        "h6": {
+          "value": {
+            "fontFamily": "{sys.fontFamily.heading}",
+            "fontWeight": "{sys.fontWeight.content.h6}",
+            "fontSize": "{sys.fontSize.content.h6}"
+          },
+          "type": "typography"
         }
       }
     }
