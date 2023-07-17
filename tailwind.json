@@ -1867,16 +1867,78 @@
           },
           "tabs": {
             "default": {
-              "value": "{sys.colors.text.paragraph}",
+              "value": "{sys.colors.text.info}",
               "type": "color"
             },
             "hover": {
-              "value": "{sys.colors.text.heading}",
+              "value": "{sys.colors.text.infoAccent}",
               "type": "color"
             },
             "active": {
               "value": "{sys.colors.primary.main.default}",
               "type": "color"
+            },
+            "borderBottom": {
+              "value": "{sys.colors.text.infoBg}",
+              "type": "color"
+            }
+          },
+          "pagination": {
+            "buttons": {
+              "button": {
+                "active": {
+                  "bg": {
+                    "value": "{comp.colors.button.primary.default.bg}",
+                    "type": "color"
+                  },
+                  "text": {
+                    "value": "{comp.colors.button.primary.default.text}",
+                    "type": "color"
+                  }
+                },
+                "inactive": {
+                  "bg": {
+                    "value": "{comp.colors.section.bg}",
+                    "type": "color"
+                  },
+                  "border": {
+                    "value": "{ref.colors.gray.300}",
+                    "type": "color"
+                  },
+                  "text": {
+                    "value": "{sys.colors.text.heading}",
+                    "type": "color"
+                  },
+                  "icon": {
+                    "value": "{ref.colors.gray.400}",
+                    "type": "color"
+                  },
+                  "hover": {
+                    "bg": {
+                      "value": "{ref.colors.gray.50}",
+                      "type": "color"
+                    }
+                  }
+                }
+              }
+            },
+            "centered": {
+              "text": {
+                "value": "{sys.colors.text.infoAccent}",
+                "type": "color"
+              },
+              "borderInactive": {
+                "value": "{sys.colors.text.infoBg}",
+                "type": "color"
+              },
+              "active": {
+                "value": "{sys.colors.primary.main.default}",
+                "type": "color"
+              },
+              "borderActive": {
+                "value": "{ref.colors.gray.300}",
+                "type": "color"
+              }
             }
           }
         },
@@ -2146,17 +2208,61 @@
             }
           },
           "tabs": {
-            "x": {
-              "value": "{ref.spacing.1}",
-              "type": "spacing"
-            },
-            "y": {
-              "value": "{ref.spacing.4}",
-              "type": "spacing"
+            "tab": {
+              "x": {
+                "value": "{ref.spacing.1}",
+                "type": "spacing"
+              },
+              "y": {
+                "value": "{ref.spacing.4}",
+                "type": "spacing"
+              },
+              "gap": {
+                "value": "{ref.spacing.2}",
+                "type": "spacing"
+              }
             },
             "gap": {
-              "value": "{ref.spacing.2}",
+              "value": "{ref.spacing.8}",
               "type": "spacing"
+            }
+          },
+          "pagination": {
+            "buttons": {
+              "button": {
+                "x": {
+                  "value": "{ref.spacing.4}",
+                  "type": "spacing"
+                },
+                "y": {
+                  "value": "{ref.spacing.2}",
+                  "type": "spacing"
+                }
+              }
+            },
+            "wrapper": {
+              "x": {
+                "value": "{ref.spacing.4}",
+                "type": "spacing"
+              },
+              "y": {
+                "value": "{ref.spacing.3}",
+                "type": "spacing"
+              }
+            },
+            "centered": {
+              "x": {
+                "value": "{ref.spacing.4}",
+                "type": "spacing"
+              },
+              "top": {
+                "value": "{ref.spacing.4}",
+                "type": "spacing"
+              },
+              "bottom": {
+                "value": "{ref.spacing.0}",
+                "type": "spacing"
+              }
             }
           }
         },
@@ -2273,6 +2379,10 @@
             "value": "{sys.fontSize.action.desktop.sm}",
             "type": "fontSizes"
           },
+          "breadcrumbsCentered": {
+            "value": "{sys.fontSize.action.desktop.md}",
+            "type": "fontSizes"
+          },
           "tabs": {
             "value": "{sys.fontSize.content.p}",
             "type": "fontSizes"
@@ -2280,6 +2390,12 @@
           "systemButton": {
             "value": "{sys.fontSize.action.desktop.sm}",
             "type": "fontSizes"
+          },
+          "pagination": {
+            "buttons": {
+              "value": "{ref.fontSize.sm}",
+              "type": "fontSizes"
+            }
           }
         },
         "title": {
@@ -2351,6 +2467,12 @@
         "table": {
           "value": "{sys.boxShadow.action.desktop.md}",
           "type": "boxShadow"
+        },
+        "pagination": {
+          "buttonWrapper": {
+            "value": "{sys.boxShadow.action.desktop.md}",
+            "type": "boxShadow"
+          }
         }
       },
       "borderRadius": {
@@ -2376,6 +2498,12 @@
           "button": {
             "value": "{sys.borderRadius.action.desktop.md}",
             "type": "borderRadius"
+          },
+          "breadcrumbs": {
+            "buttonWrapper": {
+              "value": "{sys.borderRadius.action.desktop.md}",
+              "type": "borderRadius"
+            }
           }
         },
         "input": {
@@ -2436,6 +2564,24 @@
           "explainer": {
             "value": "{sys.fontWeight.content.p}",
             "type": "fontWeights"
+          },
+          "pagination": {
+            "button": {
+              "value": "{sys.fontWeight.action.desktop}",
+              "type": "fontWeights"
+            },
+            "text": {
+              "value": "{sys.fontWeight.content.p}",
+              "type": "fontWeights"
+            },
+            "number": {
+              "value": "{sys.fontWeight.content.h6}",
+              "type": "fontWeights"
+            },
+            "centered": {
+              "value": "{sys.fontWeight.input.label}",
+              "type": "fontWeights"
+            }
           }
         },
         "content": {
@@ -2499,6 +2645,10 @@
         "tabs": {
           "value": "{sys.fontFamily.default}",
           "type": "fontFamilies"
+        },
+        "breadcrumbs": {
+          "value": "{comp.fontFamily.button}",
+          "type": "fontFamilies"
         }
       },
       "profile": {
@@ -2510,6 +2660,16 @@
           "title": {
             "value": "{sys.fontFamily.default}",
             "type": "fontFamilies"
+          }
+        }
+      },
+      "lineHeight": {
+        "navigation": {
+          "pagination": {
+            "buttons": {
+              "value": "{ref.lineHeight.sm}",
+              "type": "lineHeights"
+            }
           }
         }
       }
@@ -2669,6 +2829,14 @@
           },
           "hyperlink": {
             "value": "{sys.colors.primary.main.default}",
+            "type": "color"
+          },
+          "infoAccent": {
+            "value": "{ref.colors.gray.500}",
+            "type": "color"
+          },
+          "infoBg": {
+            "value": "{ref.colors.gray.200}",
             "type": "color"
           }
         }
