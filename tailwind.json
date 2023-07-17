@@ -1816,6 +1816,146 @@
                 "type": "color"
               }
             }
+          },
+          "success": {
+            "bg": {
+              "value": "{ref.colors.green.600}",
+              "type": "color"
+            },
+            "text": {
+              "value": "{ref.colors.white}",
+              "type": "color"
+            },
+            "border": {
+              "value": "{ref.colors.green.300}",
+              "type": "color"
+            },
+            "hover": {
+              "bg": {
+                "value": "{ref.colors.green.500}",
+                "type": "color"
+              },
+              "text": {
+                "value": "{ref.colors.white}",
+                "type": "color"
+              },
+              "border": {
+                "value": "{ref.colors.green.500}",
+                "type": "color"
+              }
+            }
+          },
+          "warning": {
+            "bg": {
+              "value": "{ref.colors.amber.600}",
+              "type": "color"
+            },
+            "text": {
+              "value": "{ref.colors.white}",
+              "type": "color"
+            },
+            "border": {
+              "value": "{ref.colors.amber.300}",
+              "type": "color"
+            },
+            "hover": {
+              "bg": {
+                "value": "{ref.colors.amber.500}",
+                "type": "color"
+              },
+              "text": {
+                "value": "{ref.colors.white}",
+                "type": "color"
+              },
+              "border": {
+                "value": "{ref.colors.amber.500}",
+                "type": "color"
+              }
+            }
+          },
+          "info": {
+            "bg": {
+              "value": "{ref.colors.blue.600}",
+              "type": "color"
+            },
+            "text": {
+              "value": "{ref.colors.white}",
+              "type": "color"
+            },
+            "border": {
+              "value": "{ref.colors.blue.300}",
+              "type": "color"
+            },
+            "hover": {
+              "bg": {
+                "value": "{ref.colors.blue.500}",
+                "type": "color"
+              },
+              "text": {
+                "value": "{ref.colors.white}",
+                "type": "color"
+              },
+              "border": {
+                "value": "{ref.colors.blue.500}",
+                "type": "color"
+              }
+            }
+          },
+          "disabled": {
+            "bg": {
+              "value": "{sys.colors.text.infoBg}",
+              "type": "color"
+            },
+            "text": {
+              "value": "{sys.colors.text.paragraph}",
+              "type": "color"
+            },
+            "border": {
+              "value": "{sys.colors.text.infoBg}",
+              "type": "color"
+            },
+            "hover": {
+              "bg": {
+                "value": "{sys.colors.text.info}",
+                "type": "color"
+              },
+              "text": {
+                "value": "{sys.colors.text.paragraph}",
+                "type": "color"
+              },
+              "border": {
+                "value": "{sys.colors.text.info}",
+                "type": "color"
+              }
+            }
+          },
+          "contrast": {
+            "bg": {
+              "value": "{comp.colors.section.bg}",
+              "type": "color"
+            },
+            "text": {
+              "value": "{sys.colors.text.paragraph}",
+              "type": "color"
+            },
+            "border": {
+              "value": "{comp.colors.section.bg}",
+              "type": "color"
+            },
+            "hover": {
+              "bg": {
+                "value": "{comp.colors.page.bg}",
+                "type": "color"
+              },
+              "text": {
+                "value": "{sys.colors.text.paragraph}",
+                "type": "color"
+              },
+              "border": {
+                "value": "{comp.colors.page.bg}",
+                "type": "color"
+              }
+            }
           }
         },
         "section": {
@@ -2038,6 +2178,20 @@
           "divider": {
             "value": "{ref.colors.gray.300}",
             "type": "color"
+          },
+          "toggle": {
+            "inactiveBg": {
+              "value": "{sys.colors.text.infoBg}",
+              "type": "color"
+            },
+            "button": {
+              "value": "{sys.colors.text.onPrimaryHighContrast}",
+              "type": "color"
+            },
+            "activeBg": {
+              "value": "{sys.colors.primary.main.default}",
+              "type": "color"
+            }
           }
         },
         "login": {
@@ -2320,6 +2474,10 @@
               "value": "{ref.spacing.3}",
               "type": "spacing"
             }
+          },
+          "toggle": {
+            "value": "{comp.sizing.input.toggle.h} - {comp.sizing.input.toggle.button}",
+            "type": "spacing"
           }
         },
         "table": {
@@ -2514,6 +2672,10 @@
           "checkbox": {
             "value": "{sys.borderRadius.action.desktop.sm}",
             "type": "borderRadius"
+          },
+          "toggle": {
+            "value": "{sys.borderRadius.action.desktop.toggle}",
+            "type": "borderRadius"
           }
         },
         "table": {
@@ -2632,6 +2794,20 @@
           "checkbox": {
             "value": "{ref.sizing.4}",
             "type": "sizing"
+          },
+          "toggle": {
+            "w": {
+              "value": "{ref.sizing.11}",
+              "type": "sizing"
+            },
+            "h": {
+              "value": "{ref.sizing.6}",
+              "type": "sizing"
+            },
+            "button": {
+              "value": "{ref.sizing.5}",
+              "type": "sizing"
+            }
           }
         },
         "table": {
@@ -2850,6 +3026,10 @@
             },
             "sm": {
               "value": "{ref.borderRadius.base}",
+              "type": "borderRadius"
+            },
+            "toggle": {
+              "value": "{ref.borderRadius.full}",
               "type": "borderRadius"
             }
           }
