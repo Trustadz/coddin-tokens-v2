@@ -3028,6 +3028,22 @@
           "sectionBg": {
             "value": "{sys.colors.white}",
             "type": "color"
+          },
+          "actionBg": {
+            "value": "{sys.colors.primary.50}",
+            "type": "color"
+          },
+          "actionBgHeading": {
+            "value": "{sys.colors.primary.200}",
+            "type": "color"
+          },
+          "divider": {
+            "value": "{ref.colors.gray.200}",
+            "type": "color"
+          },
+          "sectionAction": {
+            "value": "{sys.colors.white}",
+            "type": "color"
           }
         }
       },
