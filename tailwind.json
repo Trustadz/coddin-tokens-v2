@@ -1960,7 +1960,7 @@
         },
         "section": {
           "bg": {
-            "value": "{sys.colors.white}",
+            "value": "{sys.colors.others.sectionBg}",
             "type": "color"
           }
         },
@@ -2055,7 +2055,7 @@
                   },
                   "hover": {
                     "bg": {
-                      "value": "{ref.colors.gray.50}",
+                      "value": "{sys.colors.others.sectionAction}",
                       "type": "color"
                     }
                   }
@@ -2192,6 +2192,10 @@
               "value": "{sys.colors.primary.main.default}",
               "type": "color"
             }
+          },
+          "bg": {
+            "value": "{sys.colors.others.sectionAction}",
+            "type": "color"
           }
         },
         "login": {
@@ -2239,7 +2243,7 @@
           },
           "border": {
             "inner": {
-              "value": "{ref.colors.gray.200}",
+              "value": "{sys.colors.others.divider}",
               "type": "color"
             },
             "outer": {
@@ -3015,6 +3019,16 @@
             "value": "{ref.colors.gray.200}",
             "type": "color"
           }
+        },
+        "others": {
+          "pageBg": {
+            "value": "{sys.colors.primary.50}",
+            "type": "color"
+          },
+          "sectionBg": {
+            "value": "{sys.colors.white}",
+            "type": "color"
+          }
         }
       },
       "borderRadius": {
@@ -3243,52 +3257,52 @@
       }
     }
   },
-  "testTheme": {
+  "theming_Copy": {
     "sys": {
       "colors": {
         "primary": {
           "50": {
-            "value": "{ref.colors.emerald.50}",
+            "value": "{ref.colors.sky.50}",
             "type": "color"
           },
           "100": {
-            "value": "{ref.colors.emerald.100}",
+            "value": "{ref.colors.sky.100}",
             "type": "color"
           },
           "200": {
-            "value": "{ref.colors.emerald.200}",
+            "value": "{ref.colors.sky.200}",
             "type": "color"
           },
           "300": {
-            "value": "{ref.colors.emerald.300}",
+            "value": "{ref.colors.sky.300}",
             "type": "color"
           },
           "400": {
-            "value": "{ref.colors.emerald.400}",
+            "value": "{ref.colors.sky.400}",
             "type": "color"
           },
           "500": {
-            "value": "{ref.colors.emerald.500}",
+            "value": "{ref.colors.sky.500}",
             "type": "color"
           },
           "600": {
-            "value": "{ref.colors.emerald.600}",
+            "value": "{ref.colors.sky.600}",
             "type": "color"
           },
           "700": {
-            "value": "{ref.colors.emerald.700}",
+            "value": "{ref.colors.sky.700}",
             "type": "color"
           },
           "800": {
-            "value": "{ref.colors.emerald.800}",
+            "value": "{ref.colors.sky.800}",
             "type": "color"
           },
           "900": {
-            "value": "{ref.colors.emerald.900}",
+            "value": "{ref.colors.sky.900}",
             "type": "color"
           },
           "950": {
-            "value": "{ref.colors.indigo.950}",
+            "value": "{ref.colors.sky.950}",
             "type": "color"
           },
           "main": {
@@ -3308,47 +3322,47 @@
         },
         "secondary": {
           "50": {
-            "value": "{ref.colors.blue.50}",
+            "value": "{ref.colors.lime.50}",
             "type": "color"
           },
           "100": {
-            "value": "{ref.colors.blue.100}",
+            "value": "{ref.colors.lime.100}",
             "type": "color"
           },
           "200": {
-            "value": "{ref.colors.blue.200}",
+            "value": "{ref.colors.lime.200}",
             "type": "color"
           },
           "300": {
-            "value": "{ref.colors.blue.300}",
+            "value": "{ref.colors.lime.300}",
             "type": "color"
           },
           "400": {
-            "value": "{ref.colors.blue.400}",
+            "value": "{ref.colors.lime.400}",
             "type": "color"
           },
           "500": {
-            "value": "{ref.colors.blue.500}",
+            "value": "{ref.colors.lime.500}",
             "type": "color"
           },
           "600": {
-            "value": "{ref.colors.blue.600}",
+            "value": "{ref.colors.lime.600}",
             "type": "color"
           },
           "700": {
-            "value": "{ref.colors.blue.700}",
+            "value": "{ref.colors.lime.700}",
             "type": "color"
           },
           "800": {
-            "value": "{ref.colors.blue.800}",
+            "value": "{ref.colors.lime.800}",
             "type": "color"
           },
           "900": {
-            "value": "{ref.colors.blue.900}",
+            "value": "{ref.colors.lime.900}",
             "type": "color"
           },
           "950": {
-            "value": "{ref.colors.blue.950}",
+            "value": "{ref.colors.lime.950}",
             "type": "color"
           },
           "main": {
@@ -3384,11 +3398,11 @@
             "type": "color"
           },
           "paragraph": {
-            "value": "{ref.colors.gray.700}",
+            "value": "{ref.colors.gray.200}",
             "type": "color"
           },
           "heading": {
-            "value": "{ref.colors.gray.900}",
+            "value": "{ref.colors.gray.50}",
             "type": "color"
           },
           "info": {
@@ -3397,6 +3411,40 @@
           },
           "hyperlink": {
             "value": "{sys.colors.primary.main.default}",
+            "type": "color"
+          },
+          "infoAccent": {
+            "value": "{ref.colors.gray.500}",
+            "type": "color"
+          },
+          "infoBg": {
+            "value": "{ref.colors.gray.200}",
+            "type": "color"
+          }
+        },
+        "others": {
+          "pageBg": {
+            "value": "{ref.colors.gray.900}",
+            "type": "color"
+          },
+          "sectionBg": {
+            "value": "{ref.colors.gray.700}",
+            "type": "color"
+          },
+          "actionBg": {
+            "value": "{sys.colors.primary.700}",
+            "type": "color"
+          },
+          "actionBgHeading": {
+            "value": "{sys.colors.primary.800}",
+            "type": "color"
+          },
+          "divider": {
+            "value": "{ref.colors.gray.500}",
+            "type": "color"
+          },
+          "sectionAction": {
+            "value": "{ref.colors.gray.600}",
             "type": "color"
           }
         }
@@ -3410,6 +3458,10 @@
             },
             "sm": {
               "value": "{ref.borderRadius.base}",
+              "type": "borderRadius"
+            },
+            "toggle": {
+              "value": "{ref.borderRadius.full}",
               "type": "borderRadius"
             }
           }
@@ -3610,6 +3662,16 @@
           "value": "{ref.textDecoration.underline}",
           "type": "textDecoration"
         }
+      },
+      "typography": {
+        "h6": {
+          "value": {
+            "fontFamily": "{sys.fontFamily.heading}",
+            "fontWeight": "{sys.fontWeight.content.h6}",
+            "fontSize": "{sys.fontSize.content.h6}"
+          },
+          "type": "typography"
+        }
       }
     }
   },
@@ -3619,7 +3681,7 @@
       "tailwind",
       "components",
       "theming",
-      "testTheme"
+      "theming_Copy"
     ]
   }
 }
