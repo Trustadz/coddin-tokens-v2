@@ -2494,6 +2494,12 @@
               "value": "{comp.fontSize.table.heading}*0.75",
               "type": "spacing"
             }
+          },
+          "cell": {
+            "y": {
+              "value": "{ref.spacing.2}",
+              "type": "spacing"
+            }
           }
         },
         "form": {
@@ -2817,6 +2823,10 @@
         "table": {
           "heading": {
             "value": "{comp.fontSize.table.heading}*2.5",
+            "type": "sizing"
+          },
+          "largeRow": {
+            "value": "144",
             "type": "sizing"
           }
         }
