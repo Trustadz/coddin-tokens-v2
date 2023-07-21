@@ -3284,7 +3284,7 @@
       }
     }
   },
-  "theming_Copy": {
+  "brands/example": {
     "sys": {
       "colors": {
         "primary": {
@@ -3708,7 +3708,7 @@
       "tailwind",
       "components",
       "theming",
-      "theming_Copy"
+      "brands/example"
     ]
   }
 }
