@@ -2916,7 +2916,8 @@
           "main": {
             "default": {
               "value": "{sys.colors.primary.600}",
-              "type": "color"
+              "type": "color",
+              "description": "Main color of the branding, used for primary buttons, sidebar, etc."
             },
             "+100": {
               "value": "{sys.colors.primary.700}",
