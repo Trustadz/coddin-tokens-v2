@@ -2529,90 +2529,6 @@
           "type": "border"
         }
       },
-      "fontSize": {
-        "button": {
-          "desktop": {
-            "md": {
-              "value": "{sys.fontSize.action.desktop.md}",
-              "type": "fontSizes"
-            }
-          }
-        },
-        "navigation": {
-          "button": {
-            "value": "{sys.fontSize.action.desktop.md}",
-            "type": "fontSizes"
-          },
-          "breadcrumbs": {
-            "value": "{sys.fontSize.action.desktop.sm}",
-            "type": "fontSizes"
-          },
-          "breadcrumbsCentered": {
-            "value": "{sys.fontSize.action.desktop.md}",
-            "type": "fontSizes"
-          },
-          "tabs": {
-            "value": "{sys.fontSize.content.p}",
-            "type": "fontSizes"
-          },
-          "systemButton": {
-            "value": "{sys.fontSize.action.desktop.sm}",
-            "type": "fontSizes"
-          },
-          "pagination": {
-            "buttons": {
-              "value": "{ref.fontSize.sm}",
-              "type": "fontSizes"
-            }
-          }
-        },
-        "title": {
-          "pageTitle": {
-            "value": "{sys.fontSize.content.h1}",
-            "type": "fontSizes"
-          },
-          "sectionTitle": {
-            "value": "{sys.fontSize.content.h2}",
-            "type": "fontSizes"
-          }
-        },
-        "input": {
-          "text": {
-            "value": "{sys.fontSize.action.desktop.md}",
-            "type": "fontSizes"
-          },
-          "helper": {
-            "value": "{sys.fontSize.action.desktop.sm}",
-            "type": "fontSizes"
-          }
-        },
-        "login": {
-          "sidebarHeader": {
-            "value": "{sys.fontSize.content.h4}",
-            "type": "fontSizes"
-          }
-        },
-        "table": {
-          "heading": {
-            "value": "{sys.fontSize.content.h5}",
-            "type": "fontSizes"
-          },
-          "text": {
-            "value": "{sys.fontSize.content.p}",
-            "type": "fontSizes"
-          }
-        },
-        "profile": {
-          "name": {
-            "value": "{sys.fontSize.content.h4}",
-            "type": "fontSizes"
-          },
-          "title": {
-            "value": "{sys.fontSize.content.h6}",
-            "type": "fontSizes"
-          }
-        }
-      },
       "boxShadow": {
         "button": {
           "desktop": {
@@ -2693,112 +2609,6 @@
           "type": "borderRadius"
         }
       },
-      "fontFamily": {
-        "button": {
-          "value": "{sys.fontFamily.default}",
-          "type": "fontFamilies"
-        },
-        "navigation": {
-          "value": "{sys.fontFamily.default}",
-          "type": "fontFamilies"
-        },
-        "headings": {
-          "value": "{sys.fontFamily.heading}",
-          "type": "fontFamilies"
-        },
-        "table": {
-          "heading": {
-            "value": "{sys.fontFamily.default}",
-            "type": "fontFamilies"
-          }
-        }
-      },
-      "fontWeight": {
-        "button": {
-          "desktop": {
-            "value": "{sys.fontWeight.action.desktop}",
-            "type": "fontWeights"
-          }
-        },
-        "navigation": {
-          "button": {
-            "value": "{sys.fontWeight.action.desktop}",
-            "type": "fontWeights"
-          },
-          "breadcrumbs": {
-            "value": "{sys.fontWeight.action.desktop}",
-            "type": "fontWeights"
-          },
-          "tabs": {
-            "value": "{ref.fontWeight.bold.medium}",
-            "type": "fontWeights"
-          },
-          "explainer": {
-            "value": "{sys.fontWeight.content.p}",
-            "type": "fontWeights"
-          },
-          "pagination": {
-            "button": {
-              "value": "{sys.fontWeight.action.desktop}",
-              "type": "fontWeights"
-            },
-            "text": {
-              "value": "{sys.fontWeight.content.p}",
-              "type": "fontWeights"
-            },
-            "number": {
-              "value": "{sys.fontWeight.content.h6}",
-              "type": "fontWeights"
-            },
-            "centered": {
-              "value": "{sys.fontWeight.input.label}",
-              "type": "fontWeights"
-            }
-          }
-        },
-        "content": {
-          "pageHeading": {
-            "value": "{sys.fontWeight.content.h1}",
-            "type": "fontWeights"
-          },
-          "sectionHeading": {
-            "value": "{sys.fontWeight.content.h2}",
-            "type": "fontWeights"
-          }
-        },
-        "input": {
-          "label": {
-            "value": "{sys.fontWeight.input.label}",
-            "type": "fontWeights"
-          },
-          "comment": {
-            "value": "{sys.fontWeight.content.p}",
-            "type": "fontWeights"
-          }
-        },
-        "table": {
-          "heading": {
-            "value": "{sys.fontWeight.action.desktop}",
-            "type": "fontWeights"
-          }
-        },
-        "profile": {
-          "name": {
-            "value": "{sys.fontWeight.content.h4}",
-            "type": "fontWeights"
-          },
-          "title": {
-            "value": "{sys.fontWeight.content.h6}",
-            "type": "fontWeights"
-          }
-        },
-        "pagination": {
-          "variableText": {
-            "value": "{ref.fontWeight.bold.semibold}",
-            "type": "fontWeights"
-          }
-        }
-      },
       "sizing": {
         "navigation": {
           "avatar": {
@@ -2827,35 +2637,9 @@
           }
         },
         "table": {
-          "heading": {
-            "value": "{comp.fontSize.table.heading}*2.5",
-            "type": "sizing"
-          },
           "largeRow": {
             "value": "144",
             "type": "sizing"
-          }
-        }
-      },
-      "navigation": {
-        "tabs": {
-          "value": "{sys.fontFamily.default}",
-          "type": "fontFamilies"
-        },
-        "breadcrumbs": {
-          "value": "{comp.fontFamily.button}",
-          "type": "fontFamilies"
-        }
-      },
-      "profile": {
-        "header": {
-          "name": {
-            "value": "{sys.fontFamily.heading}",
-            "type": "fontFamilies"
-          },
-          "title": {
-            "value": "{sys.fontFamily.default}",
-            "type": "fontFamilies"
           }
         }
       },
@@ -2957,7 +2741,7 @@
             }
           },
           "login": {
-            "undertitel": {
+            "sectionTitle": {
               "value": "{sys.typography.display.md}",
               "type": "typography"
             },
@@ -2967,6 +2751,28 @@
             },
             "forgotPassword": {
               "value": "{sys.typography.button.md}",
+              "type": "typography"
+            },
+            "name": {
+              "value": "{sys.typography.heading.md}",
+              "type": "typography"
+            },
+            "underTitle": {
+              "value": "{sys.typography.heading.sm}",
+              "type": "typography"
+            },
+            "sectionValue": {
+              "value": "{sys.typography.heading.sm}",
+              "type": "typography"
+            }
+          },
+          "form": {
+            "helperText": {
+              "value": "{sys.typography.body.sm}",
+              "type": "typography"
+            },
+            "sectionLabel": {
+              "value": "{sys.typography.heading.sm}",
               "type": "typography"
             }
           }
