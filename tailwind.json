@@ -199,6 +199,10 @@
         "3-5": {
           "value": "0.875rem",
           "type": "spacing"
+        },
+        "auto": {
+          "value": "auto",
+          "type": "spacing"
         }
       },
       "colors": {
@@ -2787,6 +2791,12 @@
             "value": "{sys.fontWeight.content.h6}",
             "type": "fontWeights"
           }
+        },
+        "pagination": {
+          "variableText": {
+            "value": "{ref.fontWeight.bold.semibold}",
+            "type": "fontWeights"
+          }
         }
       },
       "sizing": {
@@ -2860,18 +2870,104 @@
         }
       },
       "typography": {
-        "button": {
-          "desktop": {
-            "md": {
-              "value": {
-                "fontSize": "{ref.fontSize.sm}",
-                "lineHeight": "{ref.lineHeight.sm}",
-                "fontWeight": "{ref.fontWeight.bold.semibold}",
-                "fontFamily": "{sys.fontFamily.default}",
-                "textCase": "{ref.textCase.capitalize}"
+        "atom": {
+          "button": {
+            "desktop": {
+              "md": {
+                "value": "{sys.typography.button.md}",
+                "type": "typography",
+                "description": "Button typography"
+              }
+            }
+          },
+          "navigation": {
+            "button": {
+              "default": {
+                "value": "{sys.typography.button.md}",
+                "type": "typography"
               },
-              "type": "typography",
-              "description": "Button typography"
+              "badge": {
+                "value": "{sys.typography.button.sm}",
+                "type": "typography"
+              },
+              "settings": {
+                "value": "{sys.typography.button.sm}",
+                "type": "typography"
+              },
+              "profile": {
+                "name": {
+                  "value": "{sys.typography.button.sm}",
+                  "type": "typography"
+                },
+                "buttonTxt": {
+                  "value": "{sys.typography.body.sm}",
+                  "type": "typography"
+                }
+              }
+            }
+          },
+          "input": {
+            "helper": {
+              "value": "{sys.typography.body.sm}",
+              "type": "typography"
+            },
+            "input": {
+              "value": "{sys.typography.body.md}",
+              "type": "typography"
+            },
+            "label": {
+              "value": "{sys.typography.body.md}",
+              "type": "typography"
+            },
+            "labelHelp": {
+              "value": "{sys.typography.body.sm}",
+              "type": "typography"
+            }
+          },
+          "table": {
+            "heading": {
+              "value": "{sys.typography.heading.md}",
+              "type": "typography"
+            },
+            "cell": {
+              "value": "{sys.typography.body.md}",
+              "type": "typography"
+            }
+          },
+          "pagination": {
+            "button": {
+              "value": "{sys.typography.button.md}",
+              "type": "typography"
+            },
+            "text": {
+              "value": "{sys.typography.body.md}",
+              "type": "typography"
+            },
+            "variableText": {
+              "value": "{sys.typography.body.md}",
+              "type": "typography"
+            }
+          }
+        },
+        "org": {
+          "breadcrumbs": {
+            "breadcrumb": {
+              "value": "{sys.typography.button.sm}",
+              "type": "typography"
+            }
+          },
+          "login": {
+            "undertitel": {
+              "value": "{sys.typography.display.md}",
+              "type": "typography"
+            },
+            "language": {
+              "value": "{sys.typography.button.md}",
+              "type": "typography"
+            },
+            "forgotPassword": {
+              "value": "{sys.typography.button.md}",
+              "type": "typography"
             }
           }
         }
@@ -3157,50 +3253,6 @@
           }
         }
       },
-      "fontSize": {
-        "action": {
-          "desktop": {
-            "md": {
-              "value": "{ref.fontSize.sm}",
-              "type": "fontSizes"
-            },
-            "sm": {
-              "value": "{ref.fontSize.xs}",
-              "type": "fontSizes"
-            }
-          }
-        },
-        "content": {
-          "p": {
-            "value": "{ref.fontSize.sm}",
-            "type": "fontSizes"
-          },
-          "h6": {
-            "value": "{ref.fontSize.sm}",
-            "type": "fontSizes"
-          },
-          "h5": {
-            "value": "{ref.fontSize.base}",
-            "type": "fontSizes"
-          },
-          "h4": {
-            "value": "{ref.fontSize.lg}",
-            "type": "fontSizes"
-          },
-          "h3": {
-            "value": "{ref.fontSize.xl}",
-            "type": "fontSizes"
-          },
-          "h2": {
-            "value": "{ref.fontSize.2xl}",
-            "type": "fontSizes"
-          },
-          "h1": {
-            "value": "{ref.fontSize.3xl}",
-            "type": "fontSizes"
-          }
-        }
-      },
       "boxShadow": {
         "action": {
           "desktop": {
@@ -3227,50 +3279,6 @@
           "type": "fontFamilies"
         }
       },
-      "fontWeight": {
-        "action": {
-          "desktop": {
-            "value": "{ref.fontWeight.bold.semibold}",
-            "type": "fontWeights"
-          }
-        },
-        "content": {
-          "p": {
-            "value": "{ref.fontWeight.bold.normal}",
-            "type": "fontWeights"
-          },
-          "h6": {
-            "value": "{ref.fontWeight.bold.semibold}",
-            "type": "fontWeights"
-          },
-          "h5": {
-            "value": "{ref.fontWeight.bold.semibold}",
-            "type": "fontWeights"
-          },
-          "h4": {
-            "value": "{ref.fontWeight.bold.semibold}",
-            "type": "fontWeights"
-          },
-          "h3": {
-            "value": "{ref.fontWeight.bold.semibold}",
-            "type": "fontWeights"
-          },
-          "h2": {
-            "value": "{ref.fontWeight.bold.semibold}",
-            "type": "fontWeights"
-          },
-          "h1": {
-            "value": "{ref.fontWeight.bold.bold}",
-            "type": "fontWeights"
-          }
-        },
-        "input": {
-          "label": {
-            "value": "{ref.fontWeight.bold.medium}",
-            "type": "fontWeights"
-          }
-        }
-      },
       "textDecoration": {
         "hyperlink": {
           "value": "{ref.textDecoration.underline}",
@@ -3278,14 +3286,6 @@
         }
       },
       "typography": {
-        "h6": {
-          "value": {
-            "fontFamily": "{sys.fontFamily.heading}",
-            "fontWeight": "{sys.fontWeight.content.h6}",
-            "fontSize": "{sys.fontSize.content.h6}"
-          },
-          "type": "typography"
-        },
         "display": {
           "lg": {
             "value": {
