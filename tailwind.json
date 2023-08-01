@@ -1449,7 +1449,7 @@
             "value": "100",
             "type": "fontWeights"
           },
-          "extralight": {
+          "extraLight": {
             "value": "200",
             "type": "fontWeights"
           },
@@ -1465,7 +1465,7 @@
             "value": "500",
             "type": "fontWeights"
           },
-          "semibold": {
+          "semiBold": {
             "value": "600",
             "type": "fontWeights"
           },
@@ -2660,7 +2660,7 @@
               "md": {
                 "value": "{sys.typography.button.md}",
                 "type": "typography",
-                "description": "Button typography"
+                "description": "Typography for default button"
               }
             }
           },
@@ -3100,7 +3100,8 @@
               "lineHeight": "{ref.lineHeight.4xl}",
               "fontSize": "{ref.fontSize.4xl}"
             },
-            "type": "typography"
+            "type": "typography",
+            "description": "Main headline grabbing title"
           },
           "md": {
             "value": {
@@ -3109,45 +3110,50 @@
               "lineHeight": "{ref.lineHeight.2xl}",
               "fontSize": "{ref.fontSize.2xl}"
             },
-            "type": "typography"
+            "type": "typography",
+            "description": "Attention grabbing component"
           },
           "sm": {
             "value": {
               "fontFamily": "{sys.fontFamily.heading}",
-              "fontWeight": "{ref.fontWeight.bold.semibold}",
+              "fontWeight": "{ref.fontWeight.bold.semiBold}",
               "lineHeight": "{ref.lineHeight.lg}",
               "fontSize": "{ref.fontSize.lg}"
             },
-            "type": "typography"
+            "type": "typography",
+            "description": "Attention grabbing subtitles"
           }
         },
         "heading": {
           "lg": {
             "value": {
               "fontFamily": "{sys.fontFamily.default}",
-              "fontWeight": "{ref.fontWeight.bold.semibold}",
+              "fontWeight": "{ref.fontWeight.bold.semiBold}",
               "lineHeight": "{ref.lineHeight.2xl}",
               "fontSize": "{ref.fontSize.2xl}"
             },
-            "type": "typography"
+            "type": "typography",
+            "description": "Main non-marketing component for pages"
           },
           "md": {
             "value": {
               "fontFamily": "{sys.fontFamily.default}",
-              "fontWeight": "{ref.fontWeight.bold.semibold}",
+              "fontWeight": "{ref.fontWeight.bold.semiBold}",
               "lineHeight": "{ref.lineHeight.xl}",
               "fontSize": "{ref.fontSize.xl}"
             },
-            "type": "typography"
+            "type": "typography",
+            "description": "Section headers"
           },
           "sm": {
             "value": {
               "fontFamily": "{sys.fontFamily.default}",
-              "fontWeight": "{ref.fontWeight.bold.semibold}",
+              "fontWeight": "{ref.fontWeight.bold.semiBold}",
               "fontSize": "{ref.fontSize.lg}",
               "lineHeight": "{ref.lineHeight.lg}"
             },
-            "type": "typography"
+            "type": "typography",
+            "description": "Sub titles in content"
           }
         },
         "body": {
@@ -3158,7 +3164,8 @@
               "lineHeight": "{ref.lineHeight.base}",
               "fontSize": "{ref.fontSize.base}"
             },
-            "type": "typography"
+            "type": "typography",
+            "description": "Main body text"
           },
           "sm": {
             "value": {
@@ -3167,27 +3174,30 @@
               "lineHeight": "{ref.lineHeight.sm}",
               "fontSize": "{ref.fontSize.sm}"
             },
-            "type": "typography"
+            "type": "typography",
+            "description": "Smaller body text, used for descriptions, captions, etc"
           }
         },
         "button": {
           "md": {
             "value": {
               "fontFamily": "{sys.fontFamily.default}",
-              "fontWeight": "{ref.fontWeight.bold.semibold}",
+              "fontWeight": "{ref.fontWeight.bold.semiBold}",
               "lineHeight": "{ref.lineHeight.sm}",
               "fontSize": "{ref.fontSize.sm}"
             },
-            "type": "typography"
+            "type": "typography",
+            "description": "Main buttons and other interactive components"
           },
           "sm": {
             "value": {
               "fontFamily": "{sys.fontFamily.default}",
-              "fontWeight": "{ref.fontWeight.bold.semibold}",
+              "fontWeight": "{ref.fontWeight.bold.semiBold}",
               "lineHeight": "{ref.lineHeight.xs}",
               "fontSize": "{ref.fontSize.xs}"
             },
-            "type": "typography"
+            "type": "typography",
+            "description": "Small buttons and interactive components"
           }
         }
       }
@@ -3544,7 +3554,7 @@
       "fontWeight": {
         "action": {
           "desktop": {
-            "value": "{ref.fontWeight.bold.semibold}",
+            "value": "{ref.fontWeight.bold.semiBold}",
             "type": "fontWeights"
           }
         },
@@ -3554,23 +3564,23 @@
             "type": "fontWeights"
           },
           "h6": {
-            "value": "{ref.fontWeight.bold.semibold}",
+            "value": "{ref.fontWeight.bold.semiBold}",
             "type": "fontWeights"
           },
           "h5": {
-            "value": "{ref.fontWeight.bold.semibold}",
+            "value": "{ref.fontWeight.bold.semiBold}",
             "type": "fontWeights"
           },
           "h4": {
-            "value": "{ref.fontWeight.bold.semibold}",
+            "value": "{ref.fontWeight.bold.semiBold}",
             "type": "fontWeights"
           },
           "h3": {
-            "value": "{ref.fontWeight.bold.semibold}",
+            "value": "{ref.fontWeight.bold.semiBold}",
             "type": "fontWeights"
           },
           "h2": {
-            "value": "{ref.fontWeight.bold.semibold}",
+            "value": "{ref.fontWeight.bold.semiBold}",
             "type": "fontWeights"
           },
           "h1": {
