@@ -2866,17 +2866,17 @@
             "default": {
               "value": "{sys.colors.primary.600}",
               "type": "color",
-              "description": "Main color of the branding, used for primary buttons, sidebar, etc."
+              "description": "Hoofd kleur van het design. Gebruikt voor branding, primaire acties, accenten, etc."
             },
             "+100": {
               "value": "{sys.colors.primary.700}",
               "type": "color",
-              "description": "Used for hover and accent colors in combination with sys.colors.primary.main.default"
+              "description": "Color shift van hoofd kleur, wordt gebruikt voor hoofdkleur, lichte accenten op een primaire achtergrond. Wordt vaak gebruikt i.c.m. de hoofdkleur."
             },
             "-100": {
               "value": "{sys.colors.primary.500}",
               "type": "color",
-              "description": "Used for hover and accent colors in combination with sys.colors.priary.main.default"
+              "description": "Color shift van hoofd kleur, wordt gebruikt voor hoofdkleur, lichte accenten op een primaire achtergrond. Wordt vaak gebruikt i.c.m. de hoofdkleur."
             }
           }
         },
@@ -2929,27 +2929,29 @@
             "default": {
               "value": "{sys.colors.secondary.600}",
               "type": "color",
-              "description": "Main usage of secundary color"
+              "description": "Hoofd secundaire kleur. Gebruikt op secundaire interacties"
             },
             "+100": {
               "value": "{sys.colors.secondary.700}",
               "type": "color",
-              "description": "Used for hover and accent colors in combination with sys.colors.secundary.main.default"
+              "description": "Color shift van secundaire hoofd kleur, wordt gebruikt voor hoofdkleur, lichte accenten op een primaire achtergrond. Wordt vaak gebruikt i.c.m. de hoofdkleur."
             },
             "-100": {
               "value": "{sys.colors.secondary.500}",
               "type": "color",
-              "description": "Used for hover and accent colors in combination with sys.colors.secundary.main.default"
+              "description": "Color shift van secundaire hoofd kleur, wordt gebruikt voor hoofdkleur, lichte accenten op een primaire achtergrond. Wordt vaak gebruikt i.c.m. de hoofdkleur."
             }
           }
         },
         "white": {
           "value": "{ref.colors.white}",
-          "type": "color"
+          "type": "color",
+          "description": "Gebruik van wit in het design"
         },
         "black": {
           "value": "{ref.colors.black}",
-          "type": "color"
+          "type": "color",
+          "description": "Gebruik van zwart in het design"
         },
         "text": {
           "onPrimaryHighContrast": {
