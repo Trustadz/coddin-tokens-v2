@@ -1441,6 +1441,10 @@
           "value": "Inter",
           "type": "fontFamilies",
           "description": "Default font"
+        },
+        "mono": {
+          "value": "JetBrains Mono",
+          "type": "fontFamilies"
         }
       },
       "fontWeight": {
@@ -1656,6 +1660,26 @@
           "value": "underline",
           "type": "textDecoration"
         }
+      },
+      "typography": {
+        "documentation": {
+          "value": {
+            "fontFamily": "{ref.fontFamily.mono}",
+            "fontWeight": "{ref.fontWeight.bold.normal}",
+            "lineHeight": "{ref.lineHeight.sm}",
+            "fontSize": "{ref.fontSize.sm}"
+          },
+          "type": "typography"
+        },
+        "documentationCode": {
+          "value": {
+            "fontFamily": "{ref.fontFamily.mono}",
+            "lineHeight": "{ref.lineHeight.sm}",
+            "fontSize": "{ref.fontSize.sm}",
+            "textCase": "{ref.textCase.uppercase}"
+          },
+          "type": "typography"
+        }
       }
     }
   },
@@ -1667,14 +1691,15 @@
             "default": {
               "bg": {
                 "value": "{sys.colors.primary.main.default}",
-                "type": "color"
-              },
-              "text": {
-                "value": "{sys.colors.text.onPrimaryHighContrast}",
-                "type": "color"
+                "type": "color",
+                "description": "Deze knop wordt gebruikt voor de belangrijkste actie binnen een sectie of formulier. Het heeft een opvallende stijl die de gebruiker naar de primaire actie leidt, zoals \"Opslaan\" of \"Verzenden\"."
               },
               "border": {
                 "value": "{sys.colors.primary.300}",
+                "type": "color"
+              },
+              "text": {
+                "value": "{sys.colors.white}",
                 "type": "color"
               },
               "hover": {
@@ -1682,12 +1707,12 @@
                   "value": "{sys.colors.primary.main.-100}",
                   "type": "color"
                 },
-                "text": {
-                  "value": "{comp.colors.button.primary.default.text}",
-                  "type": "color"
-                },
                 "border": {
                   "value": "{sys.colors.primary.200}",
+                  "type": "color"
+                },
+                "text": {
+                  "value": "{sys.colors.white}",
                   "type": "color"
                 }
               }
@@ -1695,14 +1720,15 @@
             "soft": {
               "bg": {
                 "value": "{sys.colors.primary.50}",
+                "type": "color",
+                "description": "Een minder opvallende variant van de primaire knop, gebruikt wanneer een actie belangrijk is maar niet de nadruk hoeft te krijgen. Het biedt een subtielere uitstraling, maar behoudt de primaire functionaliteit."
+              },
+              "border": {
+                "value": "{sys.colors.primary.50}",
                 "type": "color"
               },
               "text": {
                 "value": "{sys.colors.primary.main.default}",
-                "type": "color"
-              },
-              "border": {
-                "value": "{sys.colors.primary.50}",
                 "type": "color"
               },
               "hover": {
@@ -1710,12 +1736,12 @@
                   "value": "{sys.colors.primary.100}",
                   "type": "color"
                 },
-                "text": {
-                  "value": "{sys.colors.primary.main.+100}",
-                  "type": "color"
-                },
                 "border": {
                   "value": "{sys.colors.primary.100}",
+                  "type": "color"
+                },
+                "text": {
+                  "value": "{sys.colors.primary.main.+100}",
                   "type": "color"
                 }
               }
@@ -1725,14 +1751,15 @@
             "default": {
               "bg": {
                 "value": "{sys.colors.secondary.main.default}",
+                "type": "color",
+                "description": "Deze knop wordt gebruikt voor secundaire acties die aanvullend zijn op de primaire acties, zoals \"Annuleren\" of \"Terug\". Het heeft een minder prominente stijl maar is nog steeds duidelijk zichtbaar."
+              },
+              "border": {
+                "value": "{sys.colors.secondary.300}",
                 "type": "color"
               },
               "text": {
                 "value": "{sys.colors.white}",
-                "type": "color"
-              },
-              "border": {
-                "value": "{sys.colors.secondary.300}",
                 "type": "color"
               },
               "hover": {
@@ -1740,12 +1767,12 @@
                   "value": "{sys.colors.secondary.main.-100}",
                   "type": "color"
                 },
-                "text": {
-                  "value": "{comp.colors.button.secondary.default.text}",
-                  "type": "color"
-                },
                 "border": {
                   "value": "{sys.colors.secondary.200}",
+                  "type": "color"
+                },
+                "text": {
+                  "value": "{sys.colors.white}",
                   "type": "color"
                 }
               }
@@ -1753,14 +1780,15 @@
             "soft": {
               "bg": {
                 "value": "{sys.colors.secondary.50}",
+                "type": "color",
+                "description": "Een subtielere versie van de secundaire knop, bedoeld voor minder belangrijke aanvullende acties of wanneer een zachtere esthetiek vereist is."
+              },
+              "border": {
+                "value": "{sys.colors.secondary.50}",
                 "type": "color"
               },
               "text": {
                 "value": "{sys.colors.secondary.main.default}",
-                "type": "color"
-              },
-              "border": {
-                "value": "{sys.colors.secondary.50}",
                 "type": "color"
               },
               "hover": {
@@ -1768,12 +1796,12 @@
                   "value": "{sys.colors.secondary.100}",
                   "type": "color"
                 },
-                "text": {
-                  "value": "{sys.colors.secondary.main.+100}",
-                  "type": "color"
-                },
                 "border": {
                   "value": "{sys.colors.secondary.100}",
+                  "type": "color"
+                },
+                "text": {
+                  "value": "{sys.colors.secondary.main.+100}",
                   "type": "color"
                 }
               }
@@ -1782,14 +1810,15 @@
           "error": {
             "bg": {
               "value": "{ref.colors.red.600}",
+              "type": "color",
+              "description": "Bedoeld voor destructieve acties die niet ongedaan kunnen worden gemaakt, zoals het verwijderen van een item. Deze knop benadrukt de ernst en onomkeerbaarheid van de actie en moet met zorg worden gebruikt."
+            },
+            "border": {
+              "value": "{ref.colors.red.300}",
               "type": "color"
             },
             "text": {
               "value": "{ref.colors.white}",
-              "type": "color"
-            },
-            "border": {
-              "value": "{ref.colors.red.300}",
               "type": "color"
             },
             "hover": {
@@ -1797,12 +1826,12 @@
                 "value": "{ref.colors.red.500}",
                 "type": "color"
               },
-              "text": {
-                "value": "{ref.colors.white}",
-                "type": "color"
-              },
               "border": {
                 "value": "{ref.colors.red.500}",
+                "type": "color"
+              },
+              "text": {
+                "value": "{ref.colors.white}",
                 "type": "color"
               }
             }
@@ -1810,14 +1839,15 @@
           "success": {
             "bg": {
               "value": "{ref.colors.green.600}",
+              "type": "color",
+              "description": "Gebruikt als een bevestiging van een succesvolle actie of ter verificatie wanneer een primaire actieknop niet voldoende is. Deze knop bevestigt dat de taak naar tevredenheid is voltooid."
+            },
+            "border": {
+              "value": "{ref.colors.green.300}",
               "type": "color"
             },
             "text": {
               "value": "{ref.colors.white}",
-              "type": "color"
-            },
-            "border": {
-              "value": "{ref.colors.green.300}",
               "type": "color"
             },
             "hover": {
@@ -1825,12 +1855,12 @@
                 "value": "{ref.colors.green.500}",
                 "type": "color"
               },
-              "text": {
-                "value": "{ref.colors.white}",
-                "type": "color"
-              },
               "border": {
                 "value": "{ref.colors.green.500}",
+                "type": "color"
+              },
+              "text": {
+                "value": "{ref.colors.white}",
                 "type": "color"
               }
             }
@@ -1838,14 +1868,15 @@
           "warning": {
             "bg": {
               "value": "{ref.colors.amber.600}",
+              "type": "color",
+              "description": "Dient als waarschuwing voor een potentieel destructieve actie of een keuze die extra overweging vereist. Deze knop moet worden gebruikt in situaties waarin de gebruiker een belangrijke beslissing moet nemen die aandacht en zorg vereist."
+            },
+            "border": {
+              "value": "{ref.colors.amber.300}",
               "type": "color"
             },
             "text": {
               "value": "{ref.colors.white}",
-              "type": "color"
-            },
-            "border": {
-              "value": "{ref.colors.amber.300}",
               "type": "color"
             },
             "hover": {
@@ -1853,12 +1884,12 @@
                 "value": "{ref.colors.amber.500}",
                 "type": "color"
               },
-              "text": {
-                "value": "{ref.colors.white}",
-                "type": "color"
-              },
               "border": {
                 "value": "{ref.colors.amber.500}",
+                "type": "color"
+              },
+              "text": {
+                "value": "{ref.colors.white}",
                 "type": "color"
               }
             }
@@ -1866,61 +1897,68 @@
           "info": {
             "bg": {
               "value": "{ref.colors.blue.600}",
+              "type": "color",
+              "description": "Gebruikt om basisbevestigingen zoals \"OK\" weer te geven of om aanvullende informatie te verstrekken. Deze knop biedt extra context of bevestiging op een niet-opdringerige manier."
+            },
+            "border": {
+              "value": "{ref.colors.blue.300}",
               "type": "color"
             },
             "text": {
               "value": "{ref.colors.white}",
               "type": "color"
             },
-            "border": {
-              "value": "{ref.colors.blue.300}",
-              "type": "color"
-            },
             "hover": {
               "bg": {
+                "value": "{ref.colors.blue.500}",
+                "type": "color"
+              },
+              "border": {
                 "value": "{ref.colors.blue.500}",
                 "type": "color"
               },
               "text": {
                 "value": "{ref.colors.white}",
                 "type": "color"
-              },
-              "border": {
-                "value": "{ref.colors.blue.500}",
-                "type": "color"
               }
             }
           },
           "disabled": {
             "bg": {
-              "value": "{sys.colors.text.infoBg}",
+              "value": "{ref.colors.gray.200}",
+              "type": "color",
+              "description": "een knop weer die momenteel niet bruikbaar is. "
+            },
+            "border": {
+              "value": "{ref.colors.gray.200}",
               "type": "color"
             },
             "text": {
-              "value": "{sys.colors.text.paragraph}",
-              "type": "color"
-            },
-            "border": {
-              "value": "{sys.colors.text.infoBg}",
+              "value": "{ref.colors.gray.700}",
               "type": "color"
             },
             "hover": {
               "bg": {
-                "value": "{sys.colors.text.info}",
-                "type": "color"
-              },
-              "text": {
-                "value": "{sys.colors.text.paragraph}",
+                "value": "{ref.colors.gray.300}",
                 "type": "color"
               },
               "border": {
-                "value": "{sys.colors.text.info}",
+                "value": "{ref.colors.gray.300}",
+                "type": "color"
+              },
+              "text": {
+                "value": "{ref.colors.gray.800}",
                 "type": "color"
               }
             }
           },
-          "contrast": {
+          "neutral": {
             "bg": {
+              "value": "{comp.colors.section.bg}",
+              "type": "color",
+              "description": "De neutrale knop is ontworpen om een ondergeschikte of optionele actie weer te geven, zoals \"Annuleren\" bij een formulier."
+            },
+            "border": {
               "value": "{comp.colors.section.bg}",
               "type": "color"
             },
@@ -1928,21 +1966,17 @@
               "value": "{sys.colors.text.paragraph}",
               "type": "color"
             },
-            "border": {
-              "value": "{comp.colors.section.bg}",
-              "type": "color"
-            },
             "hover": {
               "bg": {
                 "value": "{comp.colors.page.bg}",
                 "type": "color"
               },
-              "text": {
-                "value": "{sys.colors.text.paragraph}",
-                "type": "color"
-              },
               "border": {
                 "value": "{comp.colors.page.bg}",
+                "type": "color"
+              },
+              "text": {
+                "value": "{sys.colors.text.paragraph}",
                 "type": "color"
               }
             }
@@ -2533,7 +2567,7 @@
         "button": {
           "desktop": {
             "md": {
-              "value": "{sys.boxShadow.action.desktop.md}",
+              "value": "{ref.shadow.sm}",
               "type": "boxShadow"
             }
           }
@@ -2836,11 +2870,13 @@
             },
             "+100": {
               "value": "{sys.colors.primary.700}",
-              "type": "color"
+              "type": "color",
+              "description": "Used for hover and accent colors in combination with sys.colors.primary.main.default"
             },
             "-100": {
               "value": "{sys.colors.primary.500}",
-              "type": "color"
+              "type": "color",
+              "description": "Used for hover and accent colors in combination with sys.colors.priary.main.default"
             }
           }
         },
@@ -2892,15 +2928,18 @@
           "main": {
             "default": {
               "value": "{sys.colors.secondary.600}",
-              "type": "color"
+              "type": "color",
+              "description": "Main usage of secundary color"
             },
             "+100": {
               "value": "{sys.colors.secondary.700}",
-              "type": "color"
+              "type": "color",
+              "description": "Used for hover and accent colors in combination with sys.colors.secundary.main.default"
             },
             "-100": {
               "value": "{sys.colors.secondary.500}",
-              "type": "color"
+              "type": "color",
+              "description": "Used for hover and accent colors in combination with sys.colors.secundary.main.default"
             }
           }
         },
@@ -3101,7 +3140,7 @@
               "fontSize": "{ref.fontSize.4xl}"
             },
             "type": "typography",
-            "description": "Main headline grabbing title"
+            "description": "Speciaal ontworpen om op te vallen en de aandacht te trekken, geschikt voor de meest prominente schermkoppen zoals hoofdpagina- of sectietitels. Geeft stijl en visueel belang."
           },
           "md": {
             "value": {
@@ -3111,7 +3150,7 @@
               "fontSize": "{ref.fontSize.2xl}"
             },
             "type": "typography",
-            "description": "Attention grabbing component"
+            "description": "Een iets kleiner formaat dat nog steeds gericht is op het aantrekken van de aandacht voor belangrijke subsecties of kernboodschappen."
           },
           "sm": {
             "value": {
@@ -3121,7 +3160,7 @@
               "fontSize": "{ref.fontSize.lg}"
             },
             "type": "typography",
-            "description": "Attention grabbing subtitles"
+            "description": "Voor minder opvallende maar nog steeds stijlvolle titels en subkoppen, perfect voor kleinere secties of marketingdetails."
           }
         },
         "heading": {
@@ -3133,7 +3172,7 @@
               "fontSize": "{ref.fontSize.2xl}"
             },
             "type": "typography",
-            "description": "Main non-marketing component for pages"
+            "description": "De belangrijkste koppen voor het organiseren van de content, deze koppen markeren de structuur van een document of sectie zonder af te leiden van de inhoud. Vaak gebruikt als pagina titel"
           },
           "md": {
             "value": {
@@ -3143,7 +3182,7 @@
               "fontSize": "{ref.fontSize.xl}"
             },
             "type": "typography",
-            "description": "Section headers"
+            "description": "Section headersGebruikt voor subkoppen die de lezer verder begeleiden door de inhoud, dit formaat helpt bij het rangschikken van informatie en maakt het volgen van de tekst eenvoudiger. Vaak gebruikt als sectie titel"
           },
           "sm": {
             "value": {
@@ -3153,7 +3192,7 @@
               "lineHeight": "{ref.lineHeight.lg}"
             },
             "type": "typography",
-            "description": "Sub titles in content"
+            "description": "Bedoeld voor tertiaire koppen en verdere organisatie, dit formaat brengt structuur zonder te overheersen of af te leiden. Vaak gebruikt als subkop in een sectie"
           }
         },
         "body": {
@@ -3165,7 +3204,7 @@
               "fontSize": "{ref.fontSize.base}"
             },
             "type": "typography",
-            "description": "Main body text"
+            "description": "De standaardtekstgrootte voor de meeste inhoud. Dit formaat is bedoeld voor de belangrijkste tekst die de gebruiker zal lezen, zoals paragrafen, lijsten en uitleg."
           },
           "sm": {
             "value": {
@@ -3175,7 +3214,7 @@
               "fontSize": "{ref.fontSize.sm}"
             },
             "type": "typography",
-            "description": "Smaller body text, used for descriptions, captions, etc"
+            "description": "Geschikt voor kleinere, aanvullende tekst zoals bijschriften, voetnoten en minder belangrijke details."
           }
         },
         "button": {
@@ -3187,7 +3226,7 @@
               "fontSize": "{ref.fontSize.sm}"
             },
             "type": "typography",
-            "description": "Main buttons and other interactive components"
+            "description": "De standaardknopgrootte, ideaal voor de meeste interacties binnen de site."
           },
           "sm": {
             "value": {
@@ -3197,7 +3236,7 @@
               "fontSize": "{ref.fontSize.xs}"
             },
             "type": "typography",
-            "description": "Small buttons and interactive components"
+            "description": "Een kleinere knop die kan worden gebruikt voor minder prominente acties of wanneer de ruimte beperkt is. Deze knoppen zijn vaak bedoeld voor aanvullende of secundaire acties."
           }
         }
       }
