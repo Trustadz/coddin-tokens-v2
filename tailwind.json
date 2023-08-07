@@ -1996,7 +1996,7 @@
                 "type": "color"
               },
               "text": {
-                "value": "{sys.colors.text.onPrimaryLowContrast}",
+                "value": "{comp.colors.button.primary.default.text}",
                 "type": "color"
               },
               "hover": {
@@ -2005,7 +2005,7 @@
                   "type": "color"
                 },
                 "text": {
-                  "value": "{sys.colors.text.onPrimaryHighContrast}",
+                  "value": "{comp.colors.button.primary.default.hover.text}",
                   "type": "color"
                 }
               }
@@ -2184,7 +2184,7 @@
                 "type": "color"
               },
               "icon": {
-                "value": "{sys.colors.text.onPrimaryHighContrast}",
+                "value": "{comp.colors.button.primary.default.text}",
                 "type": "color"
               }
             }
@@ -2209,7 +2209,7 @@
               "type": "color"
             },
             "button": {
-              "value": "{sys.colors.text.onPrimaryHighContrast}",
+              "value": "{comp.colors.button.primary.default.text}",
               "type": "color"
             },
             "activeBg": {
@@ -2228,11 +2228,11 @@
             "type": "color"
           },
           "text": {
-            "value": "{sys.colors.text.onPrimaryHighContrast}",
+            "value": "{comp.colors.button.primary.default.text}",
             "type": "color"
           },
           "helperText": {
-            "value": "{sys.colors.text.onPrimaryLowContrast}",
+            "value": "{comp.colors.button.primary.default.text}",
             "type": "color"
           }
         },
@@ -2954,29 +2954,30 @@
           "description": "Gebruik van zwart in het design"
         },
         "text": {
-          "onPrimaryHighContrast": {
-            "value": "{sys.colors.white}",
-            "type": "color"
-          },
-          "onPrimaryLowContrast": {
-            "value": "{sys.colors.primary.200}",
-            "type": "color"
-          },
           "paragraph": {
             "value": "{ref.colors.gray.700}",
-            "type": "color"
+            "type": "color",
+            "description": "Inhoudelijke tekst, grote stukken tekst, hoofd teksten."
           },
           "heading": {
             "value": "{ref.colors.gray.900}",
-            "type": "color"
+            "type": "color",
+            "description": "Gebruik bij headings"
+          },
+          "display": {
+            "value": "{ref.colors.gray.900}",
+            "type": "color",
+            "description": "Gebruik bij display headings"
           },
           "info": {
             "value": "{ref.colors.gray.400}",
-            "type": "color"
+            "type": "color",
+            "description": "Gebruik voor onderteksten, info teksten en andere side-info teksten."
           },
           "hyperlink": {
             "value": "{sys.colors.primary.main.default}",
-            "type": "color"
+            "type": "color",
+            "description": "Gebruik voor hyperlinks in de tekst"
           },
           "infoAccent": {
             "value": "{ref.colors.gray.500}",
@@ -3129,7 +3130,8 @@
       "textDecoration": {
         "hyperlink": {
           "value": "{ref.textDecoration.underline}",
-          "type": "textDecoration"
+          "type": "textDecoration",
+          "description": "Underline om klikbare tekst duidelijk te maken"
         }
       },
       "typography": {
