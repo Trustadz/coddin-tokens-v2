@@ -1984,7 +1984,7 @@
         },
         "section": {
           "bg": {
-            "value": "{sys.colors.others.sectionBg}",
+            "value": "{sys.colors.extra.sectionBg}",
             "type": "color"
           }
         },
@@ -2031,11 +2031,11 @@
           },
           "tabs": {
             "default": {
-              "value": "{sys.colors.text.info}",
+              "value": "{ref.colors.gray.400}",
               "type": "color"
             },
             "hover": {
-              "value": "{sys.colors.text.infoAccent}",
+              "value": "{ref.colors.gray.600}",
               "type": "color"
             },
             "active": {
@@ -2043,7 +2043,7 @@
               "type": "color"
             },
             "borderBottom": {
-              "value": "{sys.colors.text.infoBg}",
+              "value": "{ref.colors.gray.700}",
               "type": "color"
             }
           },
@@ -2079,7 +2079,7 @@
                   },
                   "hover": {
                     "bg": {
-                      "value": "{sys.colors.others.sectionAction}",
+                      "value": "{sys.colors.primary.100}",
                       "type": "color"
                     }
                   }
@@ -2088,11 +2088,11 @@
             },
             "centered": {
               "text": {
-                "value": "{sys.colors.text.infoAccent}",
+                "value": "{ref.colors.gray.600}",
                 "type": "color"
               },
               "borderInactive": {
-                "value": "{sys.colors.text.infoBg}",
+                "value": "{ref.colors.gray.400}",
                 "type": "color"
               },
               "active": {
@@ -2205,7 +2205,7 @@
           },
           "toggle": {
             "inactiveBg": {
-              "value": "{sys.colors.text.infoBg}",
+              "value": "{ref.colors.gray.200}",
               "type": "color"
             },
             "button": {
@@ -2217,9 +2217,11 @@
               "type": "color"
             }
           },
-          "bg": {
-            "value": "{sys.colors.others.sectionAction}",
-            "type": "color"
+          "upload": {
+            "bg": {
+              "value": "{ref.colors.gray.200}",
+              "type": "color"
+            }
           }
         },
         "login": {
@@ -2267,7 +2269,7 @@
           },
           "border": {
             "inner": {
-              "value": "{sys.colors.others.divider}",
+              "value": "{sys.colors.extra.divider}",
               "type": "color"
             },
             "outer": {
@@ -2978,40 +2980,23 @@
             "value": "{sys.colors.primary.main.default}",
             "type": "color",
             "description": "Gebruik voor hyperlinks in de tekst"
-          },
-          "infoAccent": {
-            "value": "{ref.colors.gray.500}",
-            "type": "color"
-          },
-          "infoBg": {
-            "value": "{ref.colors.gray.200}",
-            "type": "color"
           }
         },
-        "others": {
+        "extra": {
           "pageBg": {
             "value": "{sys.colors.primary.50}",
-            "type": "color"
+            "type": "color",
+            "description": "Body background, standaard achtergrond kleur van de pagina's"
           },
           "sectionBg": {
             "value": "{sys.colors.white}",
-            "type": "color"
-          },
-          "actionBg": {
-            "value": "{sys.colors.primary.50}",
-            "type": "color"
-          },
-          "actionBgHeading": {
-            "value": "{sys.colors.primary.200}",
-            "type": "color"
+            "type": "color",
+            "description": "Achtegrond van de sections"
           },
           "divider": {
             "value": "{ref.colors.gray.200}",
-            "type": "color"
-          },
-          "sectionAction": {
-            "value": "{sys.colors.white}",
-            "type": "color"
+            "type": "color",
+            "description": "Gebruik van deviders en interne tabelranden"
           }
         }
       },
