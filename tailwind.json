@@ -2208,12 +2208,12 @@
               "value": "{ref.colors.gray.200}",
               "type": "color"
             },
-            "button": {
-              "value": "{comp.colors.button.primary.default.text}",
-              "type": "color"
-            },
             "activeBg": {
               "value": "{sys.colors.primary.main.default}",
+              "type": "color"
+            },
+            "button": {
+              "value": "{comp.colors.button.primary.default.text}",
               "type": "color"
             }
           },
@@ -2475,11 +2475,11 @@
         "input": {
           "text": {
             "x": {
-              "value": "{sys.spacing.input.x}",
+              "value": "{ref.spacing.3}",
               "type": "spacing"
             },
             "y": {
-              "value": "{sys.spacing.input.y}",
+              "value": "{ref.spacing.1-5}",
               "type": "spacing"
             },
             "gap": {
@@ -2513,11 +2513,11 @@
         "table": {
           "heading": {
             "x": {
-              "value": "{comp.fontSize.table.heading}*2",
+              "value": "{ref.spacing.8}",
               "type": "spacing"
             },
             "gap": {
-              "value": "{comp.fontSize.table.heading}*0.75",
+              "value": "{ref.spacing.2}",
               "type": "spacing"
             }
           },
@@ -2636,8 +2636,9 @@
             "type": "borderRadius"
           },
           "toggle": {
-            "value": "{sys.borderRadius.action.desktop.toggle}",
-            "type": "borderRadius"
+            "value": "{ref.borderRadius.full}",
+            "type": "borderRadius",
+            "description": "The radius of the toggle component"
           }
         },
         "table": {
@@ -2660,15 +2661,18 @@
           "toggle": {
             "w": {
               "value": "{ref.sizing.11}",
-              "type": "sizing"
+              "type": "sizing",
+              "description": "Width of the toggle component"
             },
             "h": {
               "value": "{ref.sizing.6}",
-              "type": "sizing"
+              "type": "sizing",
+              "description": "Height of the toggle component"
             },
             "button": {
               "value": "{ref.sizing.5}",
-              "type": "sizing"
+              "type": "sizing",
+              "description": "Sizing of the button size in the toggle component. Should always be 1 less then comp.sizing.input.toggle.h"
             }
           }
         },
@@ -3010,10 +3014,6 @@
             "sm": {
               "value": "{ref.borderRadius.base}",
               "type": "borderRadius"
-            },
-            "toggle": {
-              "value": "{ref.borderRadius.full}",
-              "type": "borderRadius"
             }
           }
         },
@@ -3062,16 +3062,6 @@
           },
           "y": {
             "value": "{ref.spacing.1}",
-            "type": "spacing"
-          }
-        },
-        "input": {
-          "x": {
-            "value": "{ref.spacing.3}",
-            "type": "spacing"
-          },
-          "y": {
-            "value": "{ref.spacing.1-5}",
             "type": "spacing"
           }
         }
