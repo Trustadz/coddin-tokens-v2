@@ -2079,7 +2079,7 @@
                   },
                   "hover": {
                     "bg": {
-                      "value": "{sys.colors.primary.100}",
+                      "value": "{comp.colors.button.primary.soft.bg}",
                       "type": "color"
                     }
                   }
@@ -2171,21 +2171,25 @@
             "inactive": {
               "border": {
                 "value": "{comp.colors.input.text.inactive.border}",
-                "type": "color"
+                "type": "color",
+                "description": "Border of an inactive checkbox, same for all input elements"
               },
               "bg": {
                 "value": "{comp.colors.input.text.bg}",
-                "type": "color"
+                "type": "color",
+                "description": "color of an uncheck checkbox, should be same as all other input elements"
               }
             },
             "active": {
               "bg": {
                 "value": "{sys.colors.primary.main.default}",
-                "type": "color"
+                "type": "color",
+                "description": "Color of an checkbox when state is true. Used in background and border"
               },
               "icon": {
                 "value": "{comp.colors.button.primary.default.text}",
-                "type": "color"
+                "type": "color",
+                "description": "Color of the icon in the checkbox. Keep in mind high contrast is required"
               }
             }
           },
@@ -2206,15 +2210,18 @@
           "toggle": {
             "inactiveBg": {
               "value": "{ref.colors.gray.200}",
-              "type": "color"
+              "type": "color",
+              "description": "Color of toggle in state = false"
             },
             "activeBg": {
               "value": "{sys.colors.primary.main.default}",
-              "type": "color"
+              "type": "color",
+              "description": "Color of boolean in state = true"
             },
             "button": {
               "value": "{comp.colors.button.primary.default.text}",
-              "type": "color"
+              "type": "color",
+              "description": "Color of the interactive element in a toggle. Keep in mind high contrast in both states."
             }
           },
           "upload": {
@@ -2655,8 +2662,9 @@
         },
         "input": {
           "checkbox": {
-            "value": "{ref.sizing.4}",
-            "type": "sizing"
+            "value": "{ref.fontSize.base}",
+            "type": "sizing",
+            "description": "Width & height of the checkbox. Should always be same as body text"
           },
           "toggle": {
             "w": {
