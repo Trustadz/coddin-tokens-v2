@@ -2646,6 +2646,10 @@
             "value": "{ref.borderRadius.full}",
             "type": "borderRadius",
             "description": "The radius of the toggle component"
+          },
+          "radio": {
+            "value": "{ref.borderRadius.full}",
+            "type": "borderRadius"
           }
         },
         "table": {
