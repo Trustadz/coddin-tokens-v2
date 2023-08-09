@@ -1297,7 +1297,8 @@
             "color": "#000000",
             "type": "dropShadow"
           },
-          "type": "boxShadow"
+          "type": "boxShadow",
+          "description": "Standaard waarde, wordt eigenlijk niet gebruikt tenzij standaard shadow van componenten overruled moet worden in pure flat design elementen."
         },
         "sm": {
           "value": [
@@ -1310,7 +1311,8 @@
               "type": "dropShadow"
             }
           ],
-          "type": "boxShadow"
+          "type": "boxShadow",
+          "description": "Wordt standaard gebruikt om hoogste laag in visuele hiarchie aan te wijzen. Wordt standaard gebruikt in interactieve componenten zoals buttons of input elementen"
         },
         "normal": {
           "value": [
@@ -1331,7 +1333,8 @@
               "type": "dropShadow"
             }
           ],
-          "type": "boxShadow"
+          "type": "boxShadow",
+          "description": "Laag onder SM, wordt gebruikt om duidelijkere verschillen te krijgen tussen een section en verzamling. Zoals bijvoorbeeld cards"
         },
         "md": {
           "value": [
@@ -1352,7 +1355,8 @@
               "type": "dropShadow"
             }
           ],
-          "type": "boxShadow"
+          "type": "boxShadow",
+          "description": "Laag onder Normal, deze wordt gebruikt voor grote objecten die wel moeten onderscheiden van de achtergrond, zoals secties"
         },
         "lg": {
           "value": [
@@ -1373,7 +1377,8 @@
               "type": "dropShadow"
             }
           ],
-          "type": "boxShadow"
+          "type": "boxShadow",
+          "description": "Laag onder MD, wordt gebruikt in de standaard diepste laag van een applicatie, zoals navigatie"
         },
         "xl": {
           "value": [
@@ -1394,7 +1399,8 @@
               "type": "dropShadow"
             }
           ],
-          "type": "boxShadow"
+          "type": "boxShadow",
+          "description": "Laag onder LG, wordt gebruikt voor zaken die nog achter de navigatie horen te liggen. Voornamelijke visueel. Wordt standaard niet gebruikt"
         },
         "2xl": {
           "value": [
@@ -1415,7 +1421,8 @@
               "type": "dropShadow"
             }
           ],
-          "type": "boxShadow"
+          "type": "boxShadow",
+          "description": "Laag onder XL, diepste laag die mogelijk is. Wordt standaard niet gebruikt"
         },
         "inner": {
           "value": [
@@ -1428,7 +1435,8 @@
               "type": "innerShadow"
             }
           ],
-          "type": "boxShadow"
+          "type": "boxShadow",
+          "description": "Binnen schaduw, kan gebruikt wordt om \"pressed\" status aan te tonen van een object met een shadow.sm"
         }
       },
       "fontFamily": {
@@ -2042,8 +2050,8 @@
               "value": "{sys.colors.primary.main.default}",
               "type": "color"
             },
-            "borderBottom": {
-              "value": "{ref.colors.gray.700}",
+            "hoverIcon": {
+              "value": "{ref.colors.gray.900}",
               "type": "color"
             }
           },
