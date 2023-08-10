@@ -2400,11 +2400,13 @@
               "type": "color"
             }
           },
-          "small": {
+          "day": {
             "border": {
               "value": "{ref.colors.gray.200}",
               "type": "color"
-            },
+            }
+          },
+          "small": {
             "day": {
               "available": {
                 "value": "{sys.colors.text.paragraph}",
@@ -3331,6 +3333,16 @@
             },
             "type": "typography",
             "description": "Geschikt voor kleinere, aanvullende tekst zoals bijschriften, voetnoten en minder belangrijke details."
+          },
+          "xs": {
+            "value": {
+              "fontFamily": "{sys.fontFamily.default}",
+              "fontWeight": "{ref.fontWeight.bold.normal}",
+              "lineHeight": "{ref.lineHeight.xs}",
+              "fontSize": "{ref.fontSize.xs}"
+            },
+            "type": "typography",
+            "description": "Alle kleinste teksten in specifieke UI elementen"
           }
         },
         "button": {
