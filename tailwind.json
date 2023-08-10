@@ -2384,6 +2384,62 @@
             "value": "{sys.colors.text.info}",
             "type": "color"
           }
+        },
+        "calendar": {
+          "userList": {
+            "meetingName": {
+              "value": "{sys.colors.text.heading}",
+              "type": "color"
+            },
+            "details": {
+              "value": "{sys.colors.text.info}",
+              "type": "color"
+            },
+            "border": {
+              "value": "{ref.colors.gray.100}",
+              "type": "color"
+            }
+          },
+          "small": {
+            "border": {
+              "value": "{ref.colors.gray.200}",
+              "type": "color"
+            },
+            "day": {
+              "available": {
+                "value": "{sys.colors.text.paragraph}",
+                "type": "color"
+              },
+              "current": {
+                "value": "{sys.colors.primary.main.default}",
+                "type": "color"
+              },
+              "unavailable": {
+                "value": "{sys.colors.text.info}",
+                "type": "color"
+              },
+              "event": {
+                "bg": {
+                  "value": "{sys.colors.text.paragraph}",
+                  "type": "color"
+                },
+                "text": {
+                  "value": "{sys.colors.white}",
+                  "type": "color"
+                }
+              },
+              "hoverBg": {
+                "value": "{ref.colors.gray.100}",
+                "type": "color"
+              }
+            },
+            "month": {
+              "button": {
+                "value": "{ref.colors.gray.400}",
+                "type": "color"
+              }
+            }
+          }
         }
       },
       "spacing": {
@@ -2670,6 +2726,28 @@
               "type": "spacing"
             }
           }
+        },
+        "calendar": {
+          "userList": {
+            "details": {
+              "gap": {
+                "value": "{ref.spacing.2}",
+                "type": "spacing"
+              }
+            },
+            "y": {
+              "value": "{ref.spacing.6}",
+              "type": "spacing"
+            }
+          },
+          "small": {
+            "day": {
+              "y": {
+                "value": "{ref.spacing.1-5}",
+                "type": "spacing"
+              }
+            }
+          }
         }
       },
       "borderWidth": {
@@ -2779,6 +2857,18 @@
         "table": {
           "value": "{sys.borderRadius.container.desktop}",
           "type": "borderRadius"
+        },
+        "calendar": {
+          "list": {
+            "avatar": {
+              "value": "{ref.borderRadius.full}",
+              "type": "borderRadius"
+            }
+          },
+          "small": {
+            "value": "{comp.borderRadius.button.desktop.md}",
+            "type": "borderRadius"
+          }
         }
       },
       "sizing": {
@@ -2833,6 +2923,26 @@
             "value": "144",
             "type": "sizing"
           }
+        },
+        "calendar": {
+          "small": {
+            "meetings": {
+              "avatar": {
+                "value": "{ref.sizing.14}",
+                "type": "sizing"
+              }
+            },
+            "day": {
+              "text": {
+                "value": "{ref.sizing.7}",
+                "type": "sizing"
+              },
+              "w": {
+                "value": "{ref.sizing.10}",
+                "type": "sizing"
+              }
+            }
+          }
         }
       },
       "lineHeight": {
@@ -2841,131 +2951,6 @@
             "buttons": {
               "value": "{ref.lineHeight.sm}",
               "type": "lineHeights"
-            }
-          }
-        }
-      },
-      "typography": {
-        "atom": {
-          "button": {
-            "desktop": {
-              "md": {
-                "value": "{sys.typography.button.md}",
-                "type": "typography",
-                "description": "Typography for default button"
-              }
-            }
-          },
-          "navigation": {
-            "button": {
-              "default": {
-                "value": "{sys.typography.button.md}",
-                "type": "typography"
-              },
-              "badge": {
-                "value": "{sys.typography.button.sm}",
-                "type": "typography"
-              },
-              "settings": {
-                "value": "{sys.typography.button.sm}",
-                "type": "typography"
-              },
-              "profile": {
-                "name": {
-                  "value": "{sys.typography.button.sm}",
-                  "type": "typography"
-                },
-                "buttonTxt": {
-                  "value": "{sys.typography.body.sm}",
-                  "type": "typography"
-                }
-              }
-            }
-          },
-          "input": {
-            "helper": {
-              "value": "{sys.typography.body.sm}",
-              "type": "typography"
-            },
-            "input": {
-              "value": "{sys.typography.body.md}",
-              "type": "typography"
-            },
-            "label": {
-              "value": "{sys.typography.body.md}",
-              "type": "typography"
-            },
-            "labelHelp": {
-              "value": "{sys.typography.body.sm}",
-              "type": "typography"
-            }
-          },
-          "table": {
-            "heading": {
-              "value": "{sys.typography.heading.md}",
-              "type": "typography"
-            },
-            "cell": {
-              "value": "{sys.typography.body.md}",
-              "type": "typography"
-            }
-          },
-          "pagination": {
-            "button": {
-              "value": "{sys.typography.button.md}",
-              "type": "typography"
-            },
-            "text": {
-              "value": "{sys.typography.body.md}",
-              "type": "typography"
-            },
-            "variableText": {
-              "value": "{sys.typography.body.md}",
-              "type": "typography"
-            }
-          }
-        },
-        "org": {
-          "breadcrumbs": {
-            "breadcrumb": {
-              "value": "{sys.typography.button.sm}",
-              "type": "typography"
-            }
-          },
-          "login": {
-            "sectionTitle": {
-              "value": "{sys.typography.display.md}",
-              "type": "typography"
-            },
-            "language": {
-              "value": "{sys.typography.button.md}",
-              "type": "typography"
-            },
-            "forgotPassword": {
-              "value": "{sys.typography.button.md}",
-              "type": "typography"
-            },
-            "name": {
-              "value": "{sys.typography.heading.md}",
-              "type": "typography"
-            },
-            "underTitle": {
-              "value": "{sys.typography.heading.sm}",
-              "type": "typography"
-            },
-            "sectionValue": {
-              "value": "{sys.typography.heading.sm}",
-              "type": "typography"
-            }
-          },
-          "form": {
-            "helperText": {
-              "value": "{sys.typography.body.sm}",
-              "type": "typography"
-            },
-            "sectionLabel": {
-              "value": "{sys.typography.heading.sm}",
-              "type": "typography"
             }
           }
         }
