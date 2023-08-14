@@ -70,6 +70,10 @@
           "value": "6rem",
           "type": "sizing"
         },
+        "26": {
+          "value": "6.5rem",
+          "type": "sizing"
+        },
         "32": {
           "value": "8rem",
           "type": "sizing"
@@ -1967,7 +1971,7 @@
               "description": "De neutrale knop is ontworpen om een ondergeschikte of optionele actie weer te geven, zoals \"Annuleren\" bij een formulier."
             },
             "border": {
-              "value": "{comp.colors.section.bg}",
+              "value": "{ref.colors.gray.300}",
               "type": "color"
             },
             "text": {
@@ -1980,7 +1984,7 @@
                 "type": "color"
               },
               "border": {
-                "value": "{comp.colors.page.bg}",
+                "value": "{ref.colors.gray.400}",
                 "type": "color"
               },
               "text": {
@@ -2439,6 +2443,14 @@
               "button": {
                 "value": "{ref.colors.gray.400}",
                 "type": "color"
+              },
+              "currentText": {
+                "value": "{comp.colors.button.primary.default.text}",
+                "type": "color"
+              },
+              "": {
+                "value": "{comp.colors.button.primary.default.bg}",
+                "type": "color"
               }
             }
           }
@@ -2746,6 +2758,22 @@
             "day": {
               "y": {
                 "value": "{ref.spacing.1-5}",
+                "type": "spacing"
+              }
+            }
+          },
+          "month": {
+            "day": {
+              "x": {
+                "value": "{ref.spacing.3}",
+                "type": "spacing"
+              },
+              "y": {
+                "value": "{ref.spacing.2}",
+                "type": "spacing"
+              },
+              "gap": {
+                "value": "{ref.spacing.2}",
                 "type": "spacing"
               }
             }
