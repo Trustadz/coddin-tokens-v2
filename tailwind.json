@@ -2513,6 +2513,20 @@
                 "type": "color"
               }
             },
+            "yellow": {
+              "bg": {
+                "value": "{ref.colors.yellow.50}",
+                "type": "color"
+              },
+              "text": {
+                "value": "{ref.colors.yellow.700}",
+                "type": "color"
+              },
+              "border": {
+                "value": "{ref.colors.yellow.500}1a",
+                "type": "color"
+              }
+            },
             "green": {
               "bg": {
                 "value": "{ref.colors.green.50}",
@@ -2580,20 +2594,6 @@
               },
               "border": {
                 "value": "{ref.colors.pink.500}1a",
-                "type": "color"
-              }
-            },
-            "yellow": {
-              "bg": {
-                "value": "{ref.colors.yellow.50}",
-                "type": "color"
-              },
-              "text": {
-                "value": "{ref.colors.yellow.700}",
-                "type": "color"
-              },
-              "border": {
-                "value": "{ref.colors.yellow.500}1a",
                 "type": "color"
               }
             },
