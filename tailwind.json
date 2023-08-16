@@ -2781,6 +2781,24 @@
               "value": "{ref.colors.gray.100}",
               "type": "color"
             }
+          },
+          "bar": {
+            "active": {
+              "bg": {
+                "value": "{sys.colors.primary.50}",
+                "type": "color"
+              }
+            }
+          }
+        },
+        "starRating": {
+          "active": {
+            "value": "{sys.colors.primary.main.default}",
+            "type": "color"
+          },
+          "inactive": {
+            "value": "{sys.colors.text.info}",
+            "type": "color"
           }
         }
       },
