@@ -2791,14 +2791,40 @@
             }
           }
         },
-        "starRating": {
-          "active": {
-            "value": "{sys.colors.primary.main.default}",
-            "type": "color"
+        "eCom": {
+          "starRating": {
+            "active": {
+              "value": "{sys.colors.primary.main.default}",
+              "type": "color"
+            },
+            "inactive": {
+              "value": "{sys.colors.text.info}",
+              "type": "color"
+            }
           },
-          "inactive": {
-            "value": "{sys.colors.text.info}",
-            "type": "color"
+          "swatches": {
+            "borderColor": {
+              "value": "{ref.colors.gray.300}",
+              "type": "color"
+            }
+          },
+          "heart": {
+            "inactive": {
+              "value": "{ref.colors.gray.400}",
+              "type": "color"
+            },
+            "hover": {
+              "value": "{ref.colors.gray.500}",
+              "type": "color"
+            },
+            "hoverBG": {
+              "value": "{ref.colors.gray.100}",
+              "type": "color"
+            },
+            "active": {
+              "value": "{ref.colors.red.500}",
+              "type": "color"
+            }
           }
         }
       },
@@ -3265,6 +3291,16 @@
             "value": "{ref.borderRadius.md}",
             "type": "borderRadius"
           }
+        },
+        "ecom": {
+          "swatch": {
+            "value": "{sys.borderRadius.full}",
+            "type": "borderRadius"
+          },
+          "heart": {
+            "value": "{sys.borderRadius.action.desktop.md}",
+            "type": "borderRadius"
+          }
         }
       },
       "sizing": {
@@ -3342,8 +3378,14 @@
         },
         "product": {
           "swatch": {
-            "value": "{ref.sizing.4}",
-            "type": "sizing"
+            "small": {
+              "value": "{ref.sizing.4}",
+              "type": "sizing"
+            },
+            "large": {
+              "value": "{ref.sizing.8}",
+              "type": "sizing"
+            }
           }
         }
       },
