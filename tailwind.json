@@ -3816,67 +3816,67 @@
       }
     }
   },
-  "TommieTheCat": {
+  "brands/Coddin": {
     "sys": {
       "colors": {
         "primary": {
           "50": {
-            "value": "#f0f9ff",
+            "value": "#fdffe7",
             "type": "color"
           },
           "100": {
-            "value": "#e0f2fe",
+            "value": "#f9ffc1",
             "type": "color"
           },
           "200": {
-            "value": "#b9e6fe",
+            "value": "#f8ff86",
             "type": "color"
           },
           "300": {
-            "value": "#7cd3fd",
+            "value": "#fcff41",
             "type": "color"
           },
           "400": {
-            "value": "#36befa",
+            "value": "#fff70d",
             "type": "color"
           },
           "500": {
-            "value": "#0ca6eb",
+            "value": "#ffe900",
             "type": "color"
           },
           "600": {
-            "value": "#0079b7",
+            "value": "#d1ad00",
             "type": "color"
           },
           "700": {
-            "value": "#0169a3",
+            "value": "#a67d02",
             "type": "color"
           },
           "800": {
-            "value": "#065986",
+            "value": "#89610a",
             "type": "color"
           },
           "900": {
-            "value": "#0b4a6f",
+            "value": "#744f0f",
             "type": "color"
           },
           "950": {
-            "value": "#072f4a",
+            "value": "#442a04",
             "type": "color"
           },
           "main": {
             "default": {
-              "value": "{sys.colors.primary.600}",
+              "value": "{sys.colors.primary.500}",
               "type": "color",
               "description": "Hoofd kleur van het design. Gebruikt voor branding, primaire acties, accenten, etc."
             },
             "+100": {
-              "value": "{sys.colors.primary.700}",
+              "value": "{sys.colors.primary.600}",
               "type": "color",
               "description": "Color shift van hoofd kleur, wordt gebruikt voor hoofdkleur, lichte accenten op een primaire achtergrond. Wordt vaak gebruikt i.c.m. de hoofdkleur."
             },
             "-100": {
-              "value": "{sys.colors.primary.500}",
+              "value": "{sys.colors.primary.400}",
               "type": "color",
               "description": "Color shift van hoofd kleur, wordt gebruikt voor hoofdkleur, lichte accenten op een primaire achtergrond. Wordt vaak gebruikt i.c.m. de hoofdkleur."
             }
@@ -3884,62 +3884,62 @@
         },
         "secondary": {
           "50": {
-            "value": "#f3f4fb",
+            "value": "#effaf2",
             "type": "color"
           },
           "100": {
-            "value": "#e4e6f5",
+            "value": "#d9f2de",
             "type": "color"
           },
           "200": {
-            "value": "#d0d4ed",
+            "value": "#b6e4c2",
             "type": "color"
           },
           "300": {
-            "value": "#afb7e1",
+            "value": "#86cf9e",
             "type": "color"
           },
           "400": {
-            "value": "#8992d1",
+            "value": "#53b475",
             "type": "color"
           },
           "500": {
-            "value": "#6d72c4",
+            "value": "#2e8d53",
             "type": "color"
           },
           "600": {
-            "value": "#5b5ab6",
+            "value": "#227946",
             "type": "color"
           },
           "700": {
-            "value": "#524da1",
+            "value": "#1b6139",
             "type": "color"
           },
           "800": {
-            "value": "#4b4588",
+            "value": "#184d2f",
             "type": "color"
           },
           "900": {
-            "value": "#3e3b6d",
+            "value": "#144028",
             "type": "color"
           },
           "950": {
-            "value": "#292744",
+            "value": "#0a2417",
             "type": "color"
           },
           "main": {
             "default": {
-              "value": "{sys.colors.secondary.700}",
+              "value": "{sys.colors.secondary.500}",
               "type": "color",
               "description": "Hoofd secundaire kleur. Gebruikt op secundaire interacties"
             },
             "+100": {
-              "value": "{sys.colors.secondary.800}",
+              "value": "{sys.colors.secondary.600}",
               "type": "color",
               "description": "Color shift van secundaire hoofd kleur, wordt gebruikt voor hoofdkleur, lichte accenten op een primaire achtergrond. Wordt vaak gebruikt i.c.m. de hoofdkleur."
             },
             "-100": {
-              "value": "{sys.colors.secondary.600}",
+              "value": "{sys.colors.secondary.400}",
               "type": "color",
               "description": "Color shift van secundaire hoofd kleur, wordt gebruikt voor hoofdkleur, lichte accenten op een primaire achtergrond. Wordt vaak gebruikt i.c.m. de hoofdkleur."
             }
@@ -3957,17 +3957,17 @@
         },
         "text": {
           "paragraph": {
-            "value": "{sys.colors.gray.900}",
+            "value": "{ref.colors.gray.700}",
             "type": "color",
             "description": "Inhoudelijke tekst, grote stukken tekst, hoofd teksten."
           },
           "heading": {
-            "value": "{sys.colors.gray.900}",
+            "value": "{ref.colors.gray.900}",
             "type": "color",
             "description": "Gebruik bij headings"
           },
           "display": {
-            "value": "{sys.colors.gray.900}",
+            "value": "{ref.colors.gray.900}",
             "type": "color",
             "description": "Gebruik bij display headings"
           },
@@ -3984,7 +3984,7 @@
         },
         "extra": {
           "pageBg": {
-            "value": "{sys.colors.white}",
+            "value": "{sys.colors.primary.50}",
             "type": "color",
             "description": "Body background, standaard achtergrond kleur van de pagina's"
           },
@@ -3997,74 +3997,6 @@
             "value": "{ref.colors.gray.200}",
             "type": "color",
             "description": "Gebruik van deviders en interne tabelranden"
-          }
-        },
-        "gray": {
-          "100": {
-            "value": "#f8f9fa",
-            "type": "color"
-          },
-          "200": {
-            "value": "#e9ecef",
-            "type": "color"
-          },
-          "300": {
-            "value": "#dee2e6",
-            "type": "color"
-          },
-          "400": {
-            "value": "#ced4da",
-            "type": "color"
-          },
-          "500": {
-            "value": "#adb5bd",
-            "type": "color"
-          },
-          "600": {
-            "value": "#6c757d",
-            "type": "color"
-          },
-          "700": {
-            "value": "#495057",
-            "type": "color"
-          },
-          "800": {
-            "value": "#343a40",
-            "type": "color"
-          },
-          "900": {
-            "value": "#241F20",
-            "type": "color"
-          }
-        },
-        "ttc": {
-          "success": {
-            "value": "#008E63",
-            "type": "color"
-          },
-          "info": {
-            "value": "#524DA1",
-            "type": "color"
-          },
-          "warning": {
-            "value": "#FFAE00",
-            "type": "color"
-          },
-          "danger": {
-            "value": "#F34500",
-            "type": "color"
-          },
-          "light": {
-            "value": "#f8f9fa",
-            "type": "color"
-          },
-          "dark": {
-            "value": "{sys.colors.gray.900}",
-            "type": "color"
-          },
-          "pink": {
-            "value": "#FF9AC5",
-            "type": "color"
           }
         }
       },
@@ -4717,6 +4649,489 @@
       }
     }
   },
+  "brands/TommieTheCat": {
+    "sys": {
+      "colors": {
+        "primary": {
+          "50": {
+            "value": "#f0f9ff",
+            "type": "color"
+          },
+          "100": {
+            "value": "#e0f2fe",
+            "type": "color"
+          },
+          "200": {
+            "value": "#b9e6fe",
+            "type": "color"
+          },
+          "300": {
+            "value": "#7cd3fd",
+            "type": "color"
+          },
+          "400": {
+            "value": "#36befa",
+            "type": "color"
+          },
+          "500": {
+            "value": "#0ca6eb",
+            "type": "color"
+          },
+          "600": {
+            "value": "#0079b7",
+            "type": "color"
+          },
+          "700": {
+            "value": "#0169a3",
+            "type": "color"
+          },
+          "800": {
+            "value": "#065986",
+            "type": "color"
+          },
+          "900": {
+            "value": "#0b4a6f",
+            "type": "color"
+          },
+          "950": {
+            "value": "#072f4a",
+            "type": "color"
+          },
+          "main": {
+            "default": {
+              "value": "{sys.colors.primary.600}",
+              "type": "color",
+              "description": "Hoofd kleur van het design. Gebruikt voor branding, primaire acties, accenten, etc."
+            },
+            "+100": {
+              "value": "{sys.colors.primary.700}",
+              "type": "color",
+              "description": "Color shift van hoofd kleur, wordt gebruikt voor hoofdkleur, lichte accenten op een primaire achtergrond. Wordt vaak gebruikt i.c.m. de hoofdkleur."
+            },
+            "-100": {
+              "value": "{sys.colors.primary.500}",
+              "type": "color",
+              "description": "Color shift van hoofd kleur, wordt gebruikt voor hoofdkleur, lichte accenten op een primaire achtergrond. Wordt vaak gebruikt i.c.m. de hoofdkleur."
+            }
+          }
+        },
+        "secondary": {
+          "50": {
+            "value": "#f3f4fb",
+            "type": "color"
+          },
+          "100": {
+            "value": "#e4e6f5",
+            "type": "color"
+          },
+          "200": {
+            "value": "#d0d4ed",
+            "type": "color"
+          },
+          "300": {
+            "value": "#afb7e1",
+            "type": "color"
+          },
+          "400": {
+            "value": "#8992d1",
+            "type": "color"
+          },
+          "500": {
+            "value": "#6d72c4",
+            "type": "color"
+          },
+          "600": {
+            "value": "#5b5ab6",
+            "type": "color"
+          },
+          "700": {
+            "value": "#524da1",
+            "type": "color"
+          },
+          "800": {
+            "value": "#4b4588",
+            "type": "color"
+          },
+          "900": {
+            "value": "#3e3b6d",
+            "type": "color"
+          },
+          "950": {
+            "value": "#292744",
+            "type": "color"
+          },
+          "main": {
+            "default": {
+              "value": "{sys.colors.secondary.700}",
+              "type": "color",
+              "description": "Hoofd secundaire kleur. Gebruikt op secundaire interacties"
+            },
+            "+100": {
+              "value": "{sys.colors.secondary.800}",
+              "type": "color",
+              "description": "Color shift van secundaire hoofd kleur, wordt gebruikt voor hoofdkleur, lichte accenten op een primaire achtergrond. Wordt vaak gebruikt i.c.m. de hoofdkleur."
+            },
+            "-100": {
+              "value": "{sys.colors.secondary.600}",
+              "type": "color",
+              "description": "Color shift van secundaire hoofd kleur, wordt gebruikt voor hoofdkleur, lichte accenten op een primaire achtergrond. Wordt vaak gebruikt i.c.m. de hoofdkleur."
+            }
+          }
+        },
+        "white": {
+          "value": "{ref.colors.white}",
+          "type": "color",
+          "description": "Gebruik van wit in het design"
+        },
+        "black": {
+          "value": "{ref.colors.black}",
+          "type": "color",
+          "description": "Gebruik van zwart in het design"
+        },
+        "text": {
+          "paragraph": {
+            "value": "{sys.colors.gray.900}",
+            "type": "color",
+            "description": "Inhoudelijke tekst, grote stukken tekst, hoofd teksten."
+          },
+          "heading": {
+            "value": "{sys.colors.gray.900}",
+            "type": "color",
+            "description": "Gebruik bij headings"
+          },
+          "display": {
+            "value": "{sys.colors.gray.900}",
+            "type": "color",
+            "description": "Gebruik bij display headings"
+          },
+          "info": {
+            "value": "{ref.colors.gray.400}",
+            "type": "color",
+            "description": "Gebruik voor onderteksten, info teksten en andere side-info teksten."
+          },
+          "hyperlink": {
+            "value": "{sys.colors.primary.main.default}",
+            "type": "color",
+            "description": "Gebruik voor hyperlinks in de tekst"
+          }
+        },
+        "extra": {
+          "pageBg": {
+            "value": "{sys.colors.white}",
+            "type": "color",
+            "description": "Body background, standaard achtergrond kleur van de pagina's"
+          },
+          "sectionBg": {
+            "value": "{sys.colors.white}",
+            "type": "color",
+            "description": "Achtegrond van de sections"
+          },
+          "divider": {
+            "value": "{ref.colors.gray.200}",
+            "type": "color",
+            "description": "Gebruik van deviders en interne tabelranden"
+          }
+        },
+        "gray": {
+          "100": {
+            "value": "#f8f9fa",
+            "type": "color"
+          },
+          "200": {
+            "value": "#e9ecef",
+            "type": "color"
+          },
+          "300": {
+            "value": "#dee2e6",
+            "type": "color"
+          },
+          "400": {
+            "value": "#ced4da",
+            "type": "color"
+          },
+          "500": {
+            "value": "#adb5bd",
+            "type": "color"
+          },
+          "600": {
+            "value": "#6c757d",
+            "type": "color"
+          },
+          "700": {
+            "value": "#495057",
+            "type": "color"
+          },
+          "800": {
+            "value": "#343a40",
+            "type": "color"
+          },
+          "900": {
+            "value": "#241F20",
+            "type": "color"
+          }
+        },
+        "ttc": {
+          "success": {
+            "value": "#008E63",
+            "type": "color"
+          },
+          "info": {
+            "value": "#524DA1",
+            "type": "color"
+          },
+          "warning": {
+            "value": "#FFAE00",
+            "type": "color"
+          },
+          "danger": {
+            "value": "#F34500",
+            "type": "color"
+          },
+          "light": {
+            "value": "#f8f9fa",
+            "type": "color"
+          },
+          "dark": {
+            "value": "{sys.colors.gray.900}",
+            "type": "color"
+          },
+          "pink": {
+            "value": "#FF9AC5",
+            "type": "color"
+          }
+        }
+      },
+      "borderRadius": {
+        "action": {
+          "desktop": {
+            "md": {
+              "value": "{ref.borderRadius.md}",
+              "type": "borderRadius"
+            },
+            "sm": {
+              "value": "{ref.borderRadius.base}",
+              "type": "borderRadius"
+            }
+          }
+        },
+        "container": {
+          "desktop": {
+            "value": "{ref.borderRadius.lg}",
+            "type": "borderRadius"
+          }
+        },
+        "full": {
+          "value": "{ref.borderRadius.full}",
+          "type": "borderRadius"
+        }
+      },
+      "spacing": {
+        "action": {
+          "desktop": {
+            "md": {
+              "x": {
+                "value": "{ref.spacing.3-5}",
+                "type": "spacing"
+              },
+              "y": {
+                "value": "{ref.spacing.2-5}",
+                "type": "spacing"
+              },
+              "gap": {
+                "value": "{ref.spacing.2}",
+                "type": "spacing"
+              }
+            }
+          }
+        },
+        "container": {
+          "desktop": {
+            "x": {
+              "value": "{ref.spacing.4}",
+              "type": "spacing"
+            },
+            "y": {
+              "value": "{ref.spacing.5}",
+              "type": "spacing"
+            }
+          }
+        },
+        "highlight": {
+          "x": {
+            "value": "{ref.spacing.2}",
+            "type": "spacing"
+          },
+          "y": {
+            "value": "{ref.spacing.1}",
+            "type": "spacing"
+          }
+        }
+      },
+      "borderWidth": {
+        "action": {
+          "desktop": {
+            "md": {
+              "value": "{ref.borderWidth.1}",
+              "type": "borderWidth"
+            }
+          }
+        }
+      },
+      "boxShadow": {
+        "action": {
+          "desktop": {
+            "md": {
+              "value": "{ref.shadow.sm}",
+              "type": "boxShadow"
+            }
+          }
+        },
+        "container": {
+          "desktop": {
+            "value": "{ref.shadow.normal}",
+            "type": "boxShadow"
+          }
+        }
+      },
+      "fontFamily": {
+        "default": {
+          "value": "{ref.fontFamily.inter}",
+          "type": "fontFamilies"
+        },
+        "heading": {
+          "value": "{ref.fontFamily.inter}",
+          "type": "fontFamilies"
+        }
+      },
+      "textDecoration": {
+        "hyperlink": {
+          "value": "{ref.textDecoration.underline}",
+          "type": "textDecoration",
+          "description": "Underline om klikbare tekst duidelijk te maken"
+        }
+      },
+      "typography": {
+        "display": {
+          "lg": {
+            "value": {
+              "fontFamily": "{sys.fontFamily.heading}",
+              "fontWeight": "{ref.fontWeight.bold.bold}",
+              "lineHeight": "{ref.lineHeight.4xl}",
+              "fontSize": "{ref.fontSize.4xl}"
+            },
+            "type": "typography",
+            "description": "Speciaal ontworpen om op te vallen en de aandacht te trekken, geschikt voor de meest prominente schermkoppen zoals hoofdpagina- of sectietitels. Geeft stijl en visueel belang."
+          },
+          "md": {
+            "value": {
+              "fontFamily": "{sys.fontFamily.heading}",
+              "fontWeight": "{ref.fontWeight.bold.bold}",
+              "lineHeight": "{ref.lineHeight.2xl}",
+              "fontSize": "{ref.fontSize.2xl}"
+            },
+            "type": "typography",
+            "description": "Een iets kleiner formaat dat nog steeds gericht is op het aantrekken van de aandacht voor belangrijke subsecties of kernboodschappen."
+          },
+          "sm": {
+            "value": {
+              "fontFamily": "{sys.fontFamily.heading}",
+              "fontWeight": "{ref.fontWeight.bold.semiBold}",
+              "lineHeight": "{ref.lineHeight.lg}",
+              "fontSize": "{ref.fontSize.lg}"
+            },
+            "type": "typography",
+            "description": "Voor minder opvallende maar nog steeds stijlvolle titels en subkoppen, perfect voor kleinere secties of marketingdetails."
+          }
+        },
+        "heading": {
+          "lg": {
+            "value": {
+              "fontFamily": "{sys.fontFamily.default}",
+              "fontWeight": "{ref.fontWeight.bold.semiBold}",
+              "lineHeight": "{ref.lineHeight.2xl}",
+              "fontSize": "{ref.fontSize.2xl}"
+            },
+            "type": "typography",
+            "description": "De belangrijkste koppen voor het organiseren van de content, deze koppen markeren de structuur van een document of sectie zonder af te leiden van de inhoud. Vaak gebruikt als pagina titel"
+          },
+          "md": {
+            "value": {
+              "fontFamily": "{sys.fontFamily.default}",
+              "fontWeight": "{ref.fontWeight.bold.semiBold}",
+              "lineHeight": "{ref.lineHeight.xl}",
+              "fontSize": "{ref.fontSize.xl}"
+            },
+            "type": "typography",
+            "description": "Section headersGebruikt voor subkoppen die de lezer verder begeleiden door de inhoud, dit formaat helpt bij het rangschikken van informatie en maakt het volgen van de tekst eenvoudiger. Vaak gebruikt als sectie titel"
+          },
+          "sm": {
+            "value": {
+              "fontFamily": "{sys.fontFamily.default}",
+              "fontWeight": "{ref.fontWeight.bold.semiBold}",
+              "fontSize": "{ref.fontSize.lg}",
+              "lineHeight": "{ref.lineHeight.lg}"
+            },
+            "type": "typography",
+            "description": "Bedoeld voor tertiaire koppen en verdere organisatie, dit formaat brengt structuur zonder te overheersen of af te leiden. Vaak gebruikt als subkop in een sectie"
+          }
+        },
+        "body": {
+          "md": {
+            "value": {
+              "fontFamily": "{sys.fontFamily.default}",
+              "fontWeight": "{ref.fontWeight.bold.normal}",
+              "lineHeight": "{ref.lineHeight.base}",
+              "fontSize": "{ref.fontSize.base}"
+            },
+            "type": "typography",
+            "description": "De standaardtekstgrootte voor de meeste inhoud. Dit formaat is bedoeld voor de belangrijkste tekst die de gebruiker zal lezen, zoals paragrafen, lijsten en uitleg."
+          },
+          "sm": {
+            "value": {
+              "fontFamily": "{sys.fontFamily.default}",
+              "fontWeight": "{ref.fontWeight.bold.normal}",
+              "lineHeight": "{ref.lineHeight.sm}",
+              "fontSize": "{ref.fontSize.sm}"
+            },
+            "type": "typography",
+            "description": "Geschikt voor kleinere, aanvullende tekst zoals bijschriften, voetnoten en minder belangrijke details."
+          },
+          "xs": {
+            "value": {
+              "fontFamily": "{sys.fontFamily.default}",
+              "fontWeight": "{ref.fontWeight.bold.normal}",
+              "lineHeight": "{ref.lineHeight.xs}",
+              "fontSize": "{ref.fontSize.xs}"
+            },
+            "type": "typography",
+            "description": "Alle kleinste teksten in specifieke UI elementen"
+          }
+        },
+        "button": {
+          "md": {
+            "value": {
+              "fontFamily": "{sys.fontFamily.default}",
+              "fontWeight": "{ref.fontWeight.bold.semiBold}",
+              "lineHeight": "{ref.lineHeight.sm}",
+              "fontSize": "{ref.fontSize.sm}"
+            },
+            "type": "typography",
+            "description": "De standaardknopgrootte, ideaal voor de meeste interacties binnen de site."
+          },
+          "sm": {
+            "value": {
+              "fontFamily": "{sys.fontFamily.default}",
+              "fontWeight": "{ref.fontWeight.bold.semiBold}",
+              "lineHeight": "{ref.lineHeight.xs}",
+              "fontSize": "{ref.fontSize.xs}"
+            },
+            "type": "typography",
+            "description": "Een kleinere knop die kan worden gebruikt voor minder prominente acties of wanneer de ruimte beperkt is. Deze knoppen zijn vaak bedoeld voor aanvullende of secundaire acties."
+          }
+        }
+      }
+    }
+  },
   "test_2": {
     "sys": {
       "colors": {
@@ -5180,8 +5595,9 @@
       "tailwind",
       "components",
       "theming",
-      "TommieTheCat",
+      "brands/Coddin",
       "brands/example",
+      "brands/TommieTheCat",
       "test_2"
     ]
   }
