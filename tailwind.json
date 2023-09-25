@@ -4391,6 +4391,20 @@
               }
             }
           }
+        },
+        "table": {
+          "cell": {
+            "bgEven": {
+              "value": "{ref.colors.gray.50}",
+              "type": "color"
+            }
+          },
+          "heading": {
+            "bg": {
+              "value": "{ref.colors.gray.100}",
+              "type": "color"
+            }
+          }
         }
       }
     }
