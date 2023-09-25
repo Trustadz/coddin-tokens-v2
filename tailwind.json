@@ -3845,11 +3845,11 @@
             "type": "color"
           },
           "600": {
-            "value": "#d1ad00",
+            "value": "#ebc400",
             "type": "color"
           },
           "700": {
-            "value": "#a67d02",
+            "value": "#c59402",
             "type": "color"
           },
           "800": {
@@ -3950,6 +3950,10 @@
           "type": "color",
           "description": "Gebruik van wit in het design"
         },
+        "light": {
+          "value": "#E7E7E7",
+          "type": "color"
+        },
         "black": {
           "value": "#535140",
           "type": "color",
@@ -3957,17 +3961,17 @@
         },
         "text": {
           "paragraph": {
-            "value": "{ref.colors.gray.700}",
+            "value": "{sys.colors.black}",
             "type": "color",
             "description": "Inhoudelijke tekst, grote stukken tekst, hoofd teksten."
           },
           "heading": {
-            "value": "{ref.colors.gray.900}",
+            "value": "{sys.colors.black}",
             "type": "color",
             "description": "Gebruik bij headings"
           },
           "display": {
-            "value": "{ref.colors.gray.900}",
+            "value": "{sys.colors.black}",
             "type": "color",
             "description": "Gebruik bij display headings"
           },
@@ -3984,7 +3988,7 @@
         },
         "extra": {
           "pageBg": {
-            "value": "{sys.colors.primary.50}",
+            "value": "{sys.colors.white}",
             "type": "color",
             "description": "Body background, standaard achtergrond kleur van de pagina's"
           },
@@ -3998,10 +4002,6 @@
             "type": "color",
             "description": "Gebruik van deviders en interne tabelranden"
           }
-        },
-        "light": {
-          "value": "#E7E7E7",
-          "type": "color"
         },
         "accentRed": {
           "50": {
@@ -4040,6 +4040,10 @@
             "value": "#91241b",
             "type": "color"
           },
+          "900": {
+            "value": "#752019",
+            "type": "color"
+          },
           "950": {
             "value": "#3f0d0b",
             "type": "color"
@@ -4069,6 +4073,10 @@
             "type": "color"
           },
           "200": {
+            "value": "#c9dfee",
+            "type": "color"
+          },
+          "300": {
             "value": "#99c6e0",
             "type": "color"
           },
@@ -4342,6 +4350,46 @@
             },
             "type": "typography",
             "description": "Een kleinere knop die kan worden gebruikt voor minder prominente acties of wanneer de ruimte beperkt is. Deze knoppen zijn vaak bedoeld voor aanvullende of secundaire acties."
+          }
+        }
+      }
+    },
+    "comp": {
+      "colors": {
+        "login": {
+          "text": {
+            "value": "{sys.colors.text.paragraph}",
+            "type": "color"
+          },
+          "helperText": {
+            "value": "{sys.colors.text.paragraph}",
+            "type": "color"
+          }
+        },
+        "input": {
+          "text": {
+            "active": {
+              "border": {
+                "value": "{sys.colors.secondary.main.default}",
+                "type": "color"
+              }
+            }
+          }
+        },
+        "button": {
+          "primary": {
+            "default": {
+              "text": {
+                "value": "{sys.colors.black}",
+                "type": "color"
+              },
+              "hover": {
+                "text": {
+                  "value": "{sys.colors.black}",
+                  "type": "color"
+                }
+              }
+            }
           }
         }
       }
