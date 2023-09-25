@@ -3951,7 +3951,7 @@
           "description": "Gebruik van wit in het design"
         },
         "black": {
-          "value": "{ref.colors.black}",
+          "value": "#535140",
           "type": "color",
           "description": "Gebruik van zwart in het design"
         },
@@ -3997,6 +3997,122 @@
             "value": "{ref.colors.gray.200}",
             "type": "color",
             "description": "Gebruik van deviders en interne tabelranden"
+          }
+        },
+        "light": {
+          "value": "#E7E7E7",
+          "type": "color"
+        },
+        "accentRed": {
+          "50": {
+            "value": "#fef4ee",
+            "type": "color"
+          },
+          "100": {
+            "value": "#fce6d8",
+            "type": "color"
+          },
+          "200": {
+            "value": "#f8cab0",
+            "type": "color"
+          },
+          "300": {
+            "value": "#f3a57e",
+            "type": "color"
+          },
+          "400": {
+            "value": "#ee7549",
+            "type": "color"
+          },
+          "500": {
+            "value": "#ea592e",
+            "type": "color"
+          },
+          "600": {
+            "value": "#db3a1b",
+            "type": "color"
+          },
+          "700": {
+            "value": "#b52a19",
+            "type": "color"
+          },
+          "800": {
+            "value": "#91241b",
+            "type": "color"
+          },
+          "950": {
+            "value": "#3f0d0b",
+            "type": "color"
+          },
+          "main": {
+            "default": {
+              "value": "{sys.colors.accentRed.500}",
+              "type": "color"
+            },
+            "+100": {
+              "value": "{sys.colors.accentRed.600}",
+              "type": "color"
+            },
+            "-100": {
+              "value": "{sys.colors.accentRed.400}",
+              "type": "color"
+            }
+          }
+        },
+        "accentBlue": {
+          "50": {
+            "value": "#f3f8fc",
+            "type": "color"
+          },
+          "100": {
+            "value": "#e7f0f7",
+            "type": "color"
+          },
+          "200": {
+            "value": "#99c6e0",
+            "type": "color"
+          },
+          "400": {
+            "value": "#66aacf",
+            "type": "color"
+          },
+          "500": {
+            "value": "#3e8db9",
+            "type": "color"
+          },
+          "600": {
+            "value": "#2d719c",
+            "type": "color"
+          },
+          "700": {
+            "value": "#265b7e",
+            "type": "color"
+          },
+          "800": {
+            "value": "#234e69",
+            "type": "color"
+          },
+          "900": {
+            "value": "#224258",
+            "type": "color"
+          },
+          "950": {
+            "value": "#162a3b",
+            "type": "color"
+          },
+          "main": {
+            "default": {
+              "value": "{sys.colors.accentBlue.500}",
+              "type": "color"
+            },
+            "+100": {
+              "value": "{sys.colors.accentBlue.600}",
+              "type": "color"
+            },
+            "-100": {
+              "value": "{sys.colors.accentBlue.400}",
+              "type": "color"
+            }
           }
         }
       },
